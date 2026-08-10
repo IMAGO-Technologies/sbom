@@ -24,8 +24,8 @@ jobs:
             image=$(basename $sbom -sbom.cdx.json)
             echo "Scanning $image..."
             CLICOLOR_FORCE=true grype sbom:$sbom --file $image.txt --by-cve
-            # cat $image.txt | ansi2html --title "$image" --no-wrap --style 'a {color: white;}' | sed -E 's/(CVE-[0-9]{4}-[0-9]{4,7})/<a href="https:\/\/security-tracker.debian.org\/tracker\/\1">\1<\/a>/g' > $image.html
-            cat $image.txt | ansi2html --title "$image" --no-wrap --style 'a {color: white;}' | sed -E 's/(CVE-[0-9]{4}-[0-9]{4,7})/<a href="https:\/\/deb.freexian.com\/extended-lts\/tracker\/\1">\1<\/a>/g' > $image.html
+            # cat $image.txt | ansi2html --title "$image" --no-wrap --style 'a {color: white;}' | sed -E 's/(CVE-[0-9]{4}-[0-9]{4,7})/<a href="https:\/\/security-tracker.debian.org\/tracker\/\1">\1<\/a>/g' > report/$image.html
+            cat $image.txt | ansi2html --title "$image" --no-wrap --style 'a {color: white;}' | sed -E 's/(CVE-[0-9]{4}-[0-9]{4,7})/<a href="https:\/\/deb.freexian.com\/extended-lts\/tracker\/\1">\1<\/a>/g' > report/$image.html
           done <<< "$sboms"
       - name: Upload pages
         uses: actions/upload-pages-artifact@v3
