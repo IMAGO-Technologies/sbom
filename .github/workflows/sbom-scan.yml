@@ -8,6 +8,11 @@ jobs:
     name: SBOM scan
     steps:
       - uses: actions/checkout@v6
+      - name: Install grype
+        shell: bash
+        run: |
+          wget https://github.com/anchore/grype/releases/download/v0.116.1/grype_0.116.1_linux_amd64.deb
+          dpkg -i .deb
       - name: Scan SBOM
         shell: bash
         run: |
