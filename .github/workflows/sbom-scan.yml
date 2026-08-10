@@ -7,6 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     name: SBOM scan
     steps:
+      - uses: actions/checkout@v6
       - name: Scan SBOM
         shell: bash
         run: |
