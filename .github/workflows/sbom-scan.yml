@@ -13,6 +13,8 @@ jobs:
         run: |
           wget https://github.com/anchore/grype/releases/download/v0.116.1/grype_0.116.1_linux_amd64.deb
           sudo dpkg -i *.deb
+          sudo apt-get update
+          sudo apt-get install -y colorized-logs
       - name: Scan SBOM
         shell: bash
         run: |
