@@ -1,0 +1,44 @@
+name: SBOM Security Scan
+
+on: workflow_dispatch
+
+jobs:
+  sbom-scan:
+    runs-on: Linux
+    name: SBOM scan
+    steps:
+      - name: Scan SBOM
+        shell: bash
+        run: |
+          mkdir -p report
+          sboms=$(ls *-sbom.cdx.json)
+          while IFS= read -r sbom; do
+            image=$(basename $sbom -sbom.cdx.json)
+            CLICOLOR_FORCE=true grype sbom:$sbom --file image.txt --by-cve
+            # cat $image.txt | ansi2html --title 'image' --no-wrap --style 'a {color: white;}' | sed -E 's/(CVE-[0-9]{4}-[0-9]{4,7})/<a href="https:\/\/security-tracker.debian.org\/tracker\/\1">\1<\/a>/g' > $image.html
+            cat $image.txt | ansi2html --title 'image' --no-wrap --style 'a {color: white;}' | sed -E 's/(CVE-[0-9]{4}-[0-9]{4,7})/<a href="https:\/\/deb.freexian.com\/extended-lts\/tracker\/\1">\1<\/a>/g' > $image.html
+          done <<< "$sboms"
+      - name: Upload pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'report/'
+
+  deploy:
+    needs: sbom-scan
+
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    # Specify runner + deployment step
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
