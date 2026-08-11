@@ -30,20 +30,23 @@ jobs:
       - name: Generate Markdown File
         run: |
           cat << 'EOF' > report/index.md
-          # IMAGO Technologies SBOM and Vulnerability Scan
+          # IMAGO Technologies SBOM and Vulnerability Report
 
           ## Linux Images
 
           The SBOMs for Linux images are provided in CycloneDX JSON format.
+
           All SBOMs are scanned for known vulnerabilities on a regular basis using [grype](https://github.com/anchore/grype).
+          The scan report contains a table with affected packages and the CVE names. There is also a link to the
+          Security Bug Tracker of the used Linux distribution which provides more information.
 
           EOF
-          echo "| Linux Image | SBOM | Vulnerability Scan ($(date --rfc-3339=date)) |"
-          echo "| :--- | :--- | :--- |"
+          echo "| Linux Image | SBOM | Vulnerability Report ($(date --rfc-3339=date)) |" >> report/index.md
+          echo "| :--- | :--- | :--- |" >> report/index.md
           sboms=$(ls *-sbom.cdx.json)
           while IFS= read -r sbom; do
             image=$(basename $sbom -sbom.cdx.json)
-            echo "|$image|[$sbom](https://github.com/IMAGO-Technologies/sbom-scan/blob/master/$sbom)|[$image]$image.html|" >> report/index.md
+            echo "|$image|[$sbom](https://github.com/IMAGO-Technologies/sbom-scan/blob/master/$sbom)|[$image.html]($image)|" >> report/index.md
           done <<< "$sboms"
       - name: Setup Pages Metadata
         uses: actions/configure-pages@v5
