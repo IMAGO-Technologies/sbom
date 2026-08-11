@@ -33,7 +33,7 @@ jobs:
             else
                 URL="https:\/\/www.cve.org\/CVERecord?id="
             fi
-            cat $image.txt | ansi2html --title "CVE $image" --no-wrap --style 'a {color: white;}' | sed -E "s/(CVE-[0-9]{4}-[0-9]{4,7})/<a href="$URL\1">\1<\/a>/g" > report/$image.html
+            cat $image.txt | ansi2html --title "CVE $image" --no-wrap --style 'a {color: white;}' | sed -E "s/(CVE-[0-9]{4}-[0-9]{4,7})/<a href=\"$URL\1\">\1<\/a>/g" > report/$image.html
           done <<< "$sboms"
       - name: Generate Markdown File
         run: |
