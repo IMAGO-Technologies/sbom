@@ -24,7 +24,7 @@ jobs:
             image=$(basename $sbom -sbom.cdx.json)
             echo "Scanning $image..."
             CLICOLOR_FORCE=true grype sbom:$sbom --file $image.txt --by-cve
-            DISTRO=$(jq -r '.components[] | select(.name == "base-files") | .purl' sbom.cdx.json | grep -o 'distro=[^&]*')
+            DISTRO=$(jq -r '.components[] | select(.name == "base-files") | .purl' $sbom | grep -o 'distro=[^&]*')
             if [[ "$DISTRO" = *"debian"* ]]; then
                 # URL="https:\/\/security-tracker.debian.org\/tracker\/"
                 URL="https:\/\/deb.freexian.com\/extended-lts\/tracker\/"
