@@ -29,31 +29,33 @@ jobs:
           done <<< "$sboms"
       - name: Generate Markdown File
         run: |
-          cat << 'EOF' > index.md
-          # Linux SBOM and vulnerability scan
-          
+          cat << 'EOF' > report/index.md
+          # IMAGO Technologies SBOM and Vulnerability Scan
+
+          ## Linux Images
+
           The SBOMs for Linux images are provided in CycloneDX JSON format.
           All SBOMs are scanned for known vulnerabilities on a regular basis using [grype](https://github.com/anchore/grype).
-          
-          | Linux Image | SBOM | Vulnerability Scan ($(date --rfc-3339=date)) |
-          | :--- | :--- | :--- |
+
           EOF
+          echo "| Linux Image | SBOM | Vulnerability Scan ($(date --rfc-3339=date)) |"
+          echo "| :--- | :--- | :--- |"
           sboms=$(ls *-sbom.cdx.json)
           while IFS= read -r sbom; do
             image=$(basename $sbom -sbom.cdx.json)
-            echo "|$image|[$sbom](https://github.com/IMAGO-Technologies/sbom-scan/blob/master/$sbom)|$image.html|" >> index.md
+            echo "|$image|[$sbom](https://github.com/IMAGO-Technologies/sbom-scan/blob/master/$sbom)|[$image]$image.html|" >> report/index.md
           done <<< "$sboms"
       - name: Setup Pages Metadata
         uses: actions/configure-pages@v5
       - name: Build HTML using Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./
-          destination: ./report
+          source: ./report
+          destination: ./_site
       - name: Upload pages
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'report/'
+          path: '_site/'
 
   deploy:
     needs: sbom-scan
