@@ -33,13 +33,15 @@ jobs:
             else
                 URL="https:\/\/www.cve.org\/CVERecord?id="
             fi
-            cat $image.txt | ansi2html --title "CVE $image" --no-wrap --style 'a {color: white;}' | sed -E 's/(CVE-[0-9]{4}-[0-9]{4,7})/<a href="$URL\1">\1<\/a>/g' > report/$image.html
+            cat $image.txt | ansi2html --title "CVE $image" --no-wrap --style 'a {color: white;}' | sed -E "s/(CVE-[0-9]{4}-[0-9]{4,7})/<a href="$URL\1">\1<\/a>/g" > report/$image.html
           done <<< "$sboms"
       - name: Generate Markdown File
         run: |
-          echo "name: IMAGO Technologies SBOMs and Vulnerability Report" > report/_config.yml
+          echo "name: SBOMs and Vulnerability Report" > report/_config.yml
           echo "title: null" >> report/_config.yml
           cat << 'EOF' > report/index.md
+          # IMAGO Technologies SBOMs and Vulnerability Report
+
           ## Linux Images
 
           The SBOMs for Linux images are provided in CycloneDX JSON format.
