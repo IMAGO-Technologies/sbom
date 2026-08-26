@@ -37,10 +37,10 @@ jobs:
           done <<< "$sboms"
       - name: Generate Markdown File
         run: |
-          echo "name: SBOMs and Vulnerability Report" > report/_config.yml
+          echo "name: SBOMs and Vulnerability Reports" > report/_config.yml
           echo "title: null" >> report/_config.yml
           cat << 'EOF' > report/index.md
-          # IMAGO Technologies SBOMs and Vulnerability Report
+          # IMAGO Technologies SBOMs and Vulnerability Reports
 
           ## Linux Images
 
@@ -59,7 +59,7 @@ jobs:
             echo "|$image|[$sbom](https://github.com/IMAGO-Technologies/sbom-scan/blob/master/$sbom)|[$image]($image.html)|" >> report/index.md
           done <<< "$sboms"
       - name: Setup Pages Metadata
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
       - name: Build HTML using Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
