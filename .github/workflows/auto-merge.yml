@@ -9,9 +9,10 @@ permissions:
 jobs:
   merge:
     runs-on: ubuntu-latest
-    name: Merge pull request by ${{ github.actor }} - ${{github.event.pull_request.html_url}}
+    name: Merge pull request
     steps:
       - name: Enable Pull Request Automerge
-        run: gh pr merge --merge --auto
+        run: gh pr merge --merge --auto "$PR_URL"
         env:
+          PR_URL: ${{ github.event.pull_request.html_url }}
           GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
