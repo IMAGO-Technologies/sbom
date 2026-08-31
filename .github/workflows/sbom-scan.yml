@@ -19,6 +19,7 @@ jobs:
         shell: bash
         run: |
           mkdir -p report
+          cd linux
           sboms=$(ls *-sbom.cdx.json)
           while IFS= read -r sbom; do
             image=$(basename $sbom -sbom.cdx.json)
@@ -53,10 +54,11 @@ jobs:
           EOF
           echo "| Linux Image | SBOM | Vulnerability Report ($(date --rfc-3339=date)) |" >> report/index.md
           echo "| :--- | :--- | :--- |" >> report/index.md
+          cd linux
           sboms=$(ls *-sbom.cdx.json)
           while IFS= read -r sbom; do
             image=$(basename $sbom -sbom.cdx.json)
-            echo "|$image|[$sbom](https://github.com/IMAGO-Technologies/sbom-scan/blob/master/$sbom)|[$image]($image.html)|" >> report/index.md
+            echo "|$image|[$sbom](https://github.com/IMAGO-Technologies/sbom-scan/blob/master/$sbom)|[$image]($image.html)|" >> ../report/index.md
           done <<< "$sboms"
       - name: Setup Pages Metadata
         uses: actions/configure-pages@v6
