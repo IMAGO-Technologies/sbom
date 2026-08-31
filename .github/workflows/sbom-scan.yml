@@ -1,6 +1,11 @@
 name: SBOM Security Scan
 
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '0 6 * * 1'
+      timezone: "Europe/Berlin"
 
 jobs:
   sbom-scan:
@@ -58,7 +63,7 @@ jobs:
           sboms=$(ls *-sbom.cdx.json)
           while IFS= read -r sbom; do
             image=$(basename $sbom -sbom.cdx.json)
-            echo "|$image|[$sbom](https://github.com/IMAGO-Technologies/sbom-scan/blob/master/$sbom)|[$image]($image.html)|" >> ../report/index.md
+            echo "|$image|[$sbom](https://github.com/IMAGO-Technologies/sbom-scan/blob/master/linux/$sbom)|[$image]($image.html)|" >> ../report/index.md
           done <<< "$sboms"
       - name: Setup Pages Metadata
         uses: actions/configure-pages@v6
