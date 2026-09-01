@@ -24,23 +24,27 @@ jobs:
         shell: bash
         run: |
           mkdir -p report
-          cd linux
-          sboms=$(ls *-sbom.cdx.json)
-          while IFS= read -r sbom; do
-            image=$(basename $sbom -sbom.cdx.json)
-            echo "Scanning $image..."
-            CLICOLOR_FORCE=true grype sbom:$sbom --file $image.txt --by-cve
-            DISTRO=$(jq -r '.components[] | select(.name == "base-files") | .purl' $sbom | grep -o 'distro=[^&]*')
-            if [[ "$DISTRO" = *"debian"* ]]; then
-                # URL="https:\/\/security-tracker.debian.org\/tracker\/"
-                URL="https:\/\/deb.freexian.com\/extended-lts\/tracker\/"
-            elif [[ "$DISTRO" = *"ubuntu"* ]]; then
-                URL="https:\/\/ubuntu.com\/security\/"
-            else
-                URL="https:\/\/www.cve.org\/CVERecord?id="
-            fi
-            cat $image.txt | ansi2html --title "CVE $image" --no-wrap --style 'a {color: white;}' | sed -E "s/(CVE-[0-9]{4}-[0-9]{4,7})/<a href=\"$URL\1\">\1<\/a>/g" > report/$image.html
-          done <<< "$sboms"
+          dirs="linux viewit"
+          while IFS= read -r dir; do
+            cd $dir
+            sboms=$(ls *-sbom.cdx.json)
+            while IFS= read -r sbom; do
+              echo "Scanning $sbom..."
+              image=$(basename $sbom -sbom.cdx.json)
+              CLICOLOR_FORCE=true grype sbom:$sbom --file $image.txt --by-cve
+              DISTRO=$(jq -r '.components[] | select(.name == "libc6") | .purl' $sbom | grep -o 'distro=[^&]*')
+              if [[ "$DISTRO" = *"debian"* ]]; then
+                  # URL="https:\/\/security-tracker.debian.org\/tracker\/"
+                  URL="https:\/\/deb.freexian.com\/extended-lts\/tracker\/"
+              elif [[ "$DISTRO" = *"ubuntu"* ]]; then
+                  URL="https:\/\/ubuntu.com\/security\/"
+              else
+                  URL="https:\/\/www.cve.org\/CVERecord?id="
+              fi
+              cat $image.txt | ansi2html --title "CVE $image" --no-wrap --style 'a {color: white;}' | sed -E "s/(CVE-[0-9]{4}-[0-9]{4,7})/<a href=\"$URL\1\">\1<\/a>/g" > ../report/$image.html
+            done <<< "$sboms"
+            cd ..
+          done <<< "$dirs"
       - name: Generate Markdown File
         run: |
           echo "name: SBOMs and Vulnerability Reports" > report/_config.yml
@@ -48,13 +52,18 @@ jobs:
           cat << 'EOF' > report/index.md
           # IMAGO Technologies SBOMs and Vulnerability Reports
 
-          ## Linux Images
-
-          The SBOMs for Linux images are provided in CycloneDX JSON format.
+          SBOMs are provided in CycloneDX JSON format.
 
           All SBOMs are scanned for known vulnerabilities on a regular basis using [grype](https://github.com/anchore/grype).
           The vulnerability report contains a table with affected packages and the CVE names. Each entry also contains a link to the
           Security Bug Tracker of the used Linux distribution which provides more information.
+
+          *Resources:*
+          - [CVE database](https://www.cve.org/)
+          - [Debian Security Bug Tracker](https://deb.freexian.com/extended-lts/tracker/)
+          - [Ubuntu CVEs](https://ubuntu.com/security/cves)
+
+          ## Linux Images
 
           EOF
           echo "| Linux Image | SBOM | Vulnerability Report ($(date --rfc-3339=date)) |" >> report/index.md
@@ -62,8 +71,22 @@ jobs:
           cd linux
           sboms=$(ls *-sbom.cdx.json)
           while IFS= read -r sbom; do
-            image=$(basename $sbom -sbom.cdx.json)
-            echo "|$image|[$sbom](https://github.com/IMAGO-Technologies/sbom-scan/blob/master/linux/$sbom)|[$image]($image.html)|" >> ../report/index.md
+            file=$(basename $sbom -sbom.cdx.json)
+            echo "|$file|[$sbom](https://github.com/IMAGO-Technologies/sbom-scan/blob/master/linux/$sbom)|[$file]($file.html)|" >> ../report/index.md
+          done <<< "$sboms"
+          cd ..
+          cat << 'EOF' > report/index.md
+
+          ## ViewIT
+
+          EOF
+          echo "| ViewIT | SBOM | Vulnerability Report ($(date --rfc-3339=date)) |" >> report/index.md
+          echo "| :--- | :--- | :--- |" >> report/index.md
+          cd viewit
+          sboms=$(ls *-sbom.cdx.json)
+          while IFS= read -r sbom; do
+            file=$(basename $sbom -sbom.cdx.json)
+            echo "|$file|[$sbom](https://github.com/IMAGO-Technologies/sbom-scan/blob/master/viewit/$sbom)|[$file]($file.html)|" >> ../report/index.md
           done <<< "$sboms"
       - name: Setup Pages Metadata
         uses: actions/configure-pages@v6
