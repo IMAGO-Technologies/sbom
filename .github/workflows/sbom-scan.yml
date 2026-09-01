@@ -24,8 +24,8 @@ jobs:
         shell: bash
         run: |
           mkdir -p report
-          dirs="linux viewit"
-          while IFS= read -r dir; do
+          dirs=
+          for dir in linux viewit; do
             cd $dir
             sboms=$(ls *-sbom.cdx.json)
             while IFS= read -r sbom; do
@@ -44,7 +44,7 @@ jobs:
               cat $image.txt | ansi2html --title "CVE $image" --no-wrap --style 'a {color: white;}' | sed -E "s/(CVE-[0-9]{4}-[0-9]{4,7})/<a href=\"$URL\1\">\1<\/a>/g" > ../report/$image.html
             done <<< "$sboms"
             cd ..
-          done <<< "$dirs"
+          done
       - name: Generate Markdown File
         run: |
           echo "name: SBOMs and Vulnerability Reports" > report/_config.yml
