@@ -1,0 +1,138 @@
+name: Auto-merge Pull Requests
+
+on:
+  pull_request:
+
+  workflow_dispatch:
+
+permissions:
+  pull-requests: write
+  contents: write
+
+jobs:
+  sbom-update:
+    runs-on: ubuntu-latest
+    name: Merge pull request
+    steps:
+      - name: Pull request auto-merge
+        if: ${{ github.event_name == 'pull_request' }}
+        run: gh pr merge --merge --auto "$PR_URL"
+        env:
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
+
+      - uses: actions/checkout@v6
+
+      - name: Create HTML reports
+        shell: bash
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y colorized-logs
+          mkdir html
+          cd report
+          reports=$(ls *.txt)
+          while IFS= read -r report_file; do
+            echo "Scanning $sbom..."
+            report_name=$(basename $report_file .txt)
+            CLICOLOR_FORCE=true grype sbom:$sbom --file $report_file --by-cve
+            DISTRO=$(jq -r '.components[] | select(.name == "libc6") | .purl' $sbom | grep -o 'distro=[^&]*')
+            if [[ "$DISTRO" = *"debian"* ]]; then
+                # URL="https:\/\/security-tracker.debian.org\/tracker\/"
+                URL="https:\/\/deb.freexian.com\/extended-lts\/tracker\/"
+            elif [[ "$DISTRO" = *"ubuntu"* ]]; then
+                URL="https:\/\/ubuntu.com\/security\/"
+            else
+                URL="https:\/\/www.cve.org\/CVERecord?id="
+            fi
+            (echo -e "\e[1m\e[4mCVE report for $report_name\e[0m\n" && cat $report_file) | ansi2html --title "CVE $report_name" --no-wrap --style 'a {color: white;}' | sed -E "s/(CVE-[0-9]{4}-[0-9]{4,7})/<a href=\"$URL\1\">\1<\/a>/g" > ../html/$report_name.html
+          done <<< "$reports"
+          cd ..
+      - name: Generate Markdown File
+        run: |
+          echo "name: SBOMs and Vulnerability Reports" > html/_config.yml
+          echo "title: null" >> html/_config.yml
+          cat << 'EOF' > html/index.md
+          # IMAGO Technologies SBOMs and Vulnerability Reports
+
+          SBOMs are provided in CycloneDX JSON format.
+
+          All SBOMs are scanned for known vulnerabilities on a regular basis using [grype](https://github.com/anchore/grype).
+          The vulnerability report contains a table with affected packages and the CVE names. Each entry also contains a link to the
+          Security Bug Tracker of the used Linux distribution which provides more information.
+
+          *Resources:*
+          - [CVE database](https://www.cve.org/)
+          - [Debian Security Bug Tracker](https://deb.freexian.com/extended-lts/tracker/)
+          - [Ubuntu CVEs](https://ubuntu.com/security/cves)
+
+          ## Linux Images
+
+          EOF
+          echo "| Linux Image | SBOM | Vulnerability Report ($(date --rfc-3339=date)) |" >> html/index.md
+          echo "| :--- | :--- | :--- |" >> html/index.md
+          cd linux
+          sboms=$(ls *-sbom.cdx.json)
+          while IFS= read -r sbom_file; do
+            sbom_name=$(basename $sbom_file -sbom.cdx.json)
+            report_file=$report_name.html
+            if [ -f $report_file ]; then
+              echo "|$sbom_name|[$sbom_file](https://github.com/IMAGO-Technologies/sbom/blob/master/linux/$sbom_file)|[$sbom_name]($report_file)|" >> ../html/index.md
+            else
+              echo "|$sbom_name|[$sbom_file](https://github.com/IMAGO-Technologies/sbom/blob/master/linux/$sbom_file)|-|" >> ../html/index.md
+            fi
+          done <<< "$sboms"
+          cd ..
+          cat << 'EOF' >> html/index.md
+
+          ## ViewIT
+
+          The SBOM for ViewIT includes all dependencies for the package.
+
+          EOF
+          echo "| Package | Version | Architecture | SBOM | Vulnerability Report ($(date --rfc-3339=date)) |" >> html/index.md
+          echo "| :--- | :--- | :--- | :--- | :--- |" >> html/index.md
+          cd viewit
+          sboms=$(ls *-sbom.cdx.json)
+          while IFS= read -r sbom_file; do
+            sbom_name=$(basename $sbom_file -sbom.cdx.json)
+            deb_name=$(echo $sbom_name | cut -d '_' -f 1)
+            version=$(echo $sbom_name | cut -d '_' -f 2)
+            arch=$(echo $sbom_name | cut -d '_' -f 3)
+            report_file=$sbom_name.html
+            if [ -f $report_file ]; then
+              echo "|$deb_name|$version|$arch|[$sbom_file](https://github.com/IMAGO-Technologies/sbom/blob/master/viewit/$sbom_file)|[$sbom_name]($report_file)|" >> ../html/index.md
+            else
+              echo "|$deb_name|$version|$arch|[$sbom_file](https://github.com/IMAGO-Technologies/sbom/blob/master/viewit/$sbom_file)|-|" >> ../html/index.md
+            fi
+          done <<< "$sboms"
+      - name: Setup Pages Metadata
+        uses: actions/configure-pages@v6
+      - name: Build HTML using Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./html
+          destination: ./_site
+      - name: Upload pages
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: '_site/'
+
+  deploy:
+    needs: sbom-update
+
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    # Specify runner + deployment step
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
