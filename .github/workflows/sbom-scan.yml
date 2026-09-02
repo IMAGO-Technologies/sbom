@@ -88,7 +88,7 @@ jobs:
           sboms=$(ls *-sbom.cdx.json)
           while IFS= read -r sbom_file; do
             sbom_name=$(basename $sbom_file -sbom.cdx.json)
-            deb_name=$(echo $sbom_name | cut -d '_' -f 2)
+            deb_name=$(echo $sbom_name | cut -d '_' -f 1)
             version=$(echo $sbom_name | cut -d '_' -f 2)
             arch=$(echo $sbom_name | cut -d '_' -f 3)
             echo "|$deb_name|$version|$arch|[$sbom_file](https://github.com/IMAGO-Technologies/sbom-scan/blob/master/viewit/$sbom_file)|[$sbom_name]($sbom_name.html)|" >> ../report/index.md
