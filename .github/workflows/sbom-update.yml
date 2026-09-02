@@ -34,8 +34,9 @@ jobs:
             sboms=$(ls *-sbom.cdx.json)
             while IFS= read -r sbom; do
               report_name=$(basename $sbom -sbom.cdx.json)
-              report_file=$report_name.txt
+              report_file=../report/$report_name.txt
               if [ -f $report_file ]; then
+                echo "Found report $report_file"
                 DISTRO=$(jq -r '.components[] | select(.name == "libc6") | .purl' $sbom | grep -o 'distro=[^&]*')
                 if [[ "$DISTRO" = *"debian"* ]]; then
                     # URL="https:\/\/security-tracker.debian.org\/tracker\/"
@@ -46,6 +47,8 @@ jobs:
                     URL="https:\/\/www.cve.org\/CVERecord?id="
                 fi
                 (echo -e "\e[1m\e[4mCVE report for $report_name\e[0m\n" && cat $report_file) | ansi2html --title "CVE $report_name" --no-wrap --style 'a {color: white;}' | sed -E "s/(CVE-[0-9]{4}-[0-9]{4,7})/<a href=\"$URL\1\">\1<\/a>/g" > ../html/$report_name.html
+              else
+                echo "Report $report_file not found"
               fi
             done <<< "$sboms"
             cd ..
@@ -78,7 +81,7 @@ jobs:
           while IFS= read -r sbom_file; do
             sbom_name=$(basename $sbom_file -sbom.cdx.json)
             report_file=$report_name.html
-            if [ -f $report_file ]; then
+            if [ -f ../html/$report_file ]; then
               echo "|$sbom_name|[$sbom_file](https://github.com/IMAGO-Technologies/sbom/blob/master/linux/$sbom_file)|[$sbom_name]($report_file)|" >> ../html/index.md
             else
               echo "|$sbom_name|[$sbom_file](https://github.com/IMAGO-Technologies/sbom/blob/master/linux/$sbom_file)|-|" >> ../html/index.md
