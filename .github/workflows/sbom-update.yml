@@ -1,4 +1,4 @@
-name: Auto-merge Pull Requests
+name: Update SBOMs and scan reports
 
 on:
   pull_request:
@@ -29,24 +29,27 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y colorized-logs
           mkdir html
-          cd report
-          reports=$(ls *.txt)
-          while IFS= read -r report_file; do
-            echo "Scanning $sbom..."
-            report_name=$(basename $report_file .txt)
-            CLICOLOR_FORCE=true grype sbom:$sbom --file $report_file --by-cve
-            DISTRO=$(jq -r '.components[] | select(.name == "libc6") | .purl' $sbom | grep -o 'distro=[^&]*')
-            if [[ "$DISTRO" = *"debian"* ]]; then
-                # URL="https:\/\/security-tracker.debian.org\/tracker\/"
-                URL="https:\/\/deb.freexian.com\/extended-lts\/tracker\/"
-            elif [[ "$DISTRO" = *"ubuntu"* ]]; then
-                URL="https:\/\/ubuntu.com\/security\/"
-            else
-                URL="https:\/\/www.cve.org\/CVERecord?id="
-            fi
-            (echo -e "\e[1m\e[4mCVE report for $report_name\e[0m\n" && cat $report_file) | ansi2html --title "CVE $report_name" --no-wrap --style 'a {color: white;}' | sed -E "s/(CVE-[0-9]{4}-[0-9]{4,7})/<a href=\"$URL\1\">\1<\/a>/g" > ../html/$report_name.html
-          done <<< "$reports"
-          cd ..
+          for dir in linux viewit; do
+            cd $dir
+            sboms=$(ls *-sbom.cdx.json)
+            while IFS= read -r sbom; do
+              report_name=$(basename $sbom -sbom.cdx.json)
+              report_file=$report_name.txt
+              if [ -f $report_file ]; then
+                DISTRO=$(jq -r '.components[] | select(.name == "libc6") | .purl' $sbom | grep -o 'distro=[^&]*')
+                if [[ "$DISTRO" = *"debian"* ]]; then
+                    # URL="https:\/\/security-tracker.debian.org\/tracker\/"
+                    URL="https:\/\/deb.freexian.com\/extended-lts\/tracker\/"
+                elif [[ "$DISTRO" = *"ubuntu"* ]]; then
+                    URL="https:\/\/ubuntu.com\/security\/"
+                else
+                    URL="https:\/\/www.cve.org\/CVERecord?id="
+                fi
+                (echo -e "\e[1m\e[4mCVE report for $report_name\e[0m\n" && cat $report_file) | ansi2html --title "CVE $report_name" --no-wrap --style 'a {color: white;}' | sed -E "s/(CVE-[0-9]{4}-[0-9]{4,7})/<a href=\"$URL\1\">\1<\/a>/g" > ../html/$report_name.html
+              fi
+            done <<< "$sboms"
+            cd ..
+          done
       - name: Generate Markdown File
         run: |
           echo "name: SBOMs and Vulnerability Reports" > html/_config.yml
