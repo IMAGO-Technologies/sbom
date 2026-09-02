@@ -1,0 +1,108 @@
+NAME         INSTALLED                             FIXED IN     TYPE  VULNERABILITY   SEVERITY    EPSS          RISK   
+python3.13   3.13.5-2+deb13u4                      (won't fix)  deb   CVE-2026-11940  [91mHigh[0m        [0m0.8% (52nd)   0.6    
+python3.13   3.13.5-2+deb13u4                      (won't fix)  deb   CVE-2026-7210   [91mHigh[0m        [0m0.7% (49th)   0.5    
+python3.13   3.13.5-2+deb13u4                      (won't fix)  deb   CVE-2026-15308  [91mHigh[0m        [0m0.6% (48th)   0.5    
+patch        2.8-2                                              deb   CVE-2018-6951   [90mNegligible[0m  [0m8.4% (94th)   0.4    
+perl         5.40.1-6                              (won't fix)  deb   CVE-2026-8376   [1;95mCritical[0m    [0m0.4% (36th)   0.4    
+patch        2.8-2                                              deb   CVE-2018-6952   [90mNegligible[0m  [0m8.2% (94th)   0.4    
+perl         5.40.1-6                              (won't fix)  deb   CVE-2026-13221  [1;95mCritical[0m    [0m0.4% (36th)   0.4    
+perl         5.40.1-6                              (won't fix)  deb   CVE-2026-42496  [1;95mCritical[0m    [0m0.4% (35th)   0.4    
+python3.13   3.13.5-2+deb13u4                      (won't fix)  deb   CVE-2026-11972  [91mHigh[0m        [0m0.4% (37th)   0.3    
+perl         5.40.1-6                              (won't fix)  deb   CVE-2026-12087  [1;95mCritical[0m    [0m0.4% (30th)   0.3    
+perl         5.40.1-6                              (won't fix)  deb   CVE-2026-9538   [91mHigh[0m        [0m0.4% (37th)   0.3    
+perl         5.40.1-6                              (won't fix)  deb   CVE-2026-57433  [1;95mCritical[0m    [0m0.4% (28th)   0.3    
+libxml2      2.12.7+dfsg+really2.9.14-2.1+deb13u3  (won't fix)  deb   CVE-2026-6653   [1;95mCritical[0m    [0m0.4% (28th)   0.3    
+perl         5.40.1-6                              (won't fix)  deb   CVE-2026-42497  [91mHigh[0m        [0m0.4% (34th)   0.3    
+perl         5.40.1-6                              (won't fix)  deb   CVE-2026-7017   [91mHigh[0m        [0m0.4% (33rd)   0.3    
+perl         5.40.1-6                              (won't fix)  deb   CVE-2026-48959  [91mHigh[0m        [0m0.4% (30th)   0.3    
+python3.13   3.13.5-2+deb13u4                      (won't fix)  deb   CVE-2025-12781  [33mMedium[0m      [0m0.5% (42nd)   0.3    
+python3.13   3.13.5-2+deb13u4                      (won't fix)  deb   CVE-2026-17084  [33mMedium[0m      [0m0.5% (39th)   0.3    
+patch        2.8-2                                              deb   CVE-2010-4651   [90mNegligible[0m  [0m4.8% (91st)   0.2    
+python3.13   3.13.5-2+deb13u4                      (won't fix)  deb   CVE-2026-19672  [33mMedium[0m      [0m0.4% (33rd)   0.2    
+python3.13   3.13.5-2+deb13u4                      (won't fix)  deb   CVE-2026-15806  [33mMedium[0m      [0m0.4% (33rd)   0.2    
+perl         5.40.1-6                              (won't fix)  deb   CVE-2026-48962  [91mHigh[0m        [0m0.3% (21st)   0.2    
+perl         5.40.1-6                              (won't fix)  deb   CVE-2026-19487  [33mMedium[0m      [0m0.4% (34th)   0.2    
+python3.13   3.13.5-2+deb13u4                      (won't fix)  deb   CVE-2025-15366  [33mMedium[0m      [0m0.4% (30th)   0.2    
+tar          1.35+dfsg-3.1                                      deb   CVE-2005-2541   [90mNegligible[0m  [0m4.0% (89th)   0.2    
+tar          1.35+dfsg-3.1                         (won't fix)  deb   CVE-2026-5704   [33mMedium[0m      [0m0.4% (30th)   0.2    
+perl         5.40.1-6                              (won't fix)  deb   CVE-2026-48961  [91mHigh[0m        [0m0.3% (17th)   0.2    
+python3.13   3.13.5-2+deb13u4                      (won't fix)  deb   CVE-2025-15367  [33mMedium[0m      [0m0.3% (25th)   0.2    
+perl         5.40.1-6                              (won't fix)  deb   CVE-2026-57432  [91mHigh[0m        [0m0.2% (11th)   0.2    
+binutils     2.44-3                                             deb   CVE-2018-20712  [90mNegligible[0m  [0m2.7% (84th)   0.1    
+perl         5.40.1-6                              (won't fix)  deb   CVE-2026-7010   [33mMedium[0m      [0m0.2% (13th)   0.1    
+python3.13   3.13.5-2+deb13u4                      (won't fix)  deb   CVE-2026-6879   [32mLow[0m         [0m0.4% (29th)   < 0.1  
+libgcrypt20  1.11.0-7+deb13u1                                   deb   CVE-2018-6829   [90mNegligible[0m  [0m1.8% (76th)   < 0.1  
+perl         5.40.1-6                              (won't fix)  deb   CVE-2026-15534  [33mMedium[0m      [0m0.2% (5th)    < 0.1  
+binutils     2.44-3                                             deb   CVE-2018-20673  [90mNegligible[0m  [0m1.6% (74th)   < 0.1  
+python3.13   3.13.5-2+deb13u4                      (won't fix)  deb   CVE-2026-15310  [32mLow[0m         [0m0.3% (22nd)   < 0.1  
+binutils     2.44-3                                             deb   CVE-2017-13716  [90mNegligible[0m  [0m1.4% (70th)   < 0.1  
+perl         5.40.1-6                              (won't fix)  deb   CVE-2025-15649  [33mMedium[0m      [0m0.1% (2nd)    < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-1153   [90mNegligible[0m  [0m1.3% (69th)   < 0.1  
+tar          1.35+dfsg-3.1                         (won't fix)  deb   CVE-2026-18508  [33mMedium[0m      [0m0.1% (3rd)    < 0.1  
+python3.13   3.13.5-2+deb13u4                      (won't fix)  deb   CVE-2026-0864   [33mMedium[0m      [0m0.1% (2nd)    < 0.1  
+binutils     2.44-3                                             deb   CVE-2018-9996   [90mNegligible[0m  [0m1.3% (68th)   < 0.1  
+bzip2        1.0.8-6                               (won't fix)  deb   CVE-2026-42250  [33mMedium[0m      [0m0.1% (2nd)    < 0.1  
+libgcrypt20  1.11.0-7+deb13u1                                   deb   CVE-2024-2236   [90mNegligible[0m  [0m1.1% (63rd)   < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-1178   [90mNegligible[0m  [0m0.8% (53rd)   < 0.1  
+binutils     2.44-3                                             deb   CVE-2021-32256  [90mNegligible[0m  [0m0.7% (52nd)   < 0.1  
+tar          1.35+dfsg-3.1                         (won't fix)  deb   CVE-2026-18477  [33mMedium[0m      [0m< 0.1% (0th)  < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-1181   [90mNegligible[0m  [0m0.7% (50th)   < 0.1  
+patch        2.8-2                                              deb   CVE-2021-45261  [90mNegligible[0m  [0m0.7% (50th)   < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-1180   [90mNegligible[0m  [0m0.7% (50th)   < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-1176   [90mNegligible[0m  [0m0.7% (49th)   < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-1147   [90mNegligible[0m  [0m0.7% (49th)   < 0.1  
+python3.13   3.13.5-2+deb13u4                      (won't fix)  deb   CVE-2026-18503  [32mLow[0m         [0m0.1% (1st)    < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-1148   [90mNegligible[0m  [0m0.6% (47th)   < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-1152   [90mNegligible[0m  [0m0.6% (46th)   < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-1150   [90mNegligible[0m  [0m0.6% (46th)   < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-1151   [90mNegligible[0m  [0m0.6% (46th)   < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-1182   [90mNegligible[0m  [0m0.6% (45th)   < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-1149   [90mNegligible[0m  [0m0.6% (44th)   < 0.1  
+perl         5.40.1-6                                           deb   CVE-2011-4116   [90mNegligible[0m  [0m0.5% (42nd)   < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-69650  [90mNegligible[0m  [0m0.5% (40th)   < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-66863  [90mNegligible[0m  [0m0.4% (29th)   < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-66865  [90mNegligible[0m  [0m0.4% (29th)   < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-66862  [90mNegligible[0m  [0m0.4% (29th)   < 0.1  
+binutils     2.44-3                                             deb   CVE-2026-19582  [90mNegligible[0m  [0m0.3% (24th)   < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-66866  [90mNegligible[0m  [0m0.3% (23rd)   < 0.1  
+binutils     2.44-3                                             deb   CVE-2026-18220  [90mNegligible[0m  [0m0.3% (21st)   < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-3198   [90mNegligible[0m  [0m0.3% (20th)   < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-5244   [90mNegligible[0m  [0m0.3% (19th)   < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-5245   [90mNegligible[0m  [0m0.3% (19th)   < 0.1  
+python3.13   3.13.5-2+deb13u4                      (won't fix)  deb   CVE-2026-4360   [90mNegligible[0m  [0m0.3% (19th)   < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-7545   [90mNegligible[0m  [0m0.3% (17th)   < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-69649  [90mNegligible[0m  [0m0.3% (17th)   < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-11839  [90mNegligible[0m  [0m0.3% (17th)   < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-11840  [90mNegligible[0m  [0m0.3% (17th)   < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-11083  [90mNegligible[0m  [0m0.3% (16th)   < 0.1  
+binutils     2.44-3                                             deb   CVE-2026-3442   [90mNegligible[0m  [0m0.3% (16th)   < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-11082  [90mNegligible[0m  [0m0.3% (16th)   < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-69651  [90mNegligible[0m  [0m0.2% (14th)   < 0.1  
+python3.13   3.13.5-2+deb13u4                                   deb   CVE-2026-3479   [90mNegligible[0m  [0m0.2% (14th)   < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-66864  [90mNegligible[0m  [0m0.2% (14th)   < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-8225   [90mNegligible[0m  [0m0.2% (13th)   < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-11495  [90mNegligible[0m  [0m0.2% (12th)   < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-11413  [90mNegligible[0m  [0m0.2% (10th)   < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-11081  [90mNegligible[0m  [0m0.2% (10th)   < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-11494  [90mNegligible[0m  [0m0.2% (9th)    < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-11412  [90mNegligible[0m  [0m0.2% (8th)    < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-11414  [90mNegligible[0m  [0m0.2% (8th)    < 0.1  
+binutils     2.44-3                                             deb   CVE-2026-3441   [90mNegligible[0m  [0m0.2% (7th)    < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-7546   [90mNegligible[0m  [0m0.2% (7th)    < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-69648  [90mNegligible[0m  [0m0.2% (7th)    < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-69652  [90mNegligible[0m  [0m0.2% (6th)    < 0.1  
+binutils     2.44-3                                             deb   CVE-2026-6846   [90mNegligible[0m  [0m0.2% (6th)    < 0.1  
+binutils     2.44-3                                             deb   CVE-2026-4647   [90mNegligible[0m  [0m0.2% (6th)    < 0.1  
+patch        2.8-2                                              deb   CVE-2026-56289  [90mNegligible[0m  [0m0.2% (6th)    < 0.1  
+patch        2.8-2                                              deb   CVE-2026-56288  [90mNegligible[0m  [0m0.2% (6th)    < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-69645  [90mNegligible[0m  [0m0.2% (6th)    < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-69646  [90mNegligible[0m  [0m0.2% (4th)    < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-69647  [90mNegligible[0m  [0m0.2% (4th)    < 0.1  
+libxml2      2.12.7+dfsg+really2.9.14-2.1+deb13u3               deb   CVE-2026-11979  [90mNegligible[0m  [0m0.1% (4th)    < 0.1  
+python3.13   3.13.5-2+deb13u4                                   deb   CVE-2026-12003  [90mNegligible[0m  [0m0.1% (4th)    < 0.1  
+binutils     2.44-3                                             deb   CVE-2026-6845   [90mNegligible[0m  [0m0.1% (4th)    < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-66861  [90mNegligible[0m  [0m0.1% (3rd)    < 0.1  
+binutils     2.44-3                                             deb   CVE-2025-69644  [90mNegligible[0m  [0m0.1% (2nd)    < 0.1  
+binutils     2.44-3                                             deb   CVE-2026-19548  [90mNegligible[0m  [0m0.1% (1st)    < 0.1  
+binutils     2.44-3                                             deb   CVE-2026-15003  [90mNegligible[0m  [0m0.1% (1st)    < 0.1  
+binutils     2.44-3                                             deb   CVE-2026-6844   [90mNegligible[0m  [0m0.1% (1st)    < 0.1  
