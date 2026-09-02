@@ -12,7 +12,7 @@ permissions:
 jobs:
   sbom-update:
     runs-on: ubuntu-latest
-    name: Merge pull request
+    name: Update HTML pages
     steps:
       - name: Pull request auto-merge
         if: ${{ github.event_name == 'pull_request' }}
@@ -36,7 +36,7 @@ jobs:
               report_name=$(basename $sbom -sbom.cdx.json)
               report_file=../report/$report_name.txt
               if [ -f $report_file ]; then
-                echo "Found report $report_file"
+                echo "Converting report $report_file to HTML"
                 DISTRO=$(jq -r '.components[] | select(.name == "libc6") | .purl' $sbom | grep -o 'distro=[^&]*')
                 if [[ "$DISTRO" = *"debian"* ]]; then
                     # URL="https:\/\/security-tracker.debian.org\/tracker\/"
@@ -80,7 +80,7 @@ jobs:
           sboms=$(ls *-sbom.cdx.json)
           while IFS= read -r sbom_file; do
             sbom_name=$(basename $sbom_file -sbom.cdx.json)
-            report_file=$report_name.html
+            report_file=$sbom_name.html
             if [ -f ../html/$report_file ]; then
               echo "|$sbom_name|[$sbom_file](https://github.com/IMAGO-Technologies/sbom/blob/master/linux/$sbom_file)|[$sbom_name]($report_file)|" >> ../html/index.md
             else
@@ -105,7 +105,7 @@ jobs:
             version=$(echo $sbom_name | cut -d '_' -f 2)
             arch=$(echo $sbom_name | cut -d '_' -f 3)
             report_file=$sbom_name.html
-            if [ -f $report_file ]; then
+            if [ -f ../html/$report_file ]; then
               echo "|$deb_name|$version|$arch|[$sbom_file](https://github.com/IMAGO-Technologies/sbom/blob/master/viewit/$sbom_file)|[$sbom_name]($report_file)|" >> ../html/index.md
             else
               echo "|$deb_name|$version|$arch|[$sbom_file](https://github.com/IMAGO-Technologies/sbom/blob/master/viewit/$sbom_file)|-|" >> ../html/index.md
