@@ -1,0 +1,19 @@
+name: Auto-merge Pull Requests
+
+on:
+  pull_request:
+
+permissions:
+  pull-requests: write
+  contents: write
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    name: Merge pull request by ${{ github.actor }} - ${{github.event.pull_request.html_url}}
+    steps:
+      - name: Merge Pull Request
+        env:
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
+        run: gh pr merge --merge --auto "$PR_URL"

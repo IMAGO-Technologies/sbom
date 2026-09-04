@@ -1,26 +1,17 @@
-name: Update SBOMs and scan reports
+name: Update SBOMs and vulnerability reports
 
 on:
-  pull_request:
+  push:
+    branches:
+      - master
 
-  workflow_dispatch:
-
-permissions:
-  pull-requests: write
-  contents: write
+    workflow_dispatch:
 
 jobs:
   sbom-update:
     runs-on: ubuntu-latest
     name: Update HTML pages
     steps:
-      - name: Pull request auto-merge
-        if: ${{ github.event_name == 'pull_request' }}
-        run: gh pr merge --merge --auto "$PR_URL"
-        env:
-          PR_URL: ${{ github.event.pull_request.html_url }}
-          GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
-
       - uses: actions/checkout@v6
 
       - name: Create HTML reports
@@ -53,6 +44,7 @@ jobs:
             done <<< "$sboms"
             cd ../..
           done
+
       - name: Generate Markdown File
         run: |
           echo "name: SBOMs and Vulnerability Reports" > html/_config.yml
