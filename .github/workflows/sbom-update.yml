@@ -34,7 +34,7 @@ jobs:
             sboms=$(ls *-sbom.cdx.json)
             while IFS= read -r sbom; do
               report_name=$(basename $sbom -sbom.cdx.json)
-              report_file=../report/$report_name.txt
+              report_file=../report/$dir/$report_name.txt
               if [ -f $report_file ]; then
                 echo "Converting report $report_file to HTML"
                 DISTRO=$(jq -r '.components[] | select(.name == "libc6") | .purl' $sbom | grep -o 'distro=[^&]*')
@@ -82,9 +82,9 @@ jobs:
             sbom_name=$(basename $sbom_file -sbom.cdx.json)
             report_file=$sbom_name.html
             if [ -f ../html/$report_file ]; then
-              echo "|$sbom_name|[$sbom_file](https://github.com/IMAGO-Technologies/sbom/blob/master/linux/$sbom_file)|[$sbom_name]($report_file)|" >> ../html/index.md
+              echo "|$sbom_name|[$sbom_file](https://github.com/IMAGO-Technologies/sbom/blob/master/sbom/linux/$sbom_file)|[$sbom_name]($report_file)|" >> ../html/index.md
             else
-              echo "|$sbom_name|[$sbom_file](https://github.com/IMAGO-Technologies/sbom/blob/master/linux/$sbom_file)|-|" >> ../html/index.md
+              echo "|$sbom_name|[$sbom_file](https://github.com/IMAGO-Technologies/sbom/blob/master/sbom/linux/$sbom_file)|-|" >> ../html/index.md
             fi
           done <<< "$sboms"
           cd ..
@@ -106,9 +106,9 @@ jobs:
             arch=$(echo $sbom_name | cut -d '_' -f 3)
             report_file=$sbom_name.html
             if [ -f ../html/$report_file ]; then
-              echo "|$deb_name|$version|$arch|[$sbom_file](https://github.com/IMAGO-Technologies/sbom/blob/master/viewit/$sbom_file)|[$sbom_name]($report_file)|" >> ../html/index.md
+              echo "|$deb_name|$version|$arch|[$sbom_file](https://github.com/IMAGO-Technologies/sbom/blob/master/sbom/viewit/$sbom_file)|[$sbom_name]($report_file)|" >> ../html/index.md
             else
-              echo "|$deb_name|$version|$arch|[$sbom_file](https://github.com/IMAGO-Technologies/sbom/blob/master/viewit/$sbom_file)|-|" >> ../html/index.md
+              echo "|$deb_name|$version|$arch|[$sbom_file](https://github.com/IMAGO-Technologies/sbom/blob/master/sbom/viewit/$sbom_file)|-|" >> ../html/index.md
             fi
           done <<< "$sboms"
       - name: Setup Pages Metadata
