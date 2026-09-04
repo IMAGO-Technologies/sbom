@@ -1,0 +1,16 @@
+NAME         INSTALLED              FIXED IN     TYPE  VULNERABILITY     SEVERITY    EPSS         RISK   
+libxml2      2.9.4+dfsg1-7+deb10u6  (won't fix)  deb   CVE-2017-16932    [91mHigh[0m        [0m5.9% (92nd)  4.4    
+libxml2      2.9.4+dfsg1-7+deb10u6  (won't fix)  deb   CVE-2022-2309     [91mHigh[0m        [0m2.6% (84th)  2.0    
+libgcrypt20  1.8.4-5+deb10u1        (won't fix)  deb   CVE-2021-33560    [91mHigh[0m        [0m2.3% (82nd)  1.8    
+libxml2      2.9.4+dfsg1-7+deb10u6  (won't fix)  deb   CVE-2016-9318     [33mMedium[0m      [0m2.9% (86th)  1.5    
+libxml2      2.9.4+dfsg1-7+deb10u6  (won't fix)  deb   CVE-2024-25062    [91mHigh[0m        [0m1.4% (69th)  1.0    
+libgcrypt20  1.8.4-5+deb10u1        (won't fix)  deb   CVE-2024-2236     [33mMedium[0m      [0m1.1% (63rd)  0.6    
+libxml2      2.9.4+dfsg1-7+deb10u6  (won't fix)  deb   CVE-2016-3709     [33mMedium[0m      [0m0.9% (57th)  0.5    
+libxml2      2.9.4+dfsg1-7+deb10u6  (won't fix)  deb   CVE-2023-45322    [33mMedium[0m      [0m0.8% (54th)  0.5    
+libxml2      2.9.4+dfsg1-7+deb10u6  (won't fix)  deb   CVE-2023-39615    [33mMedium[0m      [0m0.8% (52nd)  0.4    
+libgcrypt20  1.8.4-5+deb10u1        (won't fix)  deb   CVE-2019-13627    [33mMedium[0m      [0m0.5% (41st)  0.3    
+coreutils    8.30-3                 (won't fix)  deb   CVE-2016-2781     [32mLow[0m         [0m0.4% (35th)  0.1    
+libxml2      2.9.4+dfsg1-7+deb10u6               deb   CVE-2024-34459    [90mNegligible[0m  [0m2.3% (82nd)  0.1    
+libtasn1-6   4.13-3+deb10u1                      deb   CVE-2018-1000654  [90mNegligible[0m  [0m2.0% (79th)  0.1    
+libgcrypt20  1.8.4-5+deb10u1                     deb   CVE-2018-6829     [90mNegligible[0m  [0m1.8% (76th)  < 0.1  
+coreutils    8.30-3                              deb   CVE-2017-18018    [90mNegligible[0m  [0m0.3% (27th)  < 0.1  
