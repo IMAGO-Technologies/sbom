@@ -74,6 +74,7 @@ apt                   1.0.9.8.4                 1.0.9.8.5                 deb   
 apt-utils             1.0.9.8.4                 1.0.9.8.5                 deb   CVE-2019-3462     [91mHigh[0m        [0m14.6% (96th)  10.9   
 libapt-inst1.5        1.0.9.8.4                 1.0.9.8.5                 deb   CVE-2019-3462     [91mHigh[0m        [0m14.6% (96th)  10.9   
 libapt-pkg4.12        1.0.9.8.4                 1.0.9.8.5                 deb   CVE-2019-3462     [91mHigh[0m        [0m14.6% (96th)  10.9   
+libssl1.0.0           1.0.1t-1+deb8u5           1.0.1t-1+deb8u7           deb   CVE-2017-3735     [33mMedium[0m      [0m21.0% (97th)  10.5   
 libpython2.7          2.7.9-2+deb8u1            2.7.9-2+deb8u3            deb   CVE-2019-5010     [33mMedium[0m      [0m20.7% (97th)  10.4   
 libpython2.7-minimal  2.7.9-2+deb8u1            2.7.9-2+deb8u3            deb   CVE-2019-5010     [33mMedium[0m      [0m20.7% (97th)  10.4   
 libpython2.7-stdlib   2.7.9-2+deb8u1            2.7.9-2+deb8u3            deb   CVE-2019-5010     [33mMedium[0m      [0m20.7% (97th)  10.4   
@@ -97,7 +98,6 @@ libdns-export100      1:9.9.5.dfsg-9+deb8u8     1:9.9.5.dfsg-9+deb8u9     deb   
 libirs-export91       1:9.9.5.dfsg-9+deb8u8     1:9.9.5.dfsg-9+deb8u9     deb   CVE-2016-9444     [33mMedium[0m      [0m18.3% (97th)  9.1    
 libisc-export95       1:9.9.5.dfsg-9+deb8u8     1:9.9.5.dfsg-9+deb8u9     deb   CVE-2016-9444     [33mMedium[0m      [0m18.3% (97th)  9.1    
 libisccfg-export90    1:9.9.5.dfsg-9+deb8u8     1:9.9.5.dfsg-9+deb8u9     deb   CVE-2016-9444     [33mMedium[0m      [0m18.3% (97th)  9.1    
-libssl1.0.0           1.0.1t-1+deb8u5           1.0.1t-1+deb8u7           deb   CVE-2017-3735     [33mMedium[0m      [0m17.7% (96th)  8.8    
 libperl5.20           5.20.2-3+deb8u6           5.20.2-3+deb8u12          deb   CVE-2018-18311    [91mHigh[0m        [0m11.7% (95th)  8.8    
 perl                  5.20.2-3+deb8u6           5.20.2-3+deb8u12          deb   CVE-2018-18311    [91mHigh[0m        [0m11.7% (95th)  8.8    
 perl-base             5.20.2-3+deb8u6           5.20.2-3+deb8u12          deb   CVE-2018-18311    [91mHigh[0m        [0m11.7% (95th)  8.8    
@@ -210,7 +210,7 @@ libgnutls-deb0-28     3.3.8-6+deb8u4            3.3.8-6+deb8u5            deb   
 libgnutls-openssl27   3.3.8-6+deb8u4            3.3.8-6+deb8u5            deb   CVE-2017-5335     [33mMedium[0m      [0m8.0% (94th)   4.0    
 libruby2.1            2.1.5-2+deb8u3            2.1.5-2+deb8u6            deb   CVE-2018-16396    [33mMedium[0m      [0m8.0% (94th)   4.0    
 libsqlite3-0          3.8.7.1-1+deb8u2          3.8.7.1-1+deb8u4          deb   CVE-2018-8740     [33mMedium[0m      [0m8.0% (94th)   4.0    
-libsqlite3-0          3.8.7.1-1+deb8u2          3.8.7.1-1+deb8u4          deb   CVE-2017-2518     [91mHigh[0m        [0m5.3% (91st)   4.0    
+libsqlite3-0          3.8.7.1-1+deb8u2          3.8.7.1-1+deb8u4          deb   CVE-2017-2518     [91mHigh[0m        [0m5.3% (92nd)   4.0    
 libruby2.1            2.1.5-2+deb8u3            2.1.5-2+deb8u4            deb   CVE-2016-2339     [91mHigh[0m        [0m5.2% (91st)   3.9    
 gdb                   7.7.1+dfsg-5                                        deb   CVE-2014-8501     [91mHigh[0m        [0m5.2% (91st)   3.9    
 gdbserver             7.7.1+dfsg-5                                        deb   CVE-2014-8501     [91mHigh[0m        [0m5.2% (91st)   3.9    
@@ -298,9 +298,6 @@ openssh-client        1:6.7p1-5+deb8u3          1:6.7p1-5+deb8u6          deb   
 openssh-server        1:6.7p1-5+deb8u3          1:6.7p1-5+deb8u6          deb   CVE-2015-5352     [33mMedium[0m      [0m5.4% (92nd)   2.7    
 openssh-sftp-server   1:6.7p1-5+deb8u3          1:6.7p1-5+deb8u6          deb   CVE-2015-5352     [33mMedium[0m      [0m5.4% (92nd)   2.7    
 patch                 2.7.5-1                   2.7.5-1+deb8u1            deb   CVE-2018-1000156  [33mMedium[0m      [0m5.4% (92nd)   2.7    
-libpython2.7          2.7.9-2+deb8u1            2.7.9-2+deb8u3            deb   CVE-2019-9947     [33mMedium[0m      [0m5.4% (92nd)   2.7    
-libpython2.7-minimal  2.7.9-2+deb8u1            2.7.9-2+deb8u3            deb   CVE-2019-9947     [33mMedium[0m      [0m5.4% (92nd)   2.7    
-libpython2.7-stdlib   2.7.9-2+deb8u1            2.7.9-2+deb8u3            deb   CVE-2019-9947     [33mMedium[0m      [0m5.4% (92nd)   2.7    
 libdns-export100      1:9.9.5.dfsg-9+deb8u8     1:9.9.5.dfsg-9+deb8u12    deb   CVE-2017-3142     [33mMedium[0m      [0m5.4% (92nd)   2.7    
 libirs-export91       1:9.9.5.dfsg-9+deb8u8     1:9.9.5.dfsg-9+deb8u12    deb   CVE-2017-3142     [33mMedium[0m      [0m5.4% (92nd)   2.7    
 libisc-export95       1:9.9.5.dfsg-9+deb8u8     1:9.9.5.dfsg-9+deb8u12    deb   CVE-2017-3142     [33mMedium[0m      [0m5.4% (92nd)   2.7    
@@ -312,6 +309,9 @@ libpython2.7-stdlib   2.7.9-2+deb8u1            2.7.9-2+deb8u5            deb   
 libpython2.7          2.7.9-2+deb8u1            2.7.9-2+deb8u3            deb   CVE-2019-9740     [33mMedium[0m      [0m5.3% (92nd)   2.7    
 libpython2.7-minimal  2.7.9-2+deb8u1            2.7.9-2+deb8u3            deb   CVE-2019-9740     [33mMedium[0m      [0m5.3% (92nd)   2.7    
 libpython2.7-stdlib   2.7.9-2+deb8u1            2.7.9-2+deb8u3            deb   CVE-2019-9740     [33mMedium[0m      [0m5.3% (92nd)   2.7    
+libpython2.7          2.7.9-2+deb8u1            2.7.9-2+deb8u3            deb   CVE-2019-9947     [33mMedium[0m      [0m5.3% (91st)   2.6    
+libpython2.7-minimal  2.7.9-2+deb8u1            2.7.9-2+deb8u3            deb   CVE-2019-9947     [33mMedium[0m      [0m5.3% (91st)   2.6    
+libpython2.7-stdlib   2.7.9-2+deb8u1            2.7.9-2+deb8u3            deb   CVE-2019-9947     [33mMedium[0m      [0m5.3% (91st)   2.6    
 isc-dhcp-client       4.3.1-6+deb8u2            4.3.1-6+deb8u3            deb   CVE-2018-5732     [33mMedium[0m      [0m5.2% (91st)   2.6    
 isc-dhcp-common       4.3.1-6+deb8u2            4.3.1-6+deb8u3            deb   CVE-2018-5732     [33mMedium[0m      [0m5.2% (91st)   2.6    
 ntp                   1:4.2.6.p5+dfsg-7+deb8u2  (won't fix)               deb   CVE-2017-6463     [33mMedium[0m      [0m5.2% (91st)   2.6    
@@ -340,8 +340,8 @@ libpython2.7-minimal  2.7.9-2+deb8u1            2.7.9-2+deb8u2            deb   
 libpython2.7-stdlib   2.7.9-2+deb8u1            2.7.9-2+deb8u2            deb   CVE-2018-1061     [33mMedium[0m      [0m4.9% (91st)   2.5    
 libruby2.1            2.1.5-2+deb8u3            2.1.5-2+deb8u5            deb   CVE-2018-1000073  [33mMedium[0m      [0m4.9% (91st)   2.5    
 binutils              2.25-5                    (won't fix)               deb   CVE-2017-9750     [32mLow[0m         [0m8.1% (94th)   2.4    
-binutils              2.25-5                    (won't fix)               deb   CVE-2017-9756     [32mLow[0m         [0m8.1% (94th)   2.4    
 binutils              2.25-5                    (won't fix)               deb   CVE-2017-9742     [32mLow[0m         [0m8.1% (94th)   2.4    
+binutils              2.25-5                    (won't fix)               deb   CVE-2017-9756     [32mLow[0m         [0m8.1% (94th)   2.4    
 libbsd0               0.7.0-2                   0.7.0-2+deb8u1            deb   CVE-2016-2090     [91mHigh[0m        [0m3.2% (87th)   2.4    
 zlib1g                1:1.2.8.dfsg-2+b1         1:1.2.8.dfsg-2+deb8u1     deb   CVE-2016-9840     [33mMedium[0m      [0m4.8% (91st)   2.4    
 libssl1.0.0           1.0.1t-1+deb8u5           1.0.1t-1+deb8u10          deb   CVE-2018-0735     [33mMedium[0m      [0m4.8% (91st)   2.4    
@@ -386,10 +386,10 @@ libc6                 2.19-18+deb8u7            2.19-18+deb8u10           deb   
 libc6-dev             2.19-18+deb8u7            2.19-18+deb8u10           deb   CVE-2017-1000366  [91mHigh[0m        [0m2.7% (85th)   2.0    
 multiarch-support     2.19-18+deb8u7            2.19-18+deb8u10           deb   CVE-2017-1000366  [91mHigh[0m        [0m2.7% (85th)   2.0    
 linux                 4.4.12-g7148fac-dirty-77  (won't fix)               deb   CVE-2013-7445     [91mHigh[0m        [0m2.7% (85th)   2.0    
-vim-common            2:7.4.488-7+deb8u1        2:7.4.488-7+deb8u3        deb   CVE-2017-6349     [91mHigh[0m        [0m2.7% (84th)   2.0    
-vim-nox               2:7.4.488-7+deb8u1        2:7.4.488-7+deb8u3        deb   CVE-2017-6349     [91mHigh[0m        [0m2.7% (84th)   2.0    
-vim-runtime           2:7.4.488-7+deb8u1        2:7.4.488-7+deb8u3        deb   CVE-2017-6349     [91mHigh[0m        [0m2.7% (84th)   2.0    
-vim-tiny              2:7.4.488-7+deb8u1        2:7.4.488-7+deb8u3        deb   CVE-2017-6349     [91mHigh[0m        [0m2.7% (84th)   2.0    
+vim-common            2:7.4.488-7+deb8u1        2:7.4.488-7+deb8u3        deb   CVE-2017-6349     [91mHigh[0m        [0m2.7% (85th)   2.0    
+vim-nox               2:7.4.488-7+deb8u1        2:7.4.488-7+deb8u3        deb   CVE-2017-6349     [91mHigh[0m        [0m2.7% (85th)   2.0    
+vim-runtime           2:7.4.488-7+deb8u1        2:7.4.488-7+deb8u3        deb   CVE-2017-6349     [91mHigh[0m        [0m2.7% (85th)   2.0    
+vim-tiny              2:7.4.488-7+deb8u1        2:7.4.488-7+deb8u3        deb   CVE-2017-6349     [91mHigh[0m        [0m2.7% (85th)   2.0    
 libdns-export100      1:9.9.5.dfsg-9+deb8u8                               deb   CVE-2016-6170     [90mNegligible[0m  [0m40.5% (98th)  2.0    
 libirs-export91       1:9.9.5.dfsg-9+deb8u8                               deb   CVE-2016-6170     [90mNegligible[0m  [0m40.5% (98th)  2.0    
 libisc-export95       1:9.9.5.dfsg-9+deb8u8                               deb   CVE-2016-6170     [90mNegligible[0m  [0m40.5% (98th)  2.0    
@@ -417,9 +417,9 @@ patch                 2.7.5-1                   2.7.5-1+deb8u2            deb   
 gnupg                 1.4.18-7+deb8u3           1.4.18-7+deb8u4           deb   CVE-2017-7526     [33mMedium[0m      [0m3.9% (89th)   1.9    
 gpgv                  1.4.18-7+deb8u3           1.4.18-7+deb8u4           deb   CVE-2017-7526     [33mMedium[0m      [0m3.9% (89th)   1.9    
 libgcrypt20           1.6.3-2+deb8u2            1.6.3-2+deb8u4            deb   CVE-2017-7526     [33mMedium[0m      [0m3.9% (89th)   1.9    
-u-boot-tools          2014.10+dfsg1-5           (won't fix)               deb   CVE-2019-14202    [91mHigh[0m        [0m2.6% (84th)   1.9    
 u-boot-tools          2014.10+dfsg1-5           (won't fix)               deb   CVE-2019-14200    [91mHigh[0m        [0m2.6% (84th)   1.9    
 u-boot-tools          2014.10+dfsg1-5           (won't fix)               deb   CVE-2019-14201    [91mHigh[0m        [0m2.6% (84th)   1.9    
+u-boot-tools          2014.10+dfsg1-5           (won't fix)               deb   CVE-2019-14202    [91mHigh[0m        [0m2.6% (84th)   1.9    
 u-boot-tools          2014.10+dfsg1-5           (won't fix)               deb   CVE-2019-14203    [91mHigh[0m        [0m2.6% (84th)   1.9    
 u-boot-tools          2014.10+dfsg1-5           (won't fix)               deb   CVE-2019-14204    [91mHigh[0m        [0m2.6% (84th)   1.9    
 libpython2.7          2.7.9-2+deb8u1            2.7.9-2+deb8u4            deb   CVE-2018-20852    [33mMedium[0m      [0m3.9% (89th)   1.9    
@@ -450,8 +450,8 @@ libisccfg-export90    1:9.9.5.dfsg-9+deb8u8     1:9.9.5.dfsg-9+deb8u17    deb   
 libruby2.1            2.1.5-2+deb8u3            2.1.5-2+deb8u4            deb   CVE-2015-9096     [33mMedium[0m      [0m3.7% (89th)   1.9    
 libruby2.1            2.1.5-2+deb8u3            2.1.5-2+deb8u4            deb   CVE-2018-1000077  [33mMedium[0m      [0m3.7% (88th)   1.8    
 u-boot-tools          2014.10+dfsg1-5           (won't fix)               deb   CVE-2019-14194    [91mHigh[0m        [0m2.4% (83rd)   1.8    
-u-boot-tools          2014.10+dfsg1-5           (won't fix)               deb   CVE-2019-14199    [91mHigh[0m        [0m2.4% (83rd)   1.8    
 u-boot-tools          2014.10+dfsg1-5           (won't fix)               deb   CVE-2019-14198    [91mHigh[0m        [0m2.4% (83rd)   1.8    
+u-boot-tools          2014.10+dfsg1-5           (won't fix)               deb   CVE-2019-14199    [91mHigh[0m        [0m2.4% (83rd)   1.8    
 libgnutls-deb0-28     3.3.8-6+deb8u4            3.3.30-0+deb8u1           deb   CVE-2018-10844    [33mMedium[0m      [0m3.6% (88th)   1.8    
 libgnutls-deb0-28     3.3.8-6+deb8u4            3.3.30-0+deb8u1           deb   CVE-2018-10845    [33mMedium[0m      [0m3.6% (88th)   1.8    
 libgnutls-openssl27   3.3.8-6+deb8u4            3.3.30-0+deb8u1           deb   CVE-2018-10844    [33mMedium[0m      [0m3.6% (88th)   1.8    
@@ -514,24 +514,24 @@ libstdc++-4.9-dev     4.9.2-10                  (won't fix)               deb   
 libstdc++6            4.9.2-10                  (won't fix)               deb   CVE-2015-5276     [33mMedium[0m      [0m2.9% (86th)   1.5    
 libubsan0             4.9.2-10                  (won't fix)               deb   CVE-2015-5276     [33mMedium[0m      [0m2.9% (86th)   1.5    
 libncurses5           5.9+20140913-1+b1         5.9+20140913-1+deb8u1     deb   CVE-2017-13730    [33mMedium[0m      [0m2.9% (86th)   1.5    
-libncursesw5          5.9+20140913-1+b1         5.9+20140913-1+deb8u1     deb   CVE-2017-13730    [33mMedium[0m      [0m2.9% (86th)   1.5    
-libtinfo5             5.9+20140913-1+b1         5.9+20140913-1+deb8u1     deb   CVE-2017-13730    [33mMedium[0m      [0m2.9% (86th)   1.5    
-ncurses-base          5.9+20140913-1            5.9+20140913-1+deb8u1     deb   CVE-2017-13730    [33mMedium[0m      [0m2.9% (86th)   1.5    
-ncurses-bin           5.9+20140913-1+b1         5.9+20140913-1+deb8u1     deb   CVE-2017-13730    [33mMedium[0m      [0m2.9% (86th)   1.5    
-libncurses5           5.9+20140913-1+b1         5.9+20140913-1+deb8u1     deb   CVE-2017-13729    [33mMedium[0m      [0m2.9% (86th)   1.5    
 libncurses5           5.9+20140913-1+b1         5.9+20140913-1+deb8u1     deb   CVE-2017-13731    [33mMedium[0m      [0m2.9% (86th)   1.5    
+libncursesw5          5.9+20140913-1+b1         5.9+20140913-1+deb8u1     deb   CVE-2017-13730    [33mMedium[0m      [0m2.9% (86th)   1.5    
+libncursesw5          5.9+20140913-1+b1         5.9+20140913-1+deb8u1     deb   CVE-2017-13731    [33mMedium[0m      [0m2.9% (86th)   1.5    
+libtinfo5             5.9+20140913-1+b1         5.9+20140913-1+deb8u1     deb   CVE-2017-13730    [33mMedium[0m      [0m2.9% (86th)   1.5    
+libtinfo5             5.9+20140913-1+b1         5.9+20140913-1+deb8u1     deb   CVE-2017-13731    [33mMedium[0m      [0m2.9% (86th)   1.5    
+ncurses-base          5.9+20140913-1            5.9+20140913-1+deb8u1     deb   CVE-2017-13730    [33mMedium[0m      [0m2.9% (86th)   1.5    
+ncurses-base          5.9+20140913-1            5.9+20140913-1+deb8u1     deb   CVE-2017-13731    [33mMedium[0m      [0m2.9% (86th)   1.5    
+ncurses-bin           5.9+20140913-1+b1         5.9+20140913-1+deb8u1     deb   CVE-2017-13730    [33mMedium[0m      [0m2.9% (86th)   1.5    
+ncurses-bin           5.9+20140913-1+b1         5.9+20140913-1+deb8u1     deb   CVE-2017-13731    [33mMedium[0m      [0m2.9% (86th)   1.5    
+libncurses5           5.9+20140913-1+b1         5.9+20140913-1+deb8u1     deb   CVE-2017-13729    [33mMedium[0m      [0m2.9% (86th)   1.5    
 libncurses5           5.9+20140913-1+b1         5.9+20140913-1+deb8u1     deb   CVE-2017-13732    [33mMedium[0m      [0m2.9% (86th)   1.5    
 libncursesw5          5.9+20140913-1+b1         5.9+20140913-1+deb8u1     deb   CVE-2017-13729    [33mMedium[0m      [0m2.9% (86th)   1.5    
-libncursesw5          5.9+20140913-1+b1         5.9+20140913-1+deb8u1     deb   CVE-2017-13731    [33mMedium[0m      [0m2.9% (86th)   1.5    
 libncursesw5          5.9+20140913-1+b1         5.9+20140913-1+deb8u1     deb   CVE-2017-13732    [33mMedium[0m      [0m2.9% (86th)   1.5    
 libtinfo5             5.9+20140913-1+b1         5.9+20140913-1+deb8u1     deb   CVE-2017-13729    [33mMedium[0m      [0m2.9% (86th)   1.5    
-libtinfo5             5.9+20140913-1+b1         5.9+20140913-1+deb8u1     deb   CVE-2017-13731    [33mMedium[0m      [0m2.9% (86th)   1.5    
 libtinfo5             5.9+20140913-1+b1         5.9+20140913-1+deb8u1     deb   CVE-2017-13732    [33mMedium[0m      [0m2.9% (86th)   1.5    
 ncurses-base          5.9+20140913-1            5.9+20140913-1+deb8u1     deb   CVE-2017-13729    [33mMedium[0m      [0m2.9% (86th)   1.5    
-ncurses-base          5.9+20140913-1            5.9+20140913-1+deb8u1     deb   CVE-2017-13731    [33mMedium[0m      [0m2.9% (86th)   1.5    
 ncurses-base          5.9+20140913-1            5.9+20140913-1+deb8u1     deb   CVE-2017-13732    [33mMedium[0m      [0m2.9% (86th)   1.5    
 ncurses-bin           5.9+20140913-1+b1         5.9+20140913-1+deb8u1     deb   CVE-2017-13729    [33mMedium[0m      [0m2.9% (86th)   1.5    
-ncurses-bin           5.9+20140913-1+b1         5.9+20140913-1+deb8u1     deb   CVE-2017-13731    [33mMedium[0m      [0m2.9% (86th)   1.5    
 ncurses-bin           5.9+20140913-1+b1         5.9+20140913-1+deb8u1     deb   CVE-2017-13732    [33mMedium[0m      [0m2.9% (86th)   1.5    
 libruby2.1            2.1.5-2+deb8u3            2.1.5-2+deb8u5            deb   CVE-2018-1000074  [33mMedium[0m      [0m2.9% (85th)   1.4    
 libprocps3            2:3.3.9-9                 2:3.3.9-9+deb8u1          deb   CVE-2018-1126     [91mHigh[0m        [0m1.9% (78th)   1.4    
@@ -649,13 +649,14 @@ libgomp1              4.9.2-10                  (won't fix)               deb   
 libstdc++-4.9-dev     4.9.2-10                  (won't fix)               deb   CVE-2018-12886    [33mMedium[0m      [0m2.2% (81st)   1.1    
 libstdc++6            4.9.2-10                  (won't fix)               deb   CVE-2018-12886    [33mMedium[0m      [0m2.2% (81st)   1.1    
 libubsan0             4.9.2-10                  (won't fix)               deb   CVE-2018-12886    [33mMedium[0m      [0m2.2% (81st)   1.1    
-binutils              2.25-5                    (won't fix)               deb   CVE-2018-6872     [33mMedium[0m      [0m2.2% (80th)   1.1    
+binutils              2.25-5                    (won't fix)               deb   CVE-2018-6872     [33mMedium[0m      [0m2.2% (81st)   1.1    
 u-boot-tools          2014.10+dfsg1-5           (won't fix)               deb   CVE-2020-8432     [32mLow[0m         [0m3.6% (88th)   1.1    
 rdoc                  4.1.0                     6.1.2.1                   gem   CVE-2021-31799    [91mHigh[0m        [0m1.5% (72nd)   1.1    
 linux                 4.4.12-g7148fac-dirty-77                            deb   CVE-2019-19448    [33mMedium[0m      [0m2.1% (80th)   1.1    
 openssh-client        1:6.7p1-5+deb8u3          (won't fix)               deb   CVE-2018-15919    [32mLow[0m         [0m3.6% (88th)   1.1    
 openssh-server        1:6.7p1-5+deb8u3          (won't fix)               deb   CVE-2018-15919    [32mLow[0m         [0m3.6% (88th)   1.1    
 openssh-sftp-server   1:6.7p1-5+deb8u3          (won't fix)               deb   CVE-2018-15919    [32mLow[0m         [0m3.6% (88th)   1.1    
+ntp                   1:4.2.6.p5+dfsg-7+deb8u2  1:4.2.6.p5+dfsg-7+deb8u3  deb   CVE-2020-11868    [33mMedium[0m      [0m2.1% (80th)   1.1    
 libncurses5           5.9+20140913-1+b1         5.9+20140913-1+deb8u1     deb   CVE-2017-13734    [33mMedium[0m      [0m2.1% (80th)   1.1    
 libncursesw5          5.9+20140913-1+b1         5.9+20140913-1+deb8u1     deb   CVE-2017-13734    [33mMedium[0m      [0m2.1% (80th)   1.1    
 libtinfo5             5.9+20140913-1+b1         5.9+20140913-1+deb8u1     deb   CVE-2017-13734    [33mMedium[0m      [0m2.1% (80th)   1.1    
@@ -667,7 +668,6 @@ binutils              2.25-5                    (won't fix)               deb   
 openssh-client        1:6.7p1-5+deb8u3                                    deb   CVE-2019-6110     [90mNegligible[0m  [0m20.9% (97th)  1.0    
 openssh-server        1:6.7p1-5+deb8u3                                    deb   CVE-2019-6110     [90mNegligible[0m  [0m20.9% (97th)  1.0    
 openssh-sftp-server   1:6.7p1-5+deb8u3                                    deb   CVE-2019-6110     [90mNegligible[0m  [0m20.9% (97th)  1.0    
-ntp                   1:4.2.6.p5+dfsg-7+deb8u2  1:4.2.6.p5+dfsg-7+deb8u3  deb   CVE-2020-11868    [33mMedium[0m      [0m2.1% (80th)   1.0    
 libssl1.0.0           1.0.1t-1+deb8u5           1.0.1t-1+deb8u10          deb   CVE-2018-5407     [32mLow[0m         [0m3.4% (88th)   1.0    
 binutils              2.25-5                    (won't fix)               deb   CVE-2018-7569     [33mMedium[0m      [0m2.0% (79th)   1.0    
 libsystemd0           215-17+deb8u6             215-17+deb8u10            deb   CVE-2019-6454     [33mMedium[0m      [0m2.0% (79th)   1.0    
@@ -681,7 +681,7 @@ linux                 4.4.12-g7148fac-dirty-77                            deb   
 libpcre3              2:8.35-3.3+deb8u4         (won't fix)               deb   CVE-2017-7244     [33mMedium[0m      [0m2.0% (79th)   1.0    
 binutils              2.25-5                    (won't fix)               deb   CVE-2017-12448    [33mMedium[0m      [0m2.0% (79th)   1.0    
 libsqlite3-0          3.8.7.1-1+deb8u2          (won't fix)               deb   CVE-2019-5827     [33mMedium[0m      [0m2.0% (79th)   1.0    
-binutils              2.25-5                    (won't fix)               deb   CVE-2017-8398     [33mMedium[0m      [0m2.0% (78th)   1.0    
+binutils              2.25-5                    (won't fix)               deb   CVE-2017-8398     [33mMedium[0m      [0m2.0% (79th)   1.0    
 binutils              2.25-5                    (won't fix)               deb   CVE-2017-7223     [33mMedium[0m      [0m2.0% (78th)   1.0    
 libexpat1             2.1.0-6+deb8u3                                      deb   CVE-2013-0340     [90mNegligible[0m  [0m19.4% (97th)  1.0    
 libprocps3            2:3.3.9-9                 2:3.3.9-9+deb8u1          deb   CVE-2018-1124     [33mMedium[0m      [0m1.9% (78th)   1.0    
@@ -706,8 +706,8 @@ libc6-dev             2.19-18+deb8u7            (won't fix)               deb   
 multiarch-support     2.19-18+deb8u7            (won't fix)               deb   CVE-2017-12132    [33mMedium[0m      [0m1.9% (78th)   0.9    
 linux                 4.4.12-g7148fac-dirty-77                            deb   CVE-2017-9725     [91mHigh[0m        [0m1.2% (66th)   0.9    
 linux                 4.4.12-g7148fac-dirty-77                            deb   CVE-2019-19036    [33mMedium[0m      [0m1.8% (77th)   0.9    
-binutils              2.25-5                    (won't fix)               deb   CVE-2017-8396     [33mMedium[0m      [0m1.8% (77th)   0.9    
 binutils              2.25-5                    (won't fix)               deb   CVE-2017-8394     [33mMedium[0m      [0m1.8% (77th)   0.9    
+binutils              2.25-5                    (won't fix)               deb   CVE-2017-8396     [33mMedium[0m      [0m1.8% (77th)   0.9    
 binutils              2.25-5                    (won't fix)               deb   CVE-2017-8397     [33mMedium[0m      [0m1.8% (77th)   0.9    
 ntp                   1:4.2.6.p5+dfsg-7+deb8u2  (won't fix)               deb   CVE-2018-8956     [32mLow[0m         [0m3.0% (86th)   0.9    
 libgssapi-krb5-2      1.12.1+dfsg-19+deb8u2     (won't fix)               deb   CVE-2018-5710     [33mMedium[0m      [0m1.8% (76th)   0.9    
@@ -748,7 +748,7 @@ binutils              2.25-5                    (won't fix)               deb   
 binutils              2.25-5                    (won't fix)               deb   CVE-2017-12453    [33mMedium[0m      [0m1.5% (72nd)   0.7    
 binutils              2.25-5                    (won't fix)               deb   CVE-2017-12455    [33mMedium[0m      [0m1.5% (72nd)   0.7    
 binutils              2.25-5                    (won't fix)               deb   CVE-2018-7570     [33mMedium[0m      [0m1.5% (72nd)   0.7    
-binutils              2.25-5                    (won't fix)               deb   CVE-2017-13757    [33mMedium[0m      [0m1.5% (71st)   0.7    
+binutils              2.25-5                    (won't fix)               deb   CVE-2017-13757    [33mMedium[0m      [0m1.5% (72nd)   0.7    
 binutils              2.25-5                    (won't fix)               deb   CVE-2017-12449    [33mMedium[0m      [0m1.5% (71st)   0.7    
 binutils              2.25-5                    (won't fix)               deb   CVE-2017-12457    [33mMedium[0m      [0m1.4% (71st)   0.7    
 binutils              2.25-5                    (won't fix)               deb   CVE-2017-8421     [91mHigh[0m        [0m1.0% (59th)   0.7    
@@ -766,7 +766,7 @@ libapt-inst1.5        1.0.9.8.4                 1.0.9.8.6                 deb   
 libapt-pkg4.12        1.0.9.8.4                 1.0.9.8.6                 deb   CVE-2020-3810     [33mMedium[0m      [0m1.3% (68th)   0.7    
 libprocps3            2:3.3.9-9                 2:3.3.9-9+deb8u1          deb   CVE-2018-1122     [33mMedium[0m      [0m1.3% (68th)   0.7    
 procps                2:3.3.9-9                 2:3.3.9-9+deb8u1          deb   CVE-2018-1122     [33mMedium[0m      [0m1.3% (68th)   0.7    
-binutils              2.25-5                    (won't fix)               deb   CVE-2017-15020    [32mLow[0m         [0m2.2% (80th)   0.6    
+binutils              2.25-5                    (won't fix)               deb   CVE-2017-15020    [32mLow[0m         [0m2.2% (81st)   0.6    
 binutils              2.25-5                    (won't fix)               deb   CVE-2017-9043     [32mLow[0m         [0m2.1% (80th)   0.6    
 binutils              2.25-5                    (won't fix)               deb   CVE-2017-9038     [32mLow[0m         [0m2.1% (80th)   0.6    
 binutils              2.25-5                    (won't fix)               deb   CVE-2017-15023    [32mLow[0m         [0m2.1% (80th)   0.6    
@@ -779,8 +779,8 @@ libtinfo5             5.9+20140913-1+b1         (won't fix)               deb   
 ncurses-base          5.9+20140913-1            (won't fix)               deb   CVE-2019-17595    [32mLow[0m         [0m2.0% (79th)   0.6    
 ncurses-bin           5.9+20140913-1+b1         (won't fix)               deb   CVE-2019-17595    [32mLow[0m         [0m2.0% (79th)   0.6    
 binutils              2.25-5                    (won't fix)               deb   CVE-2017-14938    [32mLow[0m         [0m2.0% (79th)   0.6    
-binutils              2.25-5                    (won't fix)               deb   CVE-2017-15022    [32mLow[0m         [0m2.0% (79th)   0.6    
 binutils              2.25-5                    (won't fix)               deb   CVE-2017-15021    [32mLow[0m         [0m2.0% (79th)   0.6    
+binutils              2.25-5                    (won't fix)               deb   CVE-2017-15022    [32mLow[0m         [0m2.0% (79th)   0.6    
 libc-bin              2.19-18+deb8u7            (won't fix)               deb   CVE-2017-1000409  [33mMedium[0m      [0m1.2% (66th)   0.6    
 libc-dev-bin          2.19-18+deb8u7            (won't fix)               deb   CVE-2017-1000409  [33mMedium[0m      [0m1.2% (66th)   0.6    
 libc6                 2.19-18+deb8u7            (won't fix)               deb   CVE-2017-1000409  [33mMedium[0m      [0m1.2% (66th)   0.6    
@@ -813,15 +813,15 @@ libss2                1.42.12-2+b1              1.42.12-2+deb8u1          deb   
 binutils              2.25-5                    (won't fix)               deb   CVE-2017-17124    [32mLow[0m         [0m1.8% (77th)   0.6    
 unzip                 6.0-16+deb8u2             6.0-16+deb8u3             deb   CVE-2016-9844     [32mLow[0m         [0m1.8% (77th)   0.6    
 binutils              2.25-5                    (won't fix)               deb   CVE-2016-4490     [32mLow[0m         [0m1.8% (77th)   0.5    
-vim-common            2:7.4.488-7+deb8u1        2:7.4.488-7+deb8u4        deb   CVE-2017-11109    [33mMedium[0m      [0m1.1% (62nd)   0.5    
-vim-nox               2:7.4.488-7+deb8u1        2:7.4.488-7+deb8u4        deb   CVE-2017-11109    [33mMedium[0m      [0m1.1% (62nd)   0.5    
-vim-runtime           2:7.4.488-7+deb8u1        2:7.4.488-7+deb8u4        deb   CVE-2017-11109    [33mMedium[0m      [0m1.1% (62nd)   0.5    
-vim-tiny              2:7.4.488-7+deb8u1        2:7.4.488-7+deb8u4        deb   CVE-2017-11109    [33mMedium[0m      [0m1.1% (62nd)   0.5    
-binutils              2.25-5                    (won't fix)               deb   CVE-2017-16826    [32mLow[0m         [0m1.8% (76th)   0.5    
-binutils              2.25-5                    (won't fix)               deb   CVE-2017-16828    [32mLow[0m         [0m1.8% (76th)   0.5    
+vim-common            2:7.4.488-7+deb8u1        2:7.4.488-7+deb8u4        deb   CVE-2017-11109    [33mMedium[0m      [0m1.1% (63rd)   0.5    
+vim-nox               2:7.4.488-7+deb8u1        2:7.4.488-7+deb8u4        deb   CVE-2017-11109    [33mMedium[0m      [0m1.1% (63rd)   0.5    
+vim-runtime           2:7.4.488-7+deb8u1        2:7.4.488-7+deb8u4        deb   CVE-2017-11109    [33mMedium[0m      [0m1.1% (63rd)   0.5    
+vim-tiny              2:7.4.488-7+deb8u1        2:7.4.488-7+deb8u4        deb   CVE-2017-11109    [33mMedium[0m      [0m1.1% (63rd)   0.5    
 binutils              2.25-5                    (won't fix)               deb   CVE-2017-16829    [32mLow[0m         [0m1.8% (76th)   0.5    
 binutils              2.25-5                    (won't fix)               deb   CVE-2017-16831    [32mLow[0m         [0m1.8% (76th)   0.5    
 binutils              2.25-5                    (won't fix)               deb   CVE-2017-16832    [32mLow[0m         [0m1.8% (76th)   0.5    
+binutils              2.25-5                    (won't fix)               deb   CVE-2017-16826    [32mLow[0m         [0m1.8% (76th)   0.5    
+binutils              2.25-5                    (won't fix)               deb   CVE-2017-16828    [32mLow[0m         [0m1.8% (76th)   0.5    
 linux                 4.4.12-g7148fac-dirty-77  (won't fix)               deb   CVE-2016-3139     [32mLow[0m         [0m1.8% (76th)   0.5    
 binutils              2.25-5                    (won't fix)               deb   CVE-2017-16827    [32mLow[0m         [0m1.8% (76th)   0.5    
 binutils              2.25-5                    (won't fix)               deb   CVE-2016-4491     [32mLow[0m         [0m1.8% (76th)   0.5    
@@ -831,11 +831,11 @@ systemd               215-17+deb8u6             215-17+deb8u12            deb   
 systemd-sysv          215-17+deb8u6             215-17+deb8u12            deb   CVE-2017-18078    [33mMedium[0m      [0m1.1% (62nd)   0.5    
 udev                  215-17+deb8u6             215-17+deb8u12            deb   CVE-2017-18078    [33mMedium[0m      [0m1.1% (62nd)   0.5    
 linux                 4.4.12-g7148fac-dirty-77  (won't fix)               deb   CVE-2019-3874     [32mLow[0m         [0m1.8% (76th)   0.5    
-linux                 4.4.12-g7148fac-dirty-77  (won't fix)               deb   CVE-2019-11487    [91mHigh[0m        [0m0.7% (50th)   0.5    
+linux                 4.4.12-g7148fac-dirty-77  (won't fix)               deb   CVE-2019-11487    [91mHigh[0m        [0m0.7% (51st)   0.5    
 binutils              2.25-5                    (won't fix)               deb   CVE-2017-9955     [33mMedium[0m      [0m1.1% (62nd)   0.5    
 binutils              2.25-5                    (won't fix)               deb   CVE-2017-15025    [32mLow[0m         [0m1.8% (76th)   0.5    
 u-boot-tools          2014.10+dfsg1-5           (won't fix)               deb   CVE-2019-13106    [32mLow[0m         [0m1.8% (76th)   0.5    
-binutils              2.25-5                    (won't fix)               deb   CVE-2016-4489     [32mLow[0m         [0m1.7% (75th)   0.5    
+binutils              2.25-5                    (won't fix)               deb   CVE-2016-4489     [32mLow[0m         [0m1.7% (76th)   0.5    
 binutils              2.25-5                    (won't fix)               deb   CVE-2017-6966     [33mMedium[0m      [0m1.0% (61st)   0.5    
 e2fslibs              1.42.12-2+b1              1.42.12-2+deb8u2          deb   CVE-2019-5188     [33mMedium[0m      [0m1.0% (61st)   0.5    
 e2fsprogs             1.42.12-2+b1              1.42.12-2+deb8u2          deb   CVE-2019-5188     [33mMedium[0m      [0m1.0% (61st)   0.5    
@@ -849,14 +849,14 @@ binutils              2.25-5                    (won't fix)               deb   
 binutils              2.25-5                    (won't fix)               deb   CVE-2017-17125    [32mLow[0m         [0m1.6% (74th)   0.5    
 binutils              2.25-5                    (won't fix)               deb   CVE-2017-9044     [32mLow[0m         [0m1.6% (74th)   0.5    
 binutils              2.25-5                    (won't fix)               deb   CVE-2016-4493     [32mLow[0m         [0m1.6% (74th)   0.5    
-binutils              2.25-5                    (won't fix)               deb   CVE-2017-15024    [32mLow[0m         [0m1.6% (73rd)   0.5    
+binutils              2.25-5                    (won't fix)               deb   CVE-2017-15024    [32mLow[0m         [0m1.6% (74th)   0.5    
 binutils              2.25-5                    (won't fix)               deb   CVE-2017-17123    [32mLow[0m         [0m1.6% (73rd)   0.5    
 linux                 4.4.12-g7148fac-dirty-77  (won't fix)               deb   CVE-2016-2854     [33mMedium[0m      [0m0.9% (58th)   0.5    
 login                 1:4.2-3+deb8u1            (won't fix)               deb   CVE-2018-7169     [32mLow[0m         [0m1.6% (73rd)   0.5    
 passwd                1:4.2-3+deb8u1            (won't fix)               deb   CVE-2018-7169     [32mLow[0m         [0m1.6% (73rd)   0.5    
-binutils              2.25-5                    (won't fix)               deb   CVE-2017-14129    [32mLow[0m         [0m1.6% (73rd)   0.5    
-binutils              2.25-5                    (won't fix)               deb   CVE-2017-14130    [32mLow[0m         [0m1.6% (73rd)   0.5    
 binutils              2.25-5                    (won't fix)               deb   CVE-2017-14128    [32mLow[0m         [0m1.6% (73rd)   0.5    
+binutils              2.25-5                    (won't fix)               deb   CVE-2017-14130    [32mLow[0m         [0m1.6% (73rd)   0.5    
+binutils              2.25-5                    (won't fix)               deb   CVE-2017-14129    [32mLow[0m         [0m1.6% (73rd)   0.5    
 linux                 4.4.12-g7148fac-dirty-77  (won't fix)               deb   CVE-2018-12207    [33mMedium[0m      [0m0.9% (57th)   0.5    
 linux                 4.4.12-g7148fac-dirty-77  (won't fix)               deb   CVE-2016-2853     [33mMedium[0m      [0m0.9% (57th)   0.5    
 libhogweed2           2.7.1-5+deb8u2            (won't fix)               deb   CVE-2018-16869    [32mLow[0m         [0m1.5% (72nd)   0.4    
@@ -895,7 +895,7 @@ u-boot-tools          2014.10+dfsg1-5           (won't fix)               deb   
 ntp                   1:4.2.6.p5+dfsg-7+deb8u2  (won't fix)               deb   CVE-2016-0727     [32mLow[0m         [0m1.3% (67th)   0.4    
 binutils              2.25-5                    (won't fix)               deb   CVE-2017-14934    [32mLow[0m         [0m1.2% (67th)   0.4    
 binutils              2.25-5                    (won't fix)               deb   CVE-2017-7210     [32mLow[0m         [0m1.2% (66th)   0.4    
-libssl1.0.0           1.0.1t-1+deb8u5           1.0.1t-1+deb8u12          deb   CVE-2019-1547     [32mLow[0m         [0m1.2% (65th)   0.4    
+libssl1.0.0           1.0.1t-1+deb8u5           1.0.1t-1+deb8u12          deb   CVE-2019-1547     [32mLow[0m         [0m1.2% (66th)   0.4    
 u-boot-tools          2014.10+dfsg1-5           (won't fix)               deb   CVE-2019-11690    [32mLow[0m         [0m1.2% (65th)   0.4    
 linux                 4.4.12-g7148fac-dirty-77                            deb   CVE-2015-4001     [90mNegligible[0m  [0m7.1% (93rd)   0.4    
 libsystemd0           215-17+deb8u6             215-17+deb8u9             deb   CVE-2018-16864    [33mMedium[0m      [0m0.7% (51st)   0.4    
@@ -972,7 +972,7 @@ vim-common            2:7.4.488-7+deb8u1        (won't fix)               deb   
 vim-nox               2:7.4.488-7+deb8u1        (won't fix)               deb   CVE-2019-20807    [33mMedium[0m      [0m0.5% (40th)   0.2    
 vim-runtime           2:7.4.488-7+deb8u1        (won't fix)               deb   CVE-2019-20807    [33mMedium[0m      [0m0.5% (40th)   0.2    
 vim-tiny              2:7.4.488-7+deb8u1        (won't fix)               deb   CVE-2019-20807    [33mMedium[0m      [0m0.5% (40th)   0.2    
-patch                 2.7.5-1                                             deb   CVE-2010-4651     [90mNegligible[0m  [0m4.8% (91st)   0.2    
+patch                 2.7.5-1                                             deb   CVE-2010-4651     [90mNegligible[0m  [0m4.9% (91st)   0.2    
 libc-bin              2.19-18+deb8u7            (won't fix)               deb   CVE-2016-10739    [33mMedium[0m      [0m0.5% (39th)   0.2    
 libc-dev-bin          2.19-18+deb8u7            (won't fix)               deb   CVE-2016-10739    [33mMedium[0m      [0m0.5% (39th)   0.2    
 libc6                 2.19-18+deb8u7            (won't fix)               deb   CVE-2016-10739    [33mMedium[0m      [0m0.5% (39th)   0.2    
@@ -1005,7 +1005,7 @@ util-linux            2.25.2-6                                            deb   
 libpython2.7          2.7.9-2+deb8u1                                      deb   CVE-2016-1000110  [90mNegligible[0m  [0m4.5% (90th)   0.2    
 libpython2.7-minimal  2.7.9-2+deb8u1                                      deb   CVE-2016-1000110  [90mNegligible[0m  [0m4.5% (90th)   0.2    
 libpython2.7-stdlib   2.7.9-2+deb8u1                                      deb   CVE-2016-1000110  [90mNegligible[0m  [0m4.5% (90th)   0.2    
-linux                 4.4.12-g7148fac-dirty-77  (won't fix)               deb   CVE-2019-18660    [32mLow[0m         [0m0.7% (51st)   0.2    
+linux                 4.4.12-g7148fac-dirty-77  (won't fix)               deb   CVE-2019-18660    [32mLow[0m         [0m0.7% (52nd)   0.2    
 linux                 4.4.12-g7148fac-dirty-77                            deb   CVE-2019-20812    [33mMedium[0m      [0m0.4% (36th)   0.2    
 linux                 4.4.12-g7148fac-dirty-77                            deb   CVE-2018-12928    [33mMedium[0m      [0m0.4% (35th)   0.2    
 openssh-client        1:6.7p1-5+deb8u3                                    deb   CVE-2016-10010    [90mNegligible[0m  [0m4.2% (90th)   0.2    
@@ -1015,8 +1015,8 @@ linux                 4.4.12-g7148fac-dirty-77                            deb   
 linux                 4.4.12-g7148fac-dirty-77                            deb   CVE-2019-19039    [32mLow[0m         [0m0.7% (50th)   0.2    
 linux                 4.4.12-g7148fac-dirty-77                            deb   CVE-2018-1121     [90mNegligible[0m  [0m4.2% (90th)   0.2    
 linux                 4.4.12-g7148fac-dirty-77                            deb   CVE-2015-9289     [33mMedium[0m      [0m0.4% (34th)   0.2    
-login                 1:4.2-3+deb8u1            1:4.2-3+deb8u3            deb   CVE-2016-6252     [33mMedium[0m      [0m0.4% (33rd)   0.2    
-passwd                1:4.2-3+deb8u1            1:4.2-3+deb8u3            deb   CVE-2016-6252     [33mMedium[0m      [0m0.4% (33rd)   0.2    
+login                 1:4.2-3+deb8u1            1:4.2-3+deb8u3            deb   CVE-2016-6252     [33mMedium[0m      [0m0.4% (34th)   0.2    
+passwd                1:4.2-3+deb8u1            1:4.2-3+deb8u3            deb   CVE-2016-6252     [33mMedium[0m      [0m0.4% (34th)   0.2    
 linux                 4.4.12-g7148fac-dirty-77                            deb   CVE-2019-17351    [33mMedium[0m      [0m0.4% (33rd)   0.2    
 linux                 4.4.12-g7148fac-dirty-77  (won't fix)               deb   CVE-2018-12929    [33mMedium[0m      [0m0.4% (33rd)   0.2    
 linux                 4.4.12-g7148fac-dirty-77                            deb   CVE-2020-12888    [33mMedium[0m      [0m0.4% (33rd)   0.2    
@@ -1032,7 +1032,7 @@ linux                 4.4.12-g7148fac-dirty-77                            deb   
 linux                 4.4.12-g7148fac-dirty-77                            deb   CVE-2016-10723    [33mMedium[0m      [0m0.4% (30th)   0.2    
 libsqlite3-0          3.8.7.1-1+deb8u2          (won't fix)               deb   CVE-2020-13631    [32mLow[0m         [0m0.6% (47th)   0.2    
 linux                 4.4.12-g7148fac-dirty-77  (won't fix)               deb   CVE-2020-10732    [32mLow[0m         [0m0.6% (47th)   0.2    
-linux                 4.4.12-g7148fac-dirty-77                            deb   CVE-2016-10906    [33mMedium[0m      [0m0.4% (29th)   0.2    
+linux                 4.4.12-g7148fac-dirty-77                            deb   CVE-2016-10906    [33mMedium[0m      [0m0.4% (30th)   0.2    
 linux                 4.4.12-g7148fac-dirty-77                            deb   CVE-2019-19060    [90mNegligible[0m  [0m3.6% (88th)   0.2    
 libpython2.7          2.7.9-2+deb8u1                                      deb   CVE-2017-17522    [90mNegligible[0m  [0m3.6% (88th)   0.2    
 libpython2.7-minimal  2.7.9-2+deb8u1                                      deb   CVE-2017-17522    [90mNegligible[0m  [0m3.6% (88th)   0.2    
@@ -1075,7 +1075,7 @@ libc6                 2.19-18+deb8u7            (won't fix)               deb   
 libc6-dev             2.19-18+deb8u7            (won't fix)               deb   CVE-2020-1752     [32mLow[0m         [0m0.5% (43rd)   0.2    
 multiarch-support     2.19-18+deb8u7            (won't fix)               deb   CVE-2020-1752     [32mLow[0m         [0m0.5% (43rd)   0.2    
 linux                 4.4.12-g7148fac-dirty-77                            deb   CVE-2019-19064    [90mNegligible[0m  [0m3.2% (87th)   0.2    
-libxdmcp6             1:1.1.1-1+b1              1:1.1.1-1+deb8u1          deb   CVE-2017-2625     [32mLow[0m         [0m0.5% (42nd)   0.2    
+libxdmcp6             1:1.1.1-1+b1              1:1.1.1-1+deb8u1          deb   CVE-2017-2625     [32mLow[0m         [0m0.5% (43rd)   0.2    
 linux                 4.4.12-g7148fac-dirty-77                            deb   CVE-2019-19073    [32mLow[0m         [0m0.5% (42nd)   0.2    
 libc-bin              2.19-18+deb8u7                                      deb   CVE-2019-1010024  [90mNegligible[0m  [0m3.2% (87th)   0.2    
 libc-dev-bin          2.19-18+deb8u7                                      deb   CVE-2019-1010024  [90mNegligible[0m  [0m3.2% (87th)   0.2    
@@ -1128,19 +1128,19 @@ linux                 4.4.12-g7148fac-dirty-77                            deb   
 linux                 4.4.12-g7148fac-dirty-77  (won't fix)               deb   CVE-2015-8952     [32mLow[0m         [0m0.5% (37th)   0.1    
 linux                 4.4.12-g7148fac-dirty-77                            deb   CVE-2020-12655    [32mLow[0m         [0m0.5% (37th)   0.1    
 binutils              2.25-5                                              deb   CVE-2018-20712    [90mNegligible[0m  [0m2.7% (84th)   0.1    
-cpp-4.9               4.9.2-10                  (won't fix)               deb   CVE-2017-11671    [32mLow[0m         [0m0.4% (36th)   0.1    
-g++-4.9               4.9.2-10                  (won't fix)               deb   CVE-2017-11671    [32mLow[0m         [0m0.4% (36th)   0.1    
-gcc-4.8-base          4.8.4-1                   (won't fix)               deb   CVE-2017-11671    [32mLow[0m         [0m0.4% (36th)   0.1    
-gcc-4.9               4.9.2-10                  (won't fix)               deb   CVE-2017-11671    [32mLow[0m         [0m0.4% (36th)   0.1    
-gcc-4.9-base          4.9.2-10                  (won't fix)               deb   CVE-2017-11671    [32mLow[0m         [0m0.4% (36th)   0.1    
-libasan1              4.9.2-10                  (won't fix)               deb   CVE-2017-11671    [32mLow[0m         [0m0.4% (36th)   0.1    
-libatomic1            4.9.2-10                  (won't fix)               deb   CVE-2017-11671    [32mLow[0m         [0m0.4% (36th)   0.1    
-libgcc-4.9-dev        4.9.2-10                  (won't fix)               deb   CVE-2017-11671    [32mLow[0m         [0m0.4% (36th)   0.1    
-libgcc1               1:4.9.2-10                (won't fix)               deb   CVE-2017-11671    [32mLow[0m         [0m0.4% (36th)   0.1    
-libgomp1              4.9.2-10                  (won't fix)               deb   CVE-2017-11671    [32mLow[0m         [0m0.4% (36th)   0.1    
-libstdc++-4.9-dev     4.9.2-10                  (won't fix)               deb   CVE-2017-11671    [32mLow[0m         [0m0.4% (36th)   0.1    
-libstdc++6            4.9.2-10                  (won't fix)               deb   CVE-2017-11671    [32mLow[0m         [0m0.4% (36th)   0.1    
-libubsan0             4.9.2-10                  (won't fix)               deb   CVE-2017-11671    [32mLow[0m         [0m0.4% (36th)   0.1    
+cpp-4.9               4.9.2-10                  (won't fix)               deb   CVE-2017-11671    [32mLow[0m         [0m0.4% (37th)   0.1    
+g++-4.9               4.9.2-10                  (won't fix)               deb   CVE-2017-11671    [32mLow[0m         [0m0.4% (37th)   0.1    
+gcc-4.8-base          4.8.4-1                   (won't fix)               deb   CVE-2017-11671    [32mLow[0m         [0m0.4% (37th)   0.1    
+gcc-4.9               4.9.2-10                  (won't fix)               deb   CVE-2017-11671    [32mLow[0m         [0m0.4% (37th)   0.1    
+gcc-4.9-base          4.9.2-10                  (won't fix)               deb   CVE-2017-11671    [32mLow[0m         [0m0.4% (37th)   0.1    
+libasan1              4.9.2-10                  (won't fix)               deb   CVE-2017-11671    [32mLow[0m         [0m0.4% (37th)   0.1    
+libatomic1            4.9.2-10                  (won't fix)               deb   CVE-2017-11671    [32mLow[0m         [0m0.4% (37th)   0.1    
+libgcc-4.9-dev        4.9.2-10                  (won't fix)               deb   CVE-2017-11671    [32mLow[0m         [0m0.4% (37th)   0.1    
+libgcc1               1:4.9.2-10                (won't fix)               deb   CVE-2017-11671    [32mLow[0m         [0m0.4% (37th)   0.1    
+libgomp1              4.9.2-10                  (won't fix)               deb   CVE-2017-11671    [32mLow[0m         [0m0.4% (37th)   0.1    
+libstdc++-4.9-dev     4.9.2-10                  (won't fix)               deb   CVE-2017-11671    [32mLow[0m         [0m0.4% (37th)   0.1    
+libstdc++6            4.9.2-10                  (won't fix)               deb   CVE-2017-11671    [32mLow[0m         [0m0.4% (37th)   0.1    
+libubsan0             4.9.2-10                  (won't fix)               deb   CVE-2017-11671    [32mLow[0m         [0m0.4% (37th)   0.1    
 binutils              2.25-5                                              deb   CVE-2019-1010180  [90mNegligible[0m  [0m2.6% (84th)   0.1    
 libc-bin              2.19-18+deb8u7                                      deb   CVE-2010-4756     [90mNegligible[0m  [0m2.6% (84th)   0.1    
 libc-dev-bin          2.19-18+deb8u7                                      deb   CVE-2010-4756     [90mNegligible[0m  [0m2.6% (84th)   0.1    
@@ -1172,15 +1172,15 @@ binutils              2.25-5                                              deb   
 libgnutls-deb0-28     3.3.8-6+deb8u4            3.3.30-0+deb8u1           deb   CVE-2018-10846    [32mLow[0m         [0m0.4% (31st)   0.1    
 libgnutls-openssl27   3.3.8-6+deb8u4            3.3.30-0+deb8u1           deb   CVE-2018-10846    [32mLow[0m         [0m0.4% (31st)   0.1    
 binutils              2.25-5                                              deb   CVE-2018-18605    [90mNegligible[0m  [0m2.3% (82nd)   0.1    
-binutils              2.25-5                                              deb   CVE-2018-18607    [90mNegligible[0m  [0m2.3% (82nd)   0.1    
 binutils              2.25-5                                              deb   CVE-2018-18606    [90mNegligible[0m  [0m2.3% (82nd)   0.1    
+binutils              2.25-5                                              deb   CVE-2018-18607    [90mNegligible[0m  [0m2.3% (82nd)   0.1    
 binutils              2.25-5                                              deb   CVE-2019-14250    [90mNegligible[0m  [0m2.3% (82nd)   0.1    
-libpcre3              2:8.35-3.3+deb8u4         (won't fix)               deb   CVE-2017-7245     [90mNegligible[0m  [0m2.3% (81st)   0.1    
+libpcre3              2:8.35-3.3+deb8u4         (won't fix)               deb   CVE-2017-7245     [90mNegligible[0m  [0m2.3% (82nd)   0.1    
 openssh-client        1:6.7p1-5+deb8u3          1:6.7p1-5+deb8u6          deb   CVE-2015-6563     [32mLow[0m         [0m0.4% (31st)   0.1    
 openssh-server        1:6.7p1-5+deb8u3          1:6.7p1-5+deb8u6          deb   CVE-2015-6563     [32mLow[0m         [0m0.4% (31st)   0.1    
 openssh-sftp-server   1:6.7p1-5+deb8u3          1:6.7p1-5+deb8u6          deb   CVE-2015-6563     [32mLow[0m         [0m0.4% (31st)   0.1    
 linux                 4.4.12-g7148fac-dirty-77  (won't fix)               deb   CVE-2015-8553     [32mLow[0m         [0m0.4% (31st)   0.1    
-linux                 4.4.12-g7148fac-dirty-77  (won't fix)               deb   CVE-2018-7754     [32mLow[0m         [0m0.4% (30th)   0.1    
+linux                 4.4.12-g7148fac-dirty-77  (won't fix)               deb   CVE-2018-7754     [32mLow[0m         [0m0.4% (31st)   0.1    
 libc-bin              2.19-18+deb8u7                                      deb   CVE-2019-1010025  [90mNegligible[0m  [0m2.3% (81st)   0.1    
 libc-dev-bin          2.19-18+deb8u7                                      deb   CVE-2019-1010025  [90mNegligible[0m  [0m2.3% (81st)   0.1    
 libc6                 2.19-18+deb8u7                                      deb   CVE-2019-1010025  [90mNegligible[0m  [0m2.3% (81st)   0.1    
@@ -1225,9 +1225,9 @@ binutils              2.25-5                                              deb   
 binutils              2.25-5                                              deb   CVE-2019-9071     [90mNegligible[0m  [0m1.8% (77th)   < 0.1  
 iptables              1.4.21-2+b1                                         deb   CVE-2019-11360    [90mNegligible[0m  [0m1.8% (77th)   < 0.1  
 libxtables10          1.4.21-2+b1                                         deb   CVE-2019-11360    [90mNegligible[0m  [0m1.8% (77th)   < 0.1  
-binutils              2.25-5                                              deb   CVE-2018-17794    [90mNegligible[0m  [0m1.8% (76th)   < 0.1  
-binutils              2.25-5                                              deb   CVE-2019-12972    [90mNegligible[0m  [0m1.8% (76th)   < 0.1  
-binutils              2.25-5                                              deb   CVE-2019-9070     [90mNegligible[0m  [0m1.8% (76th)   < 0.1  
+binutils              2.25-5                                              deb   CVE-2018-17794    [90mNegligible[0m  [0m1.8% (77th)   < 0.1  
+binutils              2.25-5                                              deb   CVE-2019-12972    [90mNegligible[0m  [0m1.8% (77th)   < 0.1  
+binutils              2.25-5                                              deb   CVE-2019-9070     [90mNegligible[0m  [0m1.8% (77th)   < 0.1  
 libsystemd0           215-17+deb8u6             (won't fix)               deb   CVE-2018-16888    [32mLow[0m         [0m0.3% (21st)   < 0.1  
 libudev1              215-17+deb8u6             (won't fix)               deb   CVE-2018-16888    [32mLow[0m         [0m0.3% (21st)   < 0.1  
 systemd               215-17+deb8u6             (won't fix)               deb   CVE-2018-16888    [32mLow[0m         [0m0.3% (21st)   < 0.1  
@@ -1237,8 +1237,8 @@ gnupg                 1.4.18-7+deb8u3                                     deb   
 gpgv                  1.4.18-7+deb8u3                                     deb   CVE-2018-6829     [90mNegligible[0m  [0m1.8% (76th)   < 0.1  
 libgcrypt20           1.6.3-2+deb8u2                                      deb   CVE-2018-6829     [90mNegligible[0m  [0m1.8% (76th)   < 0.1  
 linux                 4.4.12-g7148fac-dirty-77                            deb   CVE-2016-9120     [90mNegligible[0m  [0m1.7% (76th)   < 0.1  
-binutils              2.25-5                                              deb   CVE-2018-18701    [90mNegligible[0m  [0m1.7% (75th)   < 0.1  
 binutils              2.25-5                                              deb   CVE-2018-18700    [90mNegligible[0m  [0m1.7% (75th)   < 0.1  
+binutils              2.25-5                                              deb   CVE-2018-18701    [90mNegligible[0m  [0m1.7% (75th)   < 0.1  
 binutils              2.25-5                                              deb   CVE-2019-9075     [90mNegligible[0m  [0m1.7% (75th)   < 0.1  
 binutils              2.25-5                                              deb   CVE-2018-20673    [90mNegligible[0m  [0m1.6% (74th)   < 0.1  
 libssl1.0.0           1.0.1t-1+deb8u5                                     deb   CVE-2007-6755     [90mNegligible[0m  [0m1.6% (74th)   < 0.1  
@@ -1279,7 +1279,7 @@ linux                 4.4.12-g7148fac-dirty-77                            deb   
 linux                 4.4.12-g7148fac-dirty-77                            deb   CVE-2015-8967     [90mNegligible[0m  [0m0.8% (55th)   < 0.1  
 u-boot-tools          2014.10+dfsg1-5                                     deb   CVE-2018-1000205  [90mNegligible[0m  [0m0.7% (51st)   < 0.1  
 libcryptsetup4        2:1.6.6-5                                           deb   CVE-2016-4484     [90mNegligible[0m  [0m0.7% (51st)   < 0.1  
-binutils              2.25-5                                              deb   CVE-2018-1000876  [90mNegligible[0m  [0m0.7% (48th)   < 0.1  
+binutils              2.25-5                                              deb   CVE-2018-1000876  [90mNegligible[0m  [0m0.7% (49th)   < 0.1  
 linux                 4.4.12-g7148fac-dirty-77                            deb   CVE-2019-12614    [90mNegligible[0m  [0m0.6% (47th)   < 0.1  
 libc-bin              2.19-18+deb8u7                                      deb   CVE-2019-7309     [90mNegligible[0m  [0m0.6% (46th)   < 0.1  
 libc-dev-bin          2.19-18+deb8u7                                      deb   CVE-2019-7309     [90mNegligible[0m  [0m0.6% (46th)   < 0.1  
@@ -1329,8 +1329,8 @@ linux                 4.4.12-g7148fac-dirty-77                            deb   
 linux                 4.4.12-g7148fac-dirty-77                            deb   CVE-2019-12378    [90mNegligible[0m  [0m0.4% (37th)   < 0.1  
 linux                 4.4.12-g7148fac-dirty-77                            deb   CVE-2019-12379    [90mNegligible[0m  [0m0.4% (37th)   < 0.1  
 linux                 4.4.12-g7148fac-dirty-77                            deb   CVE-2019-12381    [90mNegligible[0m  [0m0.4% (37th)   < 0.1  
-linux                 4.4.12-g7148fac-dirty-77                            deb   CVE-2015-7885     [90mNegligible[0m  [0m0.4% (36th)   < 0.1  
-linux                 4.4.12-g7148fac-dirty-77                            deb   CVE-2017-13693    [90mNegligible[0m  [0m0.4% (36th)   < 0.1  
+linux                 4.4.12-g7148fac-dirty-77                            deb   CVE-2015-7885     [90mNegligible[0m  [0m0.4% (37th)   < 0.1  
+linux                 4.4.12-g7148fac-dirty-77                            deb   CVE-2017-13693    [90mNegligible[0m  [0m0.4% (37th)   < 0.1  
 linux                 4.4.12-g7148fac-dirty-77                            deb   CVE-2017-13695    [90mNegligible[0m  [0m0.4% (36th)   < 0.1  
 linux                 4.4.12-g7148fac-dirty-77                            deb   CVE-2019-16234    [90mNegligible[0m  [0m0.4% (36th)   < 0.1  
 libc-bin              2.19-18+deb8u7                                      deb   CVE-2019-6488     [90mNegligible[0m  [0m0.4% (36th)   < 0.1  

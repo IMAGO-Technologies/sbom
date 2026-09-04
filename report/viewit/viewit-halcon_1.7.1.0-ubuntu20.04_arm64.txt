@@ -1,7 +1,7 @@
 NAME             INSTALLED                      FIXED IN                      TYPE  VULNERABILITY     SEVERITY    EPSS          RISK                   
 python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2007-4559     [33mMedium[0m      [0m27.1% (97th)  13.5   [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
-python3.8        3.8.10-0ubuntu1~20.04.18                                     deb   CVE-2021-23336    [32mLow[0m         [0m36.0% (98th)  10.8   [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2021-23336    [32mLow[0m         [0m36.0% (98th)  10.8   [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
+python3.8        3.8.10-0ubuntu1~20.04.18                                     deb   CVE-2021-23336    [32mLow[0m         [0m36.0% (98th)  10.8   [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 libxml2          2.9.10+dfsg-5ubuntu0.20.04.10  2.9.10+dfsg-5ubuntu0.20.10.2  deb   CVE-2021-3517     [33mMedium[0m      [0m8.3% (94th)   4.1    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 libxml2          2.9.10+dfsg-5ubuntu0.20.04.10  2.9.10+dfsg-5ubuntu0.20.10.2  deb   CVE-2021-3518     [33mMedium[0m      [0m3.7% (88th)   1.8    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 libxml2          2.9.10+dfsg-5ubuntu0.20.04.10  2.9.10+dfsg-5ubuntu0.20.10.2  deb   CVE-2021-3537     [33mMedium[0m      [0m3.5% (88th)   1.8    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
@@ -13,10 +13,10 @@ python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   de
 libxml2          2.9.10+dfsg-5ubuntu0.20.04.10  (won't fix)                   deb   CVE-2025-49796    [33mMedium[0m      [0m1.5% (72nd)   0.7    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 libgcrypt20      1.8.5-5ubuntu1.1                                             deb   CVE-2021-33560    [32mLow[0m         [0m2.3% (82nd)   0.7    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 libtasn1-6       4.16.0-2ubuntu0.1              (won't fix)                   deb   CVE-2021-46848    [32mLow[0m         [0m2.2% (81st)   0.7    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
-libxml2          2.9.10+dfsg-5ubuntu0.20.04.10  (won't fix)                   deb   CVE-2025-6021     [33mMedium[0m      [0m1.2% (65th)   0.6    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
+libxml2          2.9.10+dfsg-5ubuntu0.20.04.10  (won't fix)                   deb   CVE-2025-6021     [33mMedium[0m      [0m1.3% (67th)   0.6    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 libtasn1-6       4.16.0-2ubuntu0.1              (won't fix)                   deb   CVE-2025-13151    [33mMedium[0m      [0m1.2% (64th)   0.6    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 python3.8        3.8.10-0ubuntu1~20.04.18                                     deb   CVE-2021-3426     [32mLow[0m         [0m1.9% (77th)   0.6    [90m([0m[90mubuntu:20.10[0m[90m)[0m  [0m
-libxml2          2.9.10+dfsg-5ubuntu0.20.04.10  (won't fix)                   deb   CVE-2026-0990     [33mMedium[0m      [0m0.8% (54th)   0.4    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
+libxml2          2.9.10+dfsg-5ubuntu0.20.04.10  (won't fix)                   deb   CVE-2026-0990     [33mMedium[0m      [0m0.8% (55th)   0.4    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2025-12084    [33mMedium[0m      [0m0.8% (54th)   0.4    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2026-11940    [33mMedium[0m      [0m0.8% (52nd)   0.4    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 libxml2          2.9.10+dfsg-5ubuntu0.20.04.10  (won't fix)                   deb   CVE-2025-49794    [33mMedium[0m      [0m0.7% (51st)   0.4    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
@@ -28,26 +28,26 @@ python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   de
 python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2025-8194     [33mMedium[0m      [0m0.6% (46th)   0.3    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2026-6100     [33mMedium[0m      [0m0.6% (45th)   0.3    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2020-10735    [90mNegligible[0m  [0m5.8% (92nd)   0.3    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
-python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2025-11468    [33mMedium[0m      [0m0.6% (44th)   0.3    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
+python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2025-11468    [33mMedium[0m      [0m0.6% (45th)   0.3    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2025-69534    [33mMedium[0m      [0m0.6% (44th)   0.3    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2026-1502     [33mMedium[0m      [0m0.6% (44th)   0.3    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2025-12781    [33mMedium[0m      [0m0.5% (42nd)   0.3    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2026-1299     [33mMedium[0m      [0m0.5% (42nd)   0.3    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2025-6069     [33mMedium[0m      [0m0.5% (41st)   0.3    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2025-15282    [33mMedium[0m      [0m0.5% (40th)   0.2    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
-python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2026-3276     [33mMedium[0m      [0m0.5% (39th)   0.2    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
+python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2026-3276     [33mMedium[0m      [0m0.5% (40th)   0.2    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2026-17084    [33mMedium[0m      [0m0.5% (39th)   0.2    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2026-0865     [33mMedium[0m      [0m0.5% (39th)   0.2    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2026-3644     [33mMedium[0m      [0m0.5% (39th)   0.2    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2019-17514    [90mNegligible[0m  [0m4.7% (91st)   0.2    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
+libxml2          2.9.10+dfsg-5ubuntu0.20.04.10  (won't fix)                   deb   CVE-2026-0989     [33mMedium[0m      [0m0.5% (38th)   0.2    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2026-8328     [33mMedium[0m      [0m0.5% (38th)   0.2    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
-libxml2          2.9.10+dfsg-5ubuntu0.20.04.10  (won't fix)                   deb   CVE-2026-0989     [33mMedium[0m      [0m0.5% (37th)   0.2    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2026-11972    [33mMedium[0m      [0m0.4% (37th)   0.2    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
+libxml2          2.9.10+dfsg-5ubuntu0.20.04.10  (won't fix)                   deb   CVE-2026-0992     [33mMedium[0m      [0m0.4% (36th)   0.2    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 tar              1.30+dfsg-7ubuntu0.20.04.4     (won't fix)                   deb   CVE-2025-45582    [33mMedium[0m      [0m0.4% (36th)   0.2    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2026-9669     [33mMedium[0m      [0m0.4% (35th)   0.2    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
-libxml2          2.9.10+dfsg-5ubuntu0.20.04.10  (won't fix)                   deb   CVE-2026-0992     [33mMedium[0m      [0m0.4% (35th)   0.2    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2026-0672     [33mMedium[0m      [0m0.4% (34th)   0.2    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
-python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2026-19672    [33mMedium[0m      [0m0.4% (33rd)   0.2    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
+python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2026-19672    [33mMedium[0m      [0m0.4% (34th)   0.2    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2026-15806    [33mMedium[0m      [0m0.4% (33rd)   0.2    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2025-15366    [33mMedium[0m      [0m0.4% (30th)   0.2    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 tar              1.30+dfsg-7ubuntu0.20.04.4     (won't fix)                   deb   CVE-2026-5704     [33mMedium[0m      [0m0.4% (30th)   0.2    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
@@ -57,11 +57,12 @@ python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   de
 libxml2          2.9.10+dfsg-5ubuntu0.20.04.10  (won't fix)                   deb   CVE-2025-7425     [33mMedium[0m      [0m0.3% (26th)   0.2    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2025-15367    [33mMedium[0m      [0m0.3% (25th)   0.2    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2026-4519     [33mMedium[0m      [0m0.3% (23rd)   0.2    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
+python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2026-15310    [33mMedium[0m      [0m0.3% (22nd)   0.2    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2026-4786     [33mMedium[0m      [0m0.3% (21st)   0.1    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
+libxml2          2.9.10+dfsg-5ubuntu0.20.04.10  (won't fix)                   deb   CVE-2025-6170     [33mMedium[0m      [0m0.3% (20th)   0.1    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2026-4360     [33mMedium[0m      [0m0.3% (19th)   0.1    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 coreutils        8.30-3ubuntu2                                                deb   CVE-2016-2781     [32mLow[0m         [0m0.4% (35th)   0.1    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 coreutils        8.30-3ubuntu2                  (won't fix)                   deb   CVE-2016-2781     [32mLow[0m         [0m0.4% (35th)   0.1    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
-libxml2          2.9.10+dfsg-5ubuntu0.20.04.10  (won't fix)                   deb   CVE-2025-6170     [33mMedium[0m      [0m0.2% (15th)   0.1    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2026-6019     [33mMedium[0m      [0m0.2% (13th)   0.1    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2025-13837    [33mMedium[0m      [0m0.2% (12th)   0.1    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2025-4516     [33mMedium[0m      [0m0.2% (11th)   0.1    [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
@@ -74,6 +75,7 @@ python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   de
 libgcrypt20      1.8.5-5ubuntu1.1                                             deb   CVE-2026-41989    [33mMedium[0m      [0m0.2% (7th)    < 0.1  [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 glib-networking  2.64.2-1ubuntu0.1                                            deb   CVE-2026-10028    [33mMedium[0m      [0m0.2% (7th)    < 0.1  [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2025-13462    [33mMedium[0m      [0m0.2% (5th)    < 0.1  [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
+python3.8        3.8.10-0ubuntu1~20.04.18       (won't fix)                   deb   CVE-2026-84366    [33mMedium[0m      [0m0.2% (5th)    < 0.1  [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 coreutils        8.30-3ubuntu2                  (won't fix)                   deb   CVE-2025-5278     [32mLow[0m         [0m0.3% (18th)   < 0.1  [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 libxml2          2.9.10+dfsg-5ubuntu0.20.04.10  (won't fix)                   deb   CVE-2025-9714     [33mMedium[0m      [0m0.2% (4th)    < 0.1  [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
 tar              1.30+dfsg-7ubuntu0.20.04.4     (won't fix)                   deb   CVE-2026-18508    [33mMedium[0m      [0m0.1% (3rd)    < 0.1  [90m([0m[90mubuntu:20.04[0m[90m)[0m  [0m
