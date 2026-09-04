@@ -1,15 +1,16 @@
 name: Update SBOMs and vulnerability reports
 
 on:
-  push:
-    branches:
-      - master
+  workflow_dispatch:
 
-    workflow_dispatch:
+  workflow_run:
+    workflows: [Auto-merge Pull Request]
+    types: [completed]
 
 jobs:
   sbom-update:
     runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     name: Update HTML pages
     steps:
       - uses: actions/checkout@v6
