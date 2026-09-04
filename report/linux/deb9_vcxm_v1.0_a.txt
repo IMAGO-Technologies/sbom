@@ -162,12 +162,12 @@ libc6                 2.24-11+deb9u3                      2.24-11+deb9u4        
 libc6-dev             2.24-11+deb9u3                      2.24-11+deb9u4                 deb   CVE-2018-11236    [1;95mCritical[0m    [0m7.3% (93rd)   6.6           
 multiarch-support     2.24-11+deb9u3                      2.24-11+deb9u4                 deb   CVE-2018-11236    [1;95mCritical[0m    [0m7.3% (93rd)   6.6           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.110-3+deb9u5               deb   CVE-2018-14633    [91mHigh[0m        [0m8.7% (94th)   6.6           
+libpython3.5          3.5.3-1                             (won't fix)                    deb   CVE-2015-20107    [1;95mCritical[0m    [0m7.1% (93rd)   6.4           
+libpython3.5-minimal  3.5.3-1                             (won't fix)                    deb   CVE-2015-20107    [1;95mCritical[0m    [0m7.1% (93rd)   6.4           
+libpython3.5-stdlib   3.5.3-1                             (won't fix)                    deb   CVE-2015-20107    [1;95mCritical[0m    [0m7.1% (93rd)   6.4           
 libpython3.5          3.5.3-1                             3.5.3-1+deb9u2                 deb   CVE-2020-14422    [33mMedium[0m      [0m12.7% (95th)  6.4           
 libpython3.5-minimal  3.5.3-1                             3.5.3-1+deb9u2                 deb   CVE-2020-14422    [33mMedium[0m      [0m12.7% (95th)  6.4           
 libpython3.5-stdlib   3.5.3-1                             3.5.3-1+deb9u2                 deb   CVE-2020-14422    [33mMedium[0m      [0m12.7% (95th)  6.4           
-libpython3.5          3.5.3-1                             (won't fix)                    deb   CVE-2015-20107    [1;95mCritical[0m    [0m7.0% (93rd)   6.3           
-libpython3.5-minimal  3.5.3-1                             (won't fix)                    deb   CVE-2015-20107    [1;95mCritical[0m    [0m7.0% (93rd)   6.3           
-libpython3.5-stdlib   3.5.3-1                             (won't fix)                    deb   CVE-2015-20107    [1;95mCritical[0m    [0m7.0% (93rd)   6.3           
 libpython3.5          3.5.3-1                             (won't fix)                    deb   CVE-2022-0391     [91mHigh[0m        [0m8.3% (94th)   6.2           
 libpython3.5-minimal  3.5.3-1                             (won't fix)                    deb   CVE-2022-0391     [91mHigh[0m        [0m8.3% (94th)   6.2           
 libpython3.5-stdlib   3.5.3-1                             (won't fix)                    deb   CVE-2022-0391     [91mHigh[0m        [0m8.3% (94th)   6.2           
@@ -247,10 +247,10 @@ udev                  232-25+deb9u4                       232-25+deb9u13        
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.168-1                      deb   CVE-2019-8980     [91mHigh[0m        [0m5.8% (92nd)   4.4           
 binutils              2.28-5                              (won't fix)                    deb   CVE-2018-6323     [91mHigh[0m        [0m5.8% (92nd)   4.4           
 libexpat1             2.2.0-2+deb9u1                      2.2.0-2+deb9u4                 deb   CVE-2022-22822    [1;95mCritical[0m    [0m4.8% (91st)   4.3           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.168-1                      deb   CVE-2019-11810    [91mHigh[0m        [0m5.8% (92nd)   4.3           
 libpython3.5          3.5.3-1                             3.5.3-1+deb9u2                 deb   CVE-2018-20406    [91mHigh[0m        [0m5.8% (92nd)   4.3           
 libpython3.5-minimal  3.5.3-1                             3.5.3-1+deb9u2                 deb   CVE-2018-20406    [91mHigh[0m        [0m5.8% (92nd)   4.3           
 libpython3.5-stdlib   3.5.3-1                             3.5.3-1+deb9u2                 deb   CVE-2018-20406    [91mHigh[0m        [0m5.8% (92nd)   4.3           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.168-1                      deb   CVE-2019-11810    [91mHigh[0m        [0m5.8% (92nd)   4.3           
 libexpat1             2.2.0-2+deb9u1                      2.2.0-2+deb9u5                 deb   CVE-2022-25315    [1;95mCritical[0m    [0m4.8% (91st)   4.3           
 libx11-6              2:1.6.4-3                           2:1.6.4-3+deb9u1               deb   CVE-2018-14599    [1;95mCritical[0m    [0m4.8% (91st)   4.3           
 libx11-data           2:1.6.4-3                           2:1.6.4-3+deb9u1               deb   CVE-2018-14599    [1;95mCritical[0m    [0m4.8% (91st)   4.3           
@@ -311,9 +311,9 @@ multiarch-support     2.24-11+deb9u3                      (won't fix)           
 libpython3.5          3.5.3-1                             3.5.3-1+deb9u1                 deb   CVE-2018-1060     [91mHigh[0m        [0m5.0% (91st)   3.8           
 libpython3.5-minimal  3.5.3-1                             3.5.3-1+deb9u1                 deb   CVE-2018-1060     [91mHigh[0m        [0m5.0% (91st)   3.8           
 libpython3.5-stdlib   3.5.3-1                             3.5.3-1+deb9u1                 deb   CVE-2018-1060     [91mHigh[0m        [0m5.0% (91st)   3.8           
-libssl1.0.2           1.0.2l-2+deb9u3                     1.0.2u-1~deb9u4                deb   CVE-2021-23841    [33mMedium[0m      [0m7.4% (93rd)   3.7           
-libssl1.1             1.1.0f-3+deb9u2                     1.1.0l-1~deb9u3                deb   CVE-2021-23841    [33mMedium[0m      [0m7.4% (93rd)   3.7           
-openssl               1.1.0f-3+deb9u2                     1.1.0l-1~deb9u3                deb   CVE-2021-23841    [33mMedium[0m      [0m7.4% (93rd)   3.7           
+libssl1.0.2           1.0.2l-2+deb9u3                     1.0.2u-1~deb9u4                deb   CVE-2021-23841    [33mMedium[0m      [0m7.4% (94th)   3.7           
+libssl1.1             1.1.0f-3+deb9u2                     1.1.0l-1~deb9u3                deb   CVE-2021-23841    [33mMedium[0m      [0m7.4% (94th)   3.7           
+openssl               1.1.0f-3+deb9u2                     1.1.0l-1~deb9u3                deb   CVE-2021-23841    [33mMedium[0m      [0m7.4% (94th)   3.7           
 libpython3.5          3.5.3-1                             3.5.3-1+deb9u1                 deb   CVE-2018-1061     [91mHigh[0m        [0m4.9% (91st)   3.7           
 libpython3.5-minimal  3.5.3-1                             3.5.3-1+deb9u1                 deb   CVE-2018-1061     [91mHigh[0m        [0m4.9% (91st)   3.7           
 libpython3.5-stdlib   3.5.3-1                             3.5.3-1+deb9u1                 deb   CVE-2018-1061     [91mHigh[0m        [0m4.9% (91st)   3.7           
@@ -333,12 +333,12 @@ systemd               232-25+deb9u4                       232-25+deb9u10        
 systemd-sysv          232-25+deb9u4                       232-25+deb9u10                 deb   CVE-2018-1049     [33mMedium[0m      [0m7.2% (93rd)   3.6           
 udev                  232-25+deb9u4                       232-25+deb9u10                 deb   CVE-2018-1049     [33mMedium[0m      [0m7.2% (93rd)   3.6           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2020-15802    [33mMedium[0m      [0m7.1% (93rd)   3.5           
+libssl1.0.2           1.0.2l-2+deb9u3                     1.0.2u-1~deb9u3                deb   CVE-2020-1971     [33mMedium[0m      [0m7.1% (93rd)   3.5           
+libssl1.1             1.1.0f-3+deb9u2                     1.1.0l-1~deb9u2                deb   CVE-2020-1971     [33mMedium[0m      [0m7.1% (93rd)   3.5           
+openssl               1.1.0f-3+deb9u2                     1.1.0l-1~deb9u2                deb   CVE-2020-1971     [33mMedium[0m      [0m7.1% (93rd)   3.5           
 libidn11              1.33-1                              1.33-1+deb9u1                  deb   CVE-2017-14062    [1;95mCritical[0m    [0m3.9% (89th)   3.5           
 libruby2.3            2.3.3-1+deb9u2                      2.3.3-1+deb9u3                 deb   CVE-2018-1000075  [91mHigh[0m        [0m4.6% (91st)   3.5           
 ruby2.3               2.3.3-1+deb9u2                      2.3.3-1+deb9u3                 deb   CVE-2018-1000075  [91mHigh[0m        [0m4.6% (91st)   3.5           
-libssl1.0.2           1.0.2l-2+deb9u3                     1.0.2u-1~deb9u3                deb   CVE-2020-1971     [33mMedium[0m      [0m7.0% (93rd)   3.5           
-libssl1.1             1.1.0f-3+deb9u2                     1.1.0l-1~deb9u2                deb   CVE-2020-1971     [33mMedium[0m      [0m7.0% (93rd)   3.5           
-openssl               1.1.0f-3+deb9u2                     1.1.0l-1~deb9u2                deb   CVE-2020-1971     [33mMedium[0m      [0m7.0% (93rd)   3.5           
 libruby2.3            2.3.3-1+deb9u2                      2.3.3-1+deb9u3                 deb   CVE-2018-8777     [91mHigh[0m        [0m4.5% (90th)   3.4           
 ruby2.3               2.3.3-1+deb9u2                      2.3.3-1+deb9u3                 deb   CVE-2018-8777     [91mHigh[0m        [0m4.5% (90th)   3.4           
 patch                 2.7.5-1+deb9u1                      2.7.5-1+deb9u2                 deb   CVE-2019-13638    [91mHigh[0m        [0m4.5% (90th)   3.4           
@@ -380,7 +380,7 @@ linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.320-2             
 ntp                   1:4.2.8p10+dfsg-3+deb9u2            (won't fix)                    deb   CVE-2018-7183     [32mLow[0m         [0m10.2% (95th)  3.1           
 libexpat1             2.2.0-2+deb9u1                      2.2.0-2+deb9u4                 deb   CVE-2022-22823    [1;95mCritical[0m    [0m3.4% (88th)   3.1           
 libexpat1             2.2.0-2+deb9u1                      2.2.0-2+deb9u4                 deb   CVE-2022-22824    [1;95mCritical[0m    [0m3.4% (88th)   3.1           
-libglib2.0-0          2.50.3-2                            2.50.3-2+deb9u3                deb   CVE-2021-27218    [91mHigh[0m        [0m4.1% (89th)   3.1           
+libglib2.0-0          2.50.3-2                            2.50.3-2+deb9u3                deb   CVE-2021-27218    [91mHigh[0m        [0m4.1% (90th)   3.1           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1                      deb   CVE-2019-0136     [91mHigh[0m        [0m4.1% (89th)   3.1           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.320-2                      deb   CVE-2022-1012     [91mHigh[0m        [0m3.9% (89th)   3.0           
 libdns-export162      1:9.10.3.dfsg.P4-12.3+deb9u4        1:9.10.3.dfsg.P4-12.3+deb9u9   deb   CVE-2021-25214    [33mMedium[0m      [0m6.0% (92nd)   3.0           
@@ -419,9 +419,6 @@ libxml2               2.9.4+dfsg1-2.2+deb9u2              2.9.4+dfsg1-2.2+deb9u4
 libxml2               2.9.4+dfsg1-2.2+deb9u2              2.9.4+dfsg1-2.2+deb9u3         deb   CVE-2018-14404    [91mHigh[0m        [0m3.6% (88th)   2.7           
 liblz4-1              0.0~r131-2+b1                       (won't fix)                    deb   CVE-2019-17543    [32mLow[0m         [0m9.1% (94th)   2.7           
 libsqlite3-0          3.16.2-5+deb9u1                     3.16.2-5+deb9u3                deb   CVE-2019-20218    [91mHigh[0m        [0m3.6% (88th)   2.7           
-libpython3.5          3.5.3-1                             3.5.3-1+deb9u2                 deb   CVE-2019-9947     [33mMedium[0m      [0m5.4% (92nd)   2.7           
-libpython3.5-minimal  3.5.3-1                             3.5.3-1+deb9u2                 deb   CVE-2019-9947     [33mMedium[0m      [0m5.4% (92nd)   2.7           
-libpython3.5-stdlib   3.5.3-1                             3.5.3-1+deb9u2                 deb   CVE-2019-9947     [33mMedium[0m      [0m5.4% (92nd)   2.7           
 ntp                   1:4.2.8p10+dfsg-3+deb9u2            (won't fix)                    deb   CVE-2018-7185     [32mLow[0m         [0m9.0% (94th)   2.7           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.290-1                      deb   CVE-2021-45485    [91mHigh[0m        [0m3.6% (88th)   2.7           
 libc-bin              2.24-11+deb9u3                      2.24-11+deb9u4                 deb   CVE-2017-15670    [1;95mCritical[0m    [0m3.0% (86th)   2.7           
@@ -440,6 +437,9 @@ libglib2.0-0          2.50.3-2                            2.50.3-2+deb9u1       
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.168-1                      deb   CVE-2019-16995    [91mHigh[0m        [0m3.5% (88th)   2.6           
 libruby2.3            2.3.3-1+deb9u2                      2.3.3-1+deb9u3                 deb   CVE-2018-1000076  [1;95mCritical[0m    [0m2.9% (86th)   2.6           
 ruby2.3               2.3.3-1+deb9u2                      2.3.3-1+deb9u3                 deb   CVE-2018-1000076  [1;95mCritical[0m    [0m2.9% (86th)   2.6           
+libpython3.5          3.5.3-1                             3.5.3-1+deb9u2                 deb   CVE-2019-9947     [33mMedium[0m      [0m5.3% (91st)   2.6           
+libpython3.5-minimal  3.5.3-1                             3.5.3-1+deb9u2                 deb   CVE-2019-9947     [33mMedium[0m      [0m5.3% (91st)   2.6           
+libpython3.5-stdlib   3.5.3-1                             3.5.3-1+deb9u2                 deb   CVE-2019-9947     [33mMedium[0m      [0m5.3% (91st)   2.6           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1                      deb   CVE-2019-14897    [1;95mCritical[0m    [0m2.9% (86th)   2.6           
 file                  1:5.30-1+deb9u2                     (won't fix)                    deb   CVE-2019-8907     [91mHigh[0m        [0m3.5% (88th)   2.6           
 libmagic-mgc          1:5.30-1+deb9u2                     (won't fix)                    deb   CVE-2019-8907     [91mHigh[0m        [0m3.5% (88th)   2.6           
@@ -458,14 +458,14 @@ binutils              2.28-5                              (won't fix)           
 ntp                   1:4.2.8p10+dfsg-3+deb9u2            (won't fix)                    deb   CVE-2018-7184     [32mLow[0m         [0m8.5% (94th)   2.6           
 binutils              2.28-5                              (won't fix)                    deb   CVE-2017-9749     [32mLow[0m         [0m8.5% (94th)   2.6           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2019-19377    [91mHigh[0m        [0m3.4% (88th)   2.6           
+libruby2.3            2.3.3-1+deb9u2                      2.3.3-1+deb9u6                 deb   CVE-2019-8321     [91mHigh[0m        [0m3.4% (87th)   2.5           
 libruby2.3            2.3.3-1+deb9u2                      2.3.3-1+deb9u6                 deb   CVE-2019-8322     [91mHigh[0m        [0m3.4% (87th)   2.5           
 libruby2.3            2.3.3-1+deb9u2                      2.3.3-1+deb9u6                 deb   CVE-2019-8323     [91mHigh[0m        [0m3.4% (87th)   2.5           
 libruby2.3            2.3.3-1+deb9u2                      2.3.3-1+deb9u6                 deb   CVE-2019-8325     [91mHigh[0m        [0m3.4% (87th)   2.5           
+ruby2.3               2.3.3-1+deb9u2                      2.3.3-1+deb9u6                 deb   CVE-2019-8321     [91mHigh[0m        [0m3.4% (87th)   2.5           
 ruby2.3               2.3.3-1+deb9u2                      2.3.3-1+deb9u6                 deb   CVE-2019-8322     [91mHigh[0m        [0m3.4% (87th)   2.5           
 ruby2.3               2.3.3-1+deb9u2                      2.3.3-1+deb9u6                 deb   CVE-2019-8323     [91mHigh[0m        [0m3.4% (87th)   2.5           
 ruby2.3               2.3.3-1+deb9u2                      2.3.3-1+deb9u6                 deb   CVE-2019-8325     [91mHigh[0m        [0m3.4% (87th)   2.5           
-libruby2.3            2.3.3-1+deb9u2                      2.3.3-1+deb9u6                 deb   CVE-2019-8321     [91mHigh[0m        [0m3.4% (87th)   2.5           
-ruby2.3               2.3.3-1+deb9u2                      2.3.3-1+deb9u6                 deb   CVE-2019-8321     [91mHigh[0m        [0m3.4% (87th)   2.5           
 libbsd0               0.8.3-1                             0.8.3-1+deb9u1                 deb   CVE-2019-20367    [1;95mCritical[0m    [0m2.8% (85th)   2.5           
 libc-bin              2.24-11+deb9u3                      2.24-11+deb9u4                 deb   CVE-2017-15804    [1;95mCritical[0m    [0m2.8% (85th)   2.5           
 libc-dev-bin          2.24-11+deb9u3                      2.24-11+deb9u4                 deb   CVE-2017-15804    [1;95mCritical[0m    [0m2.8% (85th)   2.5           
@@ -485,8 +485,8 @@ linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.168-1+deb9u3      
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.168-1+deb9u5               deb   CVE-2019-10639    [91mHigh[0m        [0m3.3% (87th)   2.4           
 binutils              2.28-5                              (won't fix)                    deb   CVE-2017-9750     [32mLow[0m         [0m8.1% (94th)   2.4           
 u-boot-tools          2016.11+dfsg1-4                     (won't fix)                    deb   CVE-2019-14192    [1;95mCritical[0m    [0m2.7% (84th)   2.4           
-binutils              2.28-5                              (won't fix)                    deb   CVE-2017-9756     [32mLow[0m         [0m8.1% (94th)   2.4           
 binutils              2.28-5                              (won't fix)                    deb   CVE-2017-9742     [32mLow[0m         [0m8.1% (94th)   2.4           
+binutils              2.28-5                              (won't fix)                    deb   CVE-2017-9756     [32mLow[0m         [0m8.1% (94th)   2.4           
 libruby2.3            2.3.3-1+deb9u2                      2.3.3-1+deb9u11                deb   CVE-2021-41817    [91mHigh[0m        [0m3.2% (87th)   2.4           
 ruby2.3               2.3.3-1+deb9u2                      2.3.3-1+deb9u11                deb   CVE-2021-41817    [91mHigh[0m        [0m3.2% (87th)   2.4           
 libruby2.3            2.3.3-1+deb9u2                      2.3.3-1+deb9u6                 deb   CVE-2019-8324     [91mHigh[0m        [0m3.2% (87th)   2.4           
@@ -509,9 +509,9 @@ libglib2.0-0          2.50.3-2                            2.50.3-2+deb9u1       
 libpython3.5          3.5.3-1                             3.5.3-1+deb9u5                 deb   CVE-2021-3733     [33mMedium[0m      [0m4.7% (91st)   2.3           
 libpython3.5-minimal  3.5.3-1                             3.5.3-1+deb9u5                 deb   CVE-2021-3733     [33mMedium[0m      [0m4.7% (91st)   2.3           
 libpython3.5-stdlib   3.5.3-1                             3.5.3-1+deb9u5                 deb   CVE-2021-3733     [33mMedium[0m      [0m4.7% (91st)   2.3           
-u-boot-tools          2016.11+dfsg1-4                     (won't fix)                    deb   CVE-2019-14202    [1;95mCritical[0m    [0m2.6% (84th)   2.3           
 u-boot-tools          2016.11+dfsg1-4                     (won't fix)                    deb   CVE-2019-14200    [1;95mCritical[0m    [0m2.6% (84th)   2.3           
 u-boot-tools          2016.11+dfsg1-4                     (won't fix)                    deb   CVE-2019-14201    [1;95mCritical[0m    [0m2.6% (84th)   2.3           
+u-boot-tools          2016.11+dfsg1-4                     (won't fix)                    deb   CVE-2019-14202    [1;95mCritical[0m    [0m2.6% (84th)   2.3           
 u-boot-tools          2016.11+dfsg1-4                     (won't fix)                    deb   CVE-2019-14203    [1;95mCritical[0m    [0m2.6% (84th)   2.3           
 u-boot-tools          2016.11+dfsg1-4                     (won't fix)                    deb   CVE-2019-14204    [1;95mCritical[0m    [0m2.6% (84th)   2.3           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.184-1                      deb   CVE-2019-15292    [1;95mCritical[0m    [0m2.6% (84th)   2.3           
@@ -541,8 +541,8 @@ libglib2.0-0          2.50.3-2                            2.50.3-2+deb9u3       
 u-boot-tools          2016.11+dfsg1-4                     (won't fix)                    deb   CVE-2019-14197    [1;95mCritical[0m    [0m2.5% (83rd)   2.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.80-1                       deb   CVE-2017-16914    [33mMedium[0m      [0m4.4% (90th)   2.2           
 u-boot-tools          2016.11+dfsg1-4                     (won't fix)                    deb   CVE-2019-14194    [1;95mCritical[0m    [0m2.4% (83rd)   2.2           
-u-boot-tools          2016.11+dfsg1-4                     (won't fix)                    deb   CVE-2019-14199    [1;95mCritical[0m    [0m2.4% (83rd)   2.2           
 u-boot-tools          2016.11+dfsg1-4                     (won't fix)                    deb   CVE-2019-14198    [1;95mCritical[0m    [0m2.4% (83rd)   2.2           
+u-boot-tools          2016.11+dfsg1-4                     (won't fix)                    deb   CVE-2019-14199    [1;95mCritical[0m    [0m2.4% (83rd)   2.2           
 libruby2.3            2.3.3-1+deb9u2                      2.3.3-1+deb9u11                deb   CVE-2021-41819    [91mHigh[0m        [0m2.9% (86th)   2.2           
 ruby2.3               2.3.3-1+deb9u2                      2.3.3-1+deb9u11                deb   CVE-2021-41819    [91mHigh[0m        [0m2.9% (86th)   2.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.320-2                      deb   CVE-2022-32250    [91mHigh[0m        [0m2.9% (86th)   2.2           
@@ -559,15 +559,15 @@ libexpat1             2.2.0-2+deb9u1                      2.2.0-2+deb9u4        
 libpcre3              2:8.39-3                            (won't fix)                    deb   CVE-2020-14155    [33mMedium[0m      [0m4.2% (90th)   2.1           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.144-1                      deb   CVE-2018-16871    [91mHigh[0m        [0m2.8% (85th)   2.1           
 libxml2               2.9.4+dfsg1-2.2+deb9u2              2.9.4+dfsg1-2.2+deb9u3         deb   CVE-2017-8872     [1;95mCritical[0m    [0m2.3% (82nd)   2.1           
-vim-common            2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u6            deb   CVE-2022-1616     [91mHigh[0m        [0m2.7% (85th)   2.1           
-vim-nox               2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u6            deb   CVE-2022-1616     [91mHigh[0m        [0m2.7% (85th)   2.1           
-vim-runtime           2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u6            deb   CVE-2022-1616     [91mHigh[0m        [0m2.7% (85th)   2.1           
-vim-tiny              2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u6            deb   CVE-2022-1616     [91mHigh[0m        [0m2.7% (85th)   2.1           
-xxd                   2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u6            deb   CVE-2022-1616     [91mHigh[0m        [0m2.7% (85th)   2.1           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  (won't fix)                    deb   CVE-2013-7445     [91mHigh[0m        [0m2.7% (85th)   2.0           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.80-1                       deb   CVE-2017-16912    [33mMedium[0m      [0m4.1% (90th)   2.0           
 u-boot-tools          2016.11+dfsg1-4                                                    deb   CVE-2022-34835    [1;95mCritical[0m    [0m2.2% (81st)   2.0           
 libxml2               2.9.4+dfsg1-2.2+deb9u2              2.9.4+dfsg1-2.2+deb9u6         deb   CVE-2017-5130     [91mHigh[0m        [0m2.7% (84th)   2.0           
+vim-common            2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u6            deb   CVE-2022-1616     [91mHigh[0m        [0m2.7% (84th)   2.0           
+vim-nox               2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u6            deb   CVE-2022-1616     [91mHigh[0m        [0m2.7% (84th)   2.0           
+vim-runtime           2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u6            deb   CVE-2022-1616     [91mHigh[0m        [0m2.7% (84th)   2.0           
+vim-tiny              2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u6            deb   CVE-2022-1616     [91mHigh[0m        [0m2.7% (84th)   2.0           
+xxd                   2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u6            deb   CVE-2022-1616     [91mHigh[0m        [0m2.7% (84th)   2.0           
 libhogweed4           3.3-1+b2                            3.3-1+deb9u1                   deb   CVE-2021-3580     [91mHigh[0m        [0m2.7% (84th)   2.0           
 libnettle6            3.3-1+b2                            3.3-1+deb9u1                   deb   CVE-2021-3580     [91mHigh[0m        [0m2.7% (84th)   2.0           
 libdns-export162      1:9.10.3.dfsg.P4-12.3+deb9u4                                       deb   CVE-2016-6170     [90mNegligible[0m  [0m40.5% (98th)  2.0           
@@ -589,21 +589,21 @@ libc6-dev             2.24-11+deb9u3                      (won't fix)           
 multiarch-support     2.24-11+deb9u3                      (won't fix)                    deb   CVE-2018-6551     [1;95mCritical[0m    [0m2.2% (81st)   2.0           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.80-1                       deb   CVE-2017-16913    [33mMedium[0m      [0m3.9% (89th)   2.0           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.80-1                       deb   CVE-2018-18559    [91mHigh[0m        [0m2.6% (84th)   2.0           
-klibc-utils           2.0.4-9                             2.0.4-9+deb9u1                 deb   CVE-2021-31873    [1;95mCritical[0m    [0m2.2% (80th)   1.9           
-libklibc              2.0.4-9                             2.0.4-9+deb9u1                 deb   CVE-2021-31873    [1;95mCritical[0m    [0m2.2% (80th)   1.9           
+klibc-utils           2.0.4-9                             2.0.4-9+deb9u1                 deb   CVE-2021-31873    [1;95mCritical[0m    [0m2.2% (81st)   1.9           
+libklibc              2.0.4-9                             2.0.4-9+deb9u1                 deb   CVE-2021-31873    [1;95mCritical[0m    [0m2.2% (81st)   1.9           
 patch                 2.7.5-1+deb9u1                      2.7.5-1+deb9u2                 deb   CVE-2019-13636    [33mMedium[0m      [0m3.9% (89th)   1.9           
 libpython3.5          3.5.3-1                             3.5.3-1+deb9u2                 deb   CVE-2018-20852    [33mMedium[0m      [0m3.9% (89th)   1.9           
 libpython3.5-minimal  3.5.3-1                             3.5.3-1+deb9u2                 deb   CVE-2018-20852    [33mMedium[0m      [0m3.9% (89th)   1.9           
 libpython3.5-stdlib   3.5.3-1                             3.5.3-1+deb9u2                 deb   CVE-2018-20852    [33mMedium[0m      [0m3.9% (89th)   1.9           
-vim-common            2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u6            deb   CVE-2022-1619     [91mHigh[0m        [0m2.6% (84th)   1.9           
-vim-nox               2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u6            deb   CVE-2022-1619     [91mHigh[0m        [0m2.6% (84th)   1.9           
-vim-runtime           2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u6            deb   CVE-2022-1619     [91mHigh[0m        [0m2.6% (84th)   1.9           
-vim-tiny              2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u6            deb   CVE-2022-1619     [91mHigh[0m        [0m2.6% (84th)   1.9           
-xxd                   2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u6            deb   CVE-2022-1619     [91mHigh[0m        [0m2.6% (84th)   1.9           
 u-boot-tools          2016.11+dfsg1-4                     (won't fix)                    deb   CVE-2019-14196    [1;95mCritical[0m    [0m2.1% (80th)   1.9           
 openssh-client        1:7.4p1-10+deb9u3                   (won't fix)                    deb   CVE-2021-41617    [91mHigh[0m        [0m2.5% (83rd)   1.9           
 openssh-server        1:7.4p1-10+deb9u3                   (won't fix)                    deb   CVE-2021-41617    [91mHigh[0m        [0m2.5% (83rd)   1.9           
 openssh-sftp-server   1:7.4p1-10+deb9u3                   (won't fix)                    deb   CVE-2021-41617    [91mHigh[0m        [0m2.5% (83rd)   1.9           
+vim-common            2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u6            deb   CVE-2022-1619     [91mHigh[0m        [0m2.5% (83rd)   1.9           
+vim-nox               2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u6            deb   CVE-2022-1619     [91mHigh[0m        [0m2.5% (83rd)   1.9           
+vim-runtime           2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u6            deb   CVE-2022-1619     [91mHigh[0m        [0m2.5% (83rd)   1.9           
+vim-tiny              2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u6            deb   CVE-2022-1619     [91mHigh[0m        [0m2.5% (83rd)   1.9           
+xxd                   2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u6            deb   CVE-2022-1619     [91mHigh[0m        [0m2.5% (83rd)   1.9           
 openssh-client        1:7.4p1-10+deb9u3                   1:7.4p1-10+deb9u5              deb   CVE-2019-6109     [33mMedium[0m      [0m3.8% (89th)   1.9           
 openssh-server        1:7.4p1-10+deb9u3                   1:7.4p1-10+deb9u5              deb   CVE-2019-6109     [33mMedium[0m      [0m3.8% (89th)   1.9           
 openssh-sftp-server   1:7.4p1-10+deb9u3                   1:7.4p1-10+deb9u5              deb   CVE-2019-6109     [33mMedium[0m      [0m3.8% (89th)   1.9           
@@ -616,10 +616,10 @@ vim-runtime           2:8.0.0197-4+deb9u1                 (won't fix)           
 vim-tiny              2:8.0.0197-4+deb9u1                 (won't fix)                    deb   CVE-2022-0318     [1;95mCritical[0m    [0m2.1% (80th)   1.9           
 xxd                   2:8.0.0197-4+deb9u1                 (won't fix)                    deb   CVE-2022-0318     [1;95mCritical[0m    [0m2.1% (80th)   1.9           
 libxml2               2.9.4+dfsg1-2.2+deb9u2              2.9.4+dfsg1-2.2+deb9u7         deb   CVE-2022-29824    [33mMedium[0m      [0m3.8% (89th)   1.9           
-klibc-utils           2.0.4-9                             2.0.4-9+deb9u1                 deb   CVE-2021-31870    [1;95mCritical[0m    [0m2.1% (80th)   1.9           
 klibc-utils           2.0.4-9                             2.0.4-9+deb9u1                 deb   CVE-2021-31872    [1;95mCritical[0m    [0m2.1% (80th)   1.9           
-libklibc              2.0.4-9                             2.0.4-9+deb9u1                 deb   CVE-2021-31870    [1;95mCritical[0m    [0m2.1% (80th)   1.9           
 libklibc              2.0.4-9                             2.0.4-9+deb9u1                 deb   CVE-2021-31872    [1;95mCritical[0m    [0m2.1% (80th)   1.9           
+klibc-utils           2.0.4-9                             2.0.4-9+deb9u1                 deb   CVE-2021-31870    [1;95mCritical[0m    [0m2.1% (80th)   1.9           
+libklibc              2.0.4-9                             2.0.4-9+deb9u1                 deb   CVE-2021-31870    [1;95mCritical[0m    [0m2.1% (80th)   1.9           
 libdns-export162      1:9.10.3.dfsg.P4-12.3+deb9u4        1:9.10.3.dfsg.P4-12.3+deb9u5   deb   CVE-2019-6465     [33mMedium[0m      [0m3.7% (89th)   1.9           
 libisc-export160      1:9.10.3.dfsg.P4-12.3+deb9u4        1:9.10.3.dfsg.P4-12.3+deb9u5   deb   CVE-2019-6465     [33mMedium[0m      [0m3.7% (89th)   1.9           
 libwbclient0          2:4.5.12+dfsg-2+deb9u2              2:4.5.16+dfsg-1+deb9u2         deb   CVE-2018-16860    [91mHigh[0m        [0m2.5% (83rd)   1.9           
@@ -717,6 +717,7 @@ libc6                 2.24-11+deb9u3                      (won't fix)           
 libc6-dev             2.24-11+deb9u3                      (won't fix)                    deb   CVE-2020-6096     [32mLow[0m         [0m5.4% (92nd)   1.6           
 multiarch-support     2.24-11+deb9u3                      (won't fix)                    deb   CVE-2020-6096     [32mLow[0m         [0m5.4% (92nd)   1.6           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2008-4609     [90mNegligible[0m  [0m32.1% (98th)  1.6           
+ntp                   1:4.2.8p10+dfsg-3+deb9u2            (won't fix)                    deb   CVE-2020-11868    [91mHigh[0m        [0m2.1% (80th)   1.6           
 gnupg                 2.1.18-8~deb9u2                                                    deb   CVE-2022-34903    [33mMedium[0m      [0m2.8% (85th)   1.6           
 gnupg-agent           2.1.18-8~deb9u2                                                    deb   CVE-2022-34903    [33mMedium[0m      [0m2.8% (85th)   1.6           
 gpgv                  2.1.18-8~deb9u2                                                    deb   CVE-2022-34903    [33mMedium[0m      [0m2.8% (85th)   1.6           
@@ -724,7 +725,6 @@ linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.240-1             
 libwbclient0          2:4.5.12+dfsg-2+deb9u2              2:4.5.16+dfsg-1+deb9u4         deb   CVE-2019-14907    [33mMedium[0m      [0m3.2% (87th)   1.6           
 samba-common          2:4.5.12+dfsg-2+deb9u2              2:4.5.16+dfsg-1+deb9u4         deb   CVE-2019-14907    [33mMedium[0m      [0m3.2% (87th)   1.6           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.189-3+deb9u2               deb   CVE-2019-11135    [33mMedium[0m      [0m3.1% (86th)   1.6           
-ntp                   1:4.2.8p10+dfsg-3+deb9u2            (won't fix)                    deb   CVE-2020-11868    [91mHigh[0m        [0m2.1% (80th)   1.6           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.258-1                      deb   CVE-2021-27365    [91mHigh[0m        [0m2.1% (80th)   1.6           
 binutils              2.28-5                              (won't fix)                    deb   CVE-2017-12967    [33mMedium[0m      [0m3.1% (86th)   1.6           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1+deb9u1               deb   CVE-2020-10711    [33mMedium[0m      [0m3.1% (86th)   1.5           
@@ -807,16 +807,16 @@ libk5crypto3          1.15-1+deb9u1                       1.15-1+deb9u3         
 libkrb5-3             1.15-1+deb9u1                       1.15-1+deb9u3                  deb   CVE-2018-5729     [33mMedium[0m      [0m2.6% (84th)   1.3           
 libkrb5support0       1.15-1+deb9u1                       1.15-1+deb9u3                  deb   CVE-2018-5729     [33mMedium[0m      [0m2.6% (84th)   1.3           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.168-1+deb9u5               deb   CVE-2019-10638    [33mMedium[0m      [0m2.6% (84th)   1.3           
-vim-common            2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u5            deb   CVE-2022-0685     [91mHigh[0m        [0m1.7% (75th)   1.3           
-vim-nox               2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u5            deb   CVE-2022-0685     [91mHigh[0m        [0m1.7% (75th)   1.3           
-vim-runtime           2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u5            deb   CVE-2022-0685     [91mHigh[0m        [0m1.7% (75th)   1.3           
-vim-tiny              2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u5            deb   CVE-2022-0685     [91mHigh[0m        [0m1.7% (75th)   1.3           
-xxd                   2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u5            deb   CVE-2022-0685     [91mHigh[0m        [0m1.7% (75th)   1.3           
 vim-common            2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u5            deb   CVE-2021-3927     [91mHigh[0m        [0m1.7% (75th)   1.3           
+vim-common            2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u5            deb   CVE-2022-0685     [91mHigh[0m        [0m1.7% (75th)   1.3           
 vim-nox               2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u5            deb   CVE-2021-3927     [91mHigh[0m        [0m1.7% (75th)   1.3           
+vim-nox               2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u5            deb   CVE-2022-0685     [91mHigh[0m        [0m1.7% (75th)   1.3           
 vim-runtime           2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u5            deb   CVE-2021-3927     [91mHigh[0m        [0m1.7% (75th)   1.3           
+vim-runtime           2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u5            deb   CVE-2022-0685     [91mHigh[0m        [0m1.7% (75th)   1.3           
 vim-tiny              2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u5            deb   CVE-2021-3927     [91mHigh[0m        [0m1.7% (75th)   1.3           
+vim-tiny              2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u5            deb   CVE-2022-0685     [91mHigh[0m        [0m1.7% (75th)   1.3           
 xxd                   2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u5            deb   CVE-2021-3927     [91mHigh[0m        [0m1.7% (75th)   1.3           
+xxd                   2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u5            deb   CVE-2022-0685     [91mHigh[0m        [0m1.7% (75th)   1.3           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.110-3+deb9u5               deb   CVE-2018-14617    [33mMedium[0m      [0m2.5% (83rd)   1.3           
 libwbclient0          2:4.5.12+dfsg-2+deb9u2                                             deb   CVE-2020-25719    [91mHigh[0m        [0m1.7% (75th)   1.3           
 samba-common          2:4.5.12+dfsg-2+deb9u2                                             deb   CVE-2020-25719    [91mHigh[0m        [0m1.7% (75th)   1.3           
@@ -887,8 +887,8 @@ vim-nox               2:8.0.0197-4+deb9u1                 (won't fix)           
 vim-runtime           2:8.0.0197-4+deb9u1                 (won't fix)                    deb   CVE-2022-2125     [91mHigh[0m        [0m1.6% (74th)   1.2           
 vim-tiny              2:8.0.0197-4+deb9u1                 (won't fix)                    deb   CVE-2022-2125     [91mHigh[0m        [0m1.6% (74th)   1.2           
 xxd                   2:8.0.0197-4+deb9u1                 (won't fix)                    deb   CVE-2022-2125     [91mHigh[0m        [0m1.6% (74th)   1.2           
-libwbclient0          2:4.5.12+dfsg-2+deb9u2                                             deb   CVE-2020-25718    [91mHigh[0m        [0m1.6% (73rd)   1.2           
-samba-common          2:4.5.12+dfsg-2+deb9u2                                             deb   CVE-2020-25718    [91mHigh[0m        [0m1.6% (73rd)   1.2           
+libwbclient0          2:4.5.12+dfsg-2+deb9u2                                             deb   CVE-2020-25718    [91mHigh[0m        [0m1.6% (74th)   1.2           
+samba-common          2:4.5.12+dfsg-2+deb9u2                                             deb   CVE-2020-25718    [91mHigh[0m        [0m1.6% (74th)   1.2           
 vim-common            2:8.0.0197-4+deb9u1                 (won't fix)                    deb   CVE-2021-4166     [91mHigh[0m        [0m1.6% (73rd)   1.2           
 vim-nox               2:8.0.0197-4+deb9u1                 (won't fix)                    deb   CVE-2021-4166     [91mHigh[0m        [0m1.6% (73rd)   1.2           
 vim-runtime           2:8.0.0197-4+deb9u1                 (won't fix)                    deb   CVE-2021-4166     [91mHigh[0m        [0m1.6% (73rd)   1.2           
@@ -922,7 +922,7 @@ libssl1.1             1.1.0f-3+deb9u2                     1.1.0l-1~deb9u1       
 openssl               1.1.0f-3+deb9u2                     1.1.0l-1~deb9u1                deb   CVE-2019-1563     [32mLow[0m         [0m3.8% (89th)   1.2           
 libwbclient0          2:4.5.12+dfsg-2+deb9u2              2:4.5.16+dfsg-1+deb9u4         deb   CVE-2019-14861    [33mMedium[0m      [0m2.3% (82nd)   1.1           
 samba-common          2:4.5.12+dfsg-2+deb9u2              2:4.5.16+dfsg-1+deb9u4         deb   CVE-2019-14861    [33mMedium[0m      [0m2.3% (82nd)   1.1           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.65-1                       deb   CVE-2017-13080    [33mMedium[0m      [0m2.3% (81st)   1.1           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.65-1                       deb   CVE-2017-13080    [33mMedium[0m      [0m2.3% (82nd)   1.1           
 vim-common            2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u7            deb   CVE-2022-2124     [91mHigh[0m        [0m1.5% (72nd)   1.1           
 vim-common            2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u7            deb   CVE-2022-2126     [91mHigh[0m        [0m1.5% (72nd)   1.1           
 vim-nox               2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u7            deb   CVE-2022-2124     [91mHigh[0m        [0m1.5% (72nd)   1.1           
@@ -985,12 +985,12 @@ libc6                 2.24-11+deb9u3                      2.24-11+deb9u4        
 libc6-dev             2.24-11+deb9u3                      2.24-11+deb9u4                 deb   CVE-2017-1000408  [91mHigh[0m        [0m1.5% (71st)   1.1           
 multiarch-support     2.24-11+deb9u3                      2.24-11+deb9u4                 deb   CVE-2017-1000408  [91mHigh[0m        [0m1.5% (71st)   1.1           
 binutils              2.28-5                              (won't fix)                    deb   CVE-2017-12457    [91mHigh[0m        [0m1.4% (71st)   1.1           
-binutils              2.28-5                              (won't fix)                    deb   CVE-2018-6872     [33mMedium[0m      [0m2.2% (80th)   1.1           
-libgssapi-krb5-2      1.15-1+deb9u1                       1.15-1+deb9u3                  deb   CVE-2021-37750    [33mMedium[0m      [0m2.2% (80th)   1.1           
-libk5crypto3          1.15-1+deb9u1                       1.15-1+deb9u3                  deb   CVE-2021-37750    [33mMedium[0m      [0m2.2% (80th)   1.1           
-libkrb5-3             1.15-1+deb9u1                       1.15-1+deb9u3                  deb   CVE-2021-37750    [33mMedium[0m      [0m2.2% (80th)   1.1           
-libkrb5support0       1.15-1+deb9u1                       1.15-1+deb9u3                  deb   CVE-2021-37750    [33mMedium[0m      [0m2.2% (80th)   1.1           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.144-1                      deb   CVE-2018-14616    [33mMedium[0m      [0m2.2% (80th)   1.1           
+binutils              2.28-5                              (won't fix)                    deb   CVE-2018-6872     [33mMedium[0m      [0m2.2% (81st)   1.1           
+libgssapi-krb5-2      1.15-1+deb9u1                       1.15-1+deb9u3                  deb   CVE-2021-37750    [33mMedium[0m      [0m2.2% (81st)   1.1           
+libk5crypto3          1.15-1+deb9u1                       1.15-1+deb9u3                  deb   CVE-2021-37750    [33mMedium[0m      [0m2.2% (81st)   1.1           
+libkrb5-3             1.15-1+deb9u1                       1.15-1+deb9u3                  deb   CVE-2021-37750    [33mMedium[0m      [0m2.2% (81st)   1.1           
+libkrb5support0       1.15-1+deb9u1                       1.15-1+deb9u3                  deb   CVE-2021-37750    [33mMedium[0m      [0m2.2% (81st)   1.1           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.144-1                      deb   CVE-2018-14616    [33mMedium[0m      [0m2.2% (81st)   1.1           
 u-boot-tools          2016.11+dfsg1-4                     (won't fix)                    deb   CVE-2020-8432     [32mLow[0m         [0m3.6% (88th)   1.1           
 rdoc                  4.2.1                               6.1.2.1                        gem   CVE-2021-31799    [91mHigh[0m        [0m1.5% (72nd)   1.1           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.258-1                      deb   CVE-2019-19813    [33mMedium[0m      [0m2.1% (80th)   1.1           
@@ -1012,16 +1012,16 @@ vim-tiny              2:8.0.0197-4+deb9u1                                       
 xxd                   2:8.0.0197-4+deb9u1                                                deb   CVE-2022-2285     [91mHigh[0m        [0m1.4% (70th)   1.1           
 unzip                 6.0-21                                                             deb   CVE-2022-0530     [33mMedium[0m      [0m2.1% (80th)   1.1           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.184-1                      deb   CVE-2019-19815    [33mMedium[0m      [0m2.1% (80th)   1.0           
-vim-common            2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u6            deb   CVE-2022-0443     [91mHigh[0m        [0m1.4% (70th)   1.0           
-vim-nox               2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u6            deb   CVE-2022-0443     [91mHigh[0m        [0m1.4% (70th)   1.0           
-vim-runtime           2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u6            deb   CVE-2022-0443     [91mHigh[0m        [0m1.4% (70th)   1.0           
-vim-tiny              2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u6            deb   CVE-2022-0443     [91mHigh[0m        [0m1.4% (70th)   1.0           
-xxd                   2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u6            deb   CVE-2022-0443     [91mHigh[0m        [0m1.4% (70th)   1.0           
 vim-common            2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u6            deb   CVE-2022-0413     [91mHigh[0m        [0m1.4% (70th)   1.0           
+vim-common            2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u6            deb   CVE-2022-0443     [91mHigh[0m        [0m1.4% (70th)   1.0           
 vim-nox               2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u6            deb   CVE-2022-0413     [91mHigh[0m        [0m1.4% (70th)   1.0           
+vim-nox               2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u6            deb   CVE-2022-0443     [91mHigh[0m        [0m1.4% (70th)   1.0           
 vim-runtime           2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u6            deb   CVE-2022-0413     [91mHigh[0m        [0m1.4% (70th)   1.0           
+vim-runtime           2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u6            deb   CVE-2022-0443     [91mHigh[0m        [0m1.4% (70th)   1.0           
 vim-tiny              2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u6            deb   CVE-2022-0413     [91mHigh[0m        [0m1.4% (70th)   1.0           
+vim-tiny              2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u6            deb   CVE-2022-0443     [91mHigh[0m        [0m1.4% (70th)   1.0           
 xxd                   2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u6            deb   CVE-2022-0413     [91mHigh[0m        [0m1.4% (70th)   1.0           
+xxd                   2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u6            deb   CVE-2022-0443     [91mHigh[0m        [0m1.4% (70th)   1.0           
 u-boot-tools          2016.11+dfsg1-4                     (won't fix)                    deb   CVE-2020-10648    [91mHigh[0m        [0m1.4% (70th)   1.0           
 binutils              2.28-5                              (won't fix)                    deb   CVE-2018-6759     [33mMedium[0m      [0m2.1% (80th)   1.0           
 openssh-client        1:7.4p1-10+deb9u3                                                  deb   CVE-2019-6110     [90mNegligible[0m  [0m20.9% (97th)  1.0           
@@ -1067,7 +1067,7 @@ vim-tiny              2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u5   
 xxd                   2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u5            deb   CVE-2022-0359     [91mHigh[0m        [0m1.3% (69th)   1.0           
 libgnutls30           3.5.8-5+deb9u3                      (won't fix)                    deb   CVE-2021-4209     [33mMedium[0m      [0m1.7% (76th)   1.0           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.272-1                      deb   CVE-2021-28660    [91mHigh[0m        [0m1.3% (68th)   1.0           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.88-1                       deb   CVE-2018-1093     [33mMedium[0m      [0m2.0% (78th)   1.0           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.88-1                       deb   CVE-2018-1093     [33mMedium[0m      [0m2.0% (79th)   1.0           
 libxml2               2.9.4+dfsg1-2.2+deb9u2              2.9.4+dfsg1-2.2+deb9u5         deb   CVE-2021-3541     [33mMedium[0m      [0m2.0% (78th)   1.0           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.240-1                      deb   CVE-2020-14386    [91mHigh[0m        [0m1.3% (68th)   1.0           
 libexpat1             2.2.0-2+deb9u1                                                     deb   CVE-2013-0340     [90mNegligible[0m  [0m19.4% (97th)  1.0           
@@ -1138,7 +1138,7 @@ libwbclient0          2:4.5.12+dfsg-2+deb9u2                                    
 samba-common          2:4.5.12+dfsg-2+deb9u2                                             deb   CVE-2016-2124     [33mMedium[0m      [0m1.8% (76th)   0.9           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.290-1                      deb   CVE-2021-4203     [33mMedium[0m      [0m1.7% (76th)   0.9           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.320-2                      deb   CVE-2018-1108     [33mMedium[0m      [0m1.7% (76th)   0.9           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.184-1                      deb   CVE-2019-15666    [33mMedium[0m      [0m1.7% (75th)   0.9           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.184-1                      deb   CVE-2019-15666    [33mMedium[0m      [0m1.7% (76th)   0.9           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1                      deb   CVE-2018-13093    [33mMedium[0m      [0m1.7% (75th)   0.9           
 vim-common            2:8.0.0197-4+deb9u1                 (won't fix)                    deb   CVE-2022-0156     [33mMedium[0m      [0m1.7% (75th)   0.9           
 vim-nox               2:8.0.0197-4+deb9u1                 (won't fix)                    deb   CVE-2022-0156     [33mMedium[0m      [0m1.7% (75th)   0.9           
@@ -1150,8 +1150,8 @@ binutils              2.28-5                              (won't fix)           
 binutils              2.28-5                              (won't fix)                    deb   CVE-2017-9753     [32mLow[0m         [0m2.8% (85th)   0.8           
 libdw1                0.168-1                             0.168-1+deb9u1                 deb   CVE-2018-16062    [33mMedium[0m      [0m1.7% (75th)   0.8           
 libelf1               0.168-1                             0.168-1+deb9u1                 deb   CVE-2018-16062    [33mMedium[0m      [0m1.7% (75th)   0.8           
-binutils              2.28-5                              (won't fix)                    deb   CVE-2017-9752     [32mLow[0m         [0m2.8% (85th)   0.8           
 u-boot-tools          2016.11+dfsg1-4                     (won't fix)                    deb   CVE-2021-27138    [91mHigh[0m        [0m1.1% (63rd)   0.8           
+binutils              2.28-5                              (won't fix)                    deb   CVE-2017-9752     [32mLow[0m         [0m2.8% (85th)   0.8           
 libsystemd0           232-25+deb9u4                       (won't fix)                    deb   CVE-2021-3997     [33mMedium[0m      [0m1.6% (73rd)   0.8           
 libudev1              232-25+deb9u4                       (won't fix)                    deb   CVE-2021-3997     [33mMedium[0m      [0m1.6% (73rd)   0.8           
 systemd               232-25+deb9u4                       (won't fix)                    deb   CVE-2021-3997     [33mMedium[0m      [0m1.6% (73rd)   0.8           
@@ -1161,10 +1161,10 @@ linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                        
 libwbclient0          2:4.5.12+dfsg-2+deb9u2              2:4.5.16+dfsg-1+deb9u4         deb   CVE-2021-20254    [33mMedium[0m      [0m1.6% (74th)   0.8           
 samba-common          2:4.5.12+dfsg-2+deb9u2              2:4.5.16+dfsg-1+deb9u4         deb   CVE-2021-20254    [33mMedium[0m      [0m1.6% (74th)   0.8           
 libsqlite3-0          3.16.2-5+deb9u1                     (won't fix)                    deb   CVE-2021-45346    [33mMedium[0m      [0m1.6% (74th)   0.8           
+u-boot-tools          2016.11+dfsg1-4                     (won't fix)                    deb   CVE-2021-27097    [91mHigh[0m        [0m1.1% (62nd)   0.8           
 binutils              2.28-5                              (won't fix)                    deb   CVE-2017-9744     [32mLow[0m         [0m2.7% (84th)   0.8           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.135-1                      deb   CVE-2018-18281    [91mHigh[0m        [0m1.1% (62nd)   0.8           
 binutils              2.28-5                              (won't fix)                    deb   CVE-2017-9745     [32mLow[0m         [0m2.7% (84th)   0.8           
-u-boot-tools          2016.11+dfsg1-4                     (won't fix)                    deb   CVE-2021-27097    [91mHigh[0m        [0m1.1% (62nd)   0.8           
 binutils              2.28-5                              (won't fix)                    deb   CVE-2017-9754     [32mLow[0m         [0m2.6% (84th)   0.8           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.168-1+deb9u2               deb   CVE-2018-12130    [33mMedium[0m      [0m1.6% (73rd)   0.8           
 gnupg                 2.1.18-8~deb9u2                     (won't fix)                    deb   CVE-2018-1000858  [91mHigh[0m        [0m1.0% (61st)   0.8           
@@ -1189,8 +1189,8 @@ libnettle6            3.3-1+b2                            (won't fix)           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1+deb9u1               deb   CVE-2020-10757    [91mHigh[0m        [0m1.0% (60th)   0.7           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.168-1+deb9u3               deb   CVE-2019-11599    [91mHigh[0m        [0m1.0% (60th)   0.7           
 binutils              2.28-5                              (won't fix)                    deb   CVE-2018-7570     [33mMedium[0m      [0m1.5% (72nd)   0.7           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1                      deb   CVE-2019-18683    [91mHigh[0m        [0m1.0% (59th)   0.7           
-binutils              2.28-5                              (won't fix)                    deb   CVE-2017-13757    [33mMedium[0m      [0m1.5% (71st)   0.7           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1                      deb   CVE-2019-18683    [91mHigh[0m        [0m1.0% (60th)   0.7           
+binutils              2.28-5                              (won't fix)                    deb   CVE-2017-13757    [33mMedium[0m      [0m1.5% (72nd)   0.7           
 libdw1                0.168-1                             0.168-1+deb9u1                 deb   CVE-2018-18310    [33mMedium[0m      [0m1.5% (71st)   0.7           
 libelf1               0.168-1                             0.168-1+deb9u1                 deb   CVE-2018-18310    [33mMedium[0m      [0m1.5% (71st)   0.7           
 vim-common            2:8.0.0197-4+deb9u1                 (won't fix)                    deb   CVE-2022-0696     [33mMedium[0m      [0m1.5% (71st)   0.7           
@@ -1259,7 +1259,7 @@ linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1             
 openssh-client        1:7.4p1-10+deb9u3                                                  deb   CVE-2020-15778    [90mNegligible[0m  [0m13.0% (96th)  0.6           
 openssh-server        1:7.4p1-10+deb9u3                                                  deb   CVE-2020-15778    [90mNegligible[0m  [0m13.0% (96th)  0.6           
 openssh-sftp-server   1:7.4p1-10+deb9u3                                                  deb   CVE-2020-15778    [90mNegligible[0m  [0m13.0% (96th)  0.6           
-binutils              2.28-5                              (won't fix)                    deb   CVE-2017-15020    [32mLow[0m         [0m2.2% (80th)   0.6           
+binutils              2.28-5                              (won't fix)                    deb   CVE-2017-15020    [32mLow[0m         [0m2.2% (81st)   0.6           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.110-1                      deb   CVE-2018-10879    [91mHigh[0m        [0m0.9% (56th)   0.6           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.320-2                      deb   CVE-2022-0812     [33mMedium[0m      [0m1.4% (70th)   0.6           
 binutils              2.28-5                              (won't fix)                    deb   CVE-2017-9043     [32mLow[0m         [0m2.1% (80th)   0.6           
@@ -1278,6 +1278,7 @@ binutils              2.28-5                              (won't fix)           
 binutils              2.28-5                              (won't fix)                    deb   CVE-2017-9040     [32mLow[0m         [0m2.1% (80th)   0.6           
 binutils              2.28-5                              (won't fix)                    deb   CVE-2017-9042     [32mLow[0m         [0m2.1% (80th)   0.6           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  (won't fix)                    deb   CVE-2021-44879    [33mMedium[0m      [0m1.2% (66th)   0.6           
+liblua5.2-0           5.2.4-1.1+b2                        (won't fix)                    deb   CVE-2021-43519    [33mMedium[0m      [0m1.2% (66th)   0.6           
 gnupg                 2.1.18-8~deb9u2                     (won't fix)                    deb   CVE-2018-9234     [32mLow[0m         [0m2.1% (79th)   0.6           
 gnupg-agent           2.1.18-8~deb9u2                     (won't fix)                    deb   CVE-2018-9234     [32mLow[0m         [0m2.1% (79th)   0.6           
 gpgv                  2.1.18-8~deb9u2                     (won't fix)                    deb   CVE-2018-9234     [32mLow[0m         [0m2.1% (79th)   0.6           
@@ -1291,24 +1292,23 @@ ncurses-bin           6.0+20161126-1+deb9u2               (won't fix)           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2022-1679     [91mHigh[0m        [0m0.8% (54th)   0.6           
 binutils              2.28-5                              (won't fix)                    deb   CVE-2017-14938    [32mLow[0m         [0m2.0% (79th)   0.6           
 libicu57              57.1-6+deb9u2                       57.1-6+deb9u5                  deb   CVE-2020-21913    [33mMedium[0m      [0m1.2% (66th)   0.6           
-binutils              2.28-5                              (won't fix)                    deb   CVE-2017-15022    [32mLow[0m         [0m2.0% (79th)   0.6           
 binutils              2.28-5                              (won't fix)                    deb   CVE-2017-15021    [32mLow[0m         [0m2.0% (79th)   0.6           
+binutils              2.28-5                              (won't fix)                    deb   CVE-2017-15022    [32mLow[0m         [0m2.0% (79th)   0.6           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.130-1                      deb   CVE-2019-12881    [91mHigh[0m        [0m0.8% (54th)   0.6           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.161-1                      deb   CVE-2019-7221     [91mHigh[0m        [0m0.8% (54th)   0.6           
-libssl1.0.2           1.0.2l-2+deb9u3                     1.0.2t-1~deb9u1                deb   CVE-2019-1547     [33mMedium[0m      [0m1.2% (65th)   0.6           
-libssl1.1             1.1.0f-3+deb9u2                     1.1.0l-1~deb9u1                deb   CVE-2019-1547     [33mMedium[0m      [0m1.2% (65th)   0.6           
-openssl               1.1.0f-3+deb9u2                     1.1.0l-1~deb9u1                deb   CVE-2019-1547     [33mMedium[0m      [0m1.2% (65th)   0.6           
+libssl1.0.2           1.0.2l-2+deb9u3                     1.0.2t-1~deb9u1                deb   CVE-2019-1547     [33mMedium[0m      [0m1.2% (66th)   0.6           
+libssl1.1             1.1.0f-3+deb9u2                     1.1.0l-1~deb9u1                deb   CVE-2019-1547     [33mMedium[0m      [0m1.2% (66th)   0.6           
+openssl               1.1.0f-3+deb9u2                     1.1.0l-1~deb9u1                deb   CVE-2019-1547     [33mMedium[0m      [0m1.2% (66th)   0.6           
 libperl5.24           5.24.1-3+deb9u4                     (won't fix)                    deb   CVE-2020-16156    [91mHigh[0m        [0m0.8% (54th)   0.6           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.320-2                      deb   CVE-2022-30594    [91mHigh[0m        [0m0.8% (54th)   0.6           
 perl                  5.24.1-3+deb9u4                     (won't fix)                    deb   CVE-2020-16156    [91mHigh[0m        [0m0.8% (54th)   0.6           
 perl-base             5.24.1-3+deb9u4                     (won't fix)                    deb   CVE-2020-16156    [91mHigh[0m        [0m0.8% (54th)   0.6           
 perl-modules-5.24     5.24.1-3+deb9u4                     (won't fix)                    deb   CVE-2020-16156    [91mHigh[0m        [0m0.8% (54th)   0.6           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.320-2                      deb   CVE-2022-30594    [91mHigh[0m        [0m0.8% (54th)   0.6           
 binutils              2.28-5                              (won't fix)                    deb   CVE-2018-8945     [32mLow[0m         [0m2.0% (79th)   0.6           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.258-1                      deb   CVE-2020-27815    [91mHigh[0m        [0m0.8% (53rd)   0.6           
 binutils              2.28-5                              (won't fix)                    deb   CVE-2017-14940    [32mLow[0m         [0m1.9% (78th)   0.6           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.88-1+deb9u1                deb   CVE-2018-1087     [91mHigh[0m        [0m0.8% (53rd)   0.6           
 binutils              2.28-5                              (won't fix)                    deb   CVE-2017-9041     [32mLow[0m         [0m1.9% (78th)   0.6           
-liblua5.2-0           5.2.4-1.1+b2                        (won't fix)                    deb   CVE-2021-43519    [33mMedium[0m      [0m1.1% (64th)   0.6           
 libwbclient0          2:4.5.12+dfsg-2+deb9u2                                             deb   CVE-2021-20316    [33mMedium[0m      [0m1.0% (59th)   0.6           
 samba-common          2:4.5.12+dfsg-2+deb9u2                                             deb   CVE-2021-20316    [33mMedium[0m      [0m1.0% (59th)   0.6           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.189-3+deb9u1               deb   CVE-2019-14821    [91mHigh[0m        [0m0.8% (52nd)   0.6           
@@ -1328,22 +1328,22 @@ libss2                1.43.4-2                            1.43.4-2+deb9u1       
 binutils              2.28-5                              (won't fix)                    deb   CVE-2017-17124    [32mLow[0m         [0m1.8% (77th)   0.6           
 wget                  1.18-5+deb9u2                       (won't fix)                    deb   CVE-2021-31879    [33mMedium[0m      [0m1.1% (63rd)   0.6           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1+deb9u1               deb   CVE-2020-9383     [91mHigh[0m        [0m0.7% (51st)   0.5           
-libwbclient0          2:4.5.12+dfsg-2+deb9u2                                             deb   CVE-2021-44141    [33mMedium[0m      [0m1.1% (62nd)   0.5           
-samba-common          2:4.5.12+dfsg-2+deb9u2                                             deb   CVE-2021-44141    [33mMedium[0m      [0m1.1% (62nd)   0.5           
-binutils              2.28-5                              (won't fix)                    deb   CVE-2017-16826    [32mLow[0m         [0m1.8% (76th)   0.5           
-binutils              2.28-5                              (won't fix)                    deb   CVE-2017-16828    [32mLow[0m         [0m1.8% (76th)   0.5           
+libwbclient0          2:4.5.12+dfsg-2+deb9u2                                             deb   CVE-2021-44141    [33mMedium[0m      [0m1.1% (63rd)   0.5           
+samba-common          2:4.5.12+dfsg-2+deb9u2                                             deb   CVE-2021-44141    [33mMedium[0m      [0m1.1% (63rd)   0.5           
 binutils              2.28-5                              (won't fix)                    deb   CVE-2017-16829    [32mLow[0m         [0m1.8% (76th)   0.5           
 binutils              2.28-5                              (won't fix)                    deb   CVE-2017-16831    [32mLow[0m         [0m1.8% (76th)   0.5           
 binutils              2.28-5                              (won't fix)                    deb   CVE-2017-16832    [32mLow[0m         [0m1.8% (76th)   0.5           
+binutils              2.28-5                              (won't fix)                    deb   CVE-2017-16826    [32mLow[0m         [0m1.8% (76th)   0.5           
+binutils              2.28-5                              (won't fix)                    deb   CVE-2017-16828    [32mLow[0m         [0m1.8% (76th)   0.5           
 binutils              2.28-5                              (won't fix)                    deb   CVE-2017-16827    [32mLow[0m         [0m1.8% (76th)   0.5           
 libsystemd0           232-25+deb9u4                       232-25+deb9u7                  deb   CVE-2018-16864    [91mHigh[0m        [0m0.7% (51st)   0.5           
 libudev1              232-25+deb9u4                       232-25+deb9u7                  deb   CVE-2018-16864    [91mHigh[0m        [0m0.7% (51st)   0.5           
 systemd               232-25+deb9u4                       232-25+deb9u7                  deb   CVE-2018-16864    [91mHigh[0m        [0m0.7% (51st)   0.5           
 systemd-sysv          232-25+deb9u4                       232-25+deb9u7                  deb   CVE-2018-16864    [91mHigh[0m        [0m0.7% (51st)   0.5           
 udev                  232-25+deb9u4                       232-25+deb9u7                  deb   CVE-2018-16864    [91mHigh[0m        [0m0.7% (51st)   0.5           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.184-1                      deb   CVE-2019-11487    [91mHigh[0m        [0m0.7% (50th)   0.5           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.184-1                      deb   CVE-2019-11487    [91mHigh[0m        [0m0.7% (51st)   0.5           
 binutils              2.28-5                              (won't fix)                    deb   CVE-2017-9955     [33mMedium[0m      [0m1.1% (62nd)   0.5           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.168-1+deb9u5               deb   CVE-2018-20856    [91mHigh[0m        [0m0.7% (50th)   0.5           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.168-1+deb9u5               deb   CVE-2018-20856    [91mHigh[0m        [0m0.7% (51st)   0.5           
 binutils              2.28-5                              (won't fix)                    deb   CVE-2017-15025    [32mLow[0m         [0m1.8% (76th)   0.5           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.303-1                      deb   CVE-2022-25375    [33mMedium[0m      [0m1.1% (62nd)   0.5           
 u-boot-tools          2016.11+dfsg1-4                     (won't fix)                    deb   CVE-2019-13106    [32mLow[0m         [0m1.8% (76th)   0.5           
@@ -1379,7 +1379,7 @@ linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1             
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1+deb9u1               deb   CVE-2020-10942    [33mMedium[0m      [0m1.0% (59th)   0.5           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.80-1                       deb   CVE-2018-6927     [91mHigh[0m        [0m0.6% (48th)   0.5           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.161-1                      deb   CVE-2018-19985    [33mMedium[0m      [0m1.0% (59th)   0.5           
-binutils              2.28-5                              (won't fix)                    deb   CVE-2017-15024    [32mLow[0m         [0m1.6% (73rd)   0.5           
+binutils              2.28-5                              (won't fix)                    deb   CVE-2017-15024    [32mLow[0m         [0m1.6% (74th)   0.5           
 binutils              2.28-5                              (won't fix)                    deb   CVE-2017-17123    [32mLow[0m         [0m1.6% (73rd)   0.5           
 vim-common            2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u5            deb   CVE-2021-3928     [91mHigh[0m        [0m0.6% (48th)   0.5           
 vim-nox               2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u5            deb   CVE-2021-3928     [91mHigh[0m        [0m0.6% (48th)   0.5           
@@ -1390,15 +1390,15 @@ linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.189-3+deb9u1      
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.246-1                      deb   CVE-2020-25669    [91mHigh[0m        [0m0.6% (47th)   0.5           
 login                 1:4.4-4.1                           (won't fix)                    deb   CVE-2018-7169     [32mLow[0m         [0m1.6% (73rd)   0.5           
 passwd                1:4.4-4.1                           (won't fix)                    deb   CVE-2018-7169     [32mLow[0m         [0m1.6% (73rd)   0.5           
-binutils              2.28-5                              (won't fix)                    deb   CVE-2017-14129    [32mLow[0m         [0m1.6% (73rd)   0.5           
-binutils              2.28-5                              (won't fix)                    deb   CVE-2017-14130    [32mLow[0m         [0m1.6% (73rd)   0.5           
 binutils              2.28-5                              (won't fix)                    deb   CVE-2017-14128    [32mLow[0m         [0m1.6% (73rd)   0.5           
+binutils              2.28-5                              (won't fix)                    deb   CVE-2017-14130    [32mLow[0m         [0m1.6% (73rd)   0.5           
+binutils              2.28-5                              (won't fix)                    deb   CVE-2017-14129    [32mLow[0m         [0m1.6% (73rd)   0.5           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  (won't fix)                    deb   CVE-2021-38300    [91mHigh[0m        [0m0.6% (47th)   0.5           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.240-1                      deb   CVE-2020-15436    [33mMedium[0m      [0m0.9% (58th)   0.5           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.303-1                      deb   CVE-2022-25258    [33mMedium[0m      [0m0.9% (58th)   0.5           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1+deb9u1               deb   CVE-2020-2732     [33mMedium[0m      [0m0.9% (58th)   0.5           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  (won't fix)                    deb   CVE-2021-33624    [33mMedium[0m      [0m0.9% (57th)   0.5           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.189-3+deb9u1               deb   CVE-2019-15117    [91mHigh[0m        [0m0.6% (46th)   0.5           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.189-3+deb9u1               deb   CVE-2019-15117    [91mHigh[0m        [0m0.6% (47th)   0.5           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.189-3+deb9u2               deb   CVE-2018-12207    [33mMedium[0m      [0m0.9% (57th)   0.5           
 vim-common            2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u6            deb   CVE-2022-0351     [91mHigh[0m        [0m0.6% (46th)   0.5           
 vim-nox               2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u6            deb   CVE-2022-0351     [91mHigh[0m        [0m0.6% (46th)   0.5           
@@ -1444,7 +1444,7 @@ libgssapi-krb5-2      1.15-1+deb9u1                                             
 libk5crypto3          1.15-1+deb9u1                                                      deb   CVE-2017-15088    [90mNegligible[0m  [0m8.3% (94th)   0.4           
 libkrb5-3             1.15-1+deb9u1                                                      deb   CVE-2017-15088    [90mNegligible[0m  [0m8.3% (94th)   0.4           
 libkrb5support0       1.15-1+deb9u1                                                      deb   CVE-2017-15088    [90mNegligible[0m  [0m8.3% (94th)   0.4           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.272-1                      deb   CVE-2021-0129     [33mMedium[0m      [0m0.8% (54th)   0.4           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.272-1                      deb   CVE-2021-0129     [33mMedium[0m      [0m0.8% (55th)   0.4           
 dbus                  1.10.26-0+deb9u1                    1.10.28-0+deb9u1               deb   CVE-2019-12749    [91mHigh[0m        [0m0.5% (43rd)   0.4           
 libdbus-1-3           1.10.26-0+deb9u1                    1.10.28-0+deb9u1               deb   CVE-2019-12749    [91mHigh[0m        [0m0.5% (43rd)   0.4           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  (won't fix)                    deb   CVE-2021-45469    [91mHigh[0m        [0m0.5% (43rd)   0.4           
@@ -1465,7 +1465,7 @@ libc6                 2.24-11+deb9u3                      (won't fix)           
 libc6-dev             2.24-11+deb9u3                      (won't fix)                    deb   CVE-2020-1752     [91mHigh[0m        [0m0.5% (43rd)   0.4           
 multiarch-support     2.24-11+deb9u3                      (won't fix)                    deb   CVE-2020-1752     [91mHigh[0m        [0m0.5% (43rd)   0.4           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1+deb9u1               deb   CVE-2020-12464    [33mMedium[0m      [0m0.8% (54th)   0.4           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.110-1                      deb   CVE-2019-18675    [91mHigh[0m        [0m0.5% (42nd)   0.4           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.110-1                      deb   CVE-2019-18675    [91mHigh[0m        [0m0.5% (43rd)   0.4           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.130-1                      deb   CVE-2018-13406    [91mHigh[0m        [0m0.5% (42nd)   0.4           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.88-1                       deb   CVE-2018-8822     [91mHigh[0m        [0m0.5% (42nd)   0.4           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.320-2                      deb   CVE-2022-1734     [91mHigh[0m        [0m0.5% (42nd)   0.4           
@@ -1476,7 +1476,7 @@ binutils              2.28-5                              (won't fix)           
 binutils              2.28-5                              (won't fix)                    deb   CVE-2017-17080    [32mLow[0m         [0m1.3% (68th)   0.4           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.184-1                      deb   CVE-2019-15212    [33mMedium[0m      [0m0.8% (53rd)   0.4           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.272-1                      deb   CVE-2020-25671    [91mHigh[0m        [0m0.5% (41st)   0.4           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.110-1                      deb   CVE-2018-10881    [33mMedium[0m      [0m0.8% (52nd)   0.4           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.110-1                      deb   CVE-2018-10881    [33mMedium[0m      [0m0.8% (53rd)   0.4           
 binutils              2.28-5                              (won't fix)                    deb   CVE-2017-14933    [32mLow[0m         [0m1.3% (67th)   0.4           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.189-1                      deb   CVE-2019-15215    [33mMedium[0m      [0m0.8% (52nd)   0.4           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.189-3+deb9u1               deb   CVE-2019-15118    [33mMedium[0m      [0m0.8% (52nd)   0.4           
@@ -1502,7 +1502,7 @@ vim-runtime           2:8.0.0197-4+deb9u1                 (won't fix)           
 vim-tiny              2:8.0.0197-4+deb9u1                 (won't fix)                    deb   CVE-2022-1785     [91mHigh[0m        [0m0.5% (40th)   0.4           
 xxd                   2:8.0.0197-4+deb9u1                 (won't fix)                    deb   CVE-2022-1785     [91mHigh[0m        [0m0.5% (40th)   0.4           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1                      deb   CVE-2019-19524    [33mMedium[0m      [0m0.7% (52nd)   0.4           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1                      deb   CVE-2019-18660    [33mMedium[0m      [0m0.7% (51st)   0.4           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1                      deb   CVE-2019-18660    [33mMedium[0m      [0m0.7% (52nd)   0.4           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.290-1                      deb   CVE-2021-3679     [33mMedium[0m      [0m0.7% (51st)   0.4           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.168-1+deb9u5               deb   CVE-2019-14283    [33mMedium[0m      [0m0.7% (51st)   0.4           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1                      deb   CVE-2019-14815    [91mHigh[0m        [0m0.5% (40th)   0.4           
@@ -1516,7 +1516,7 @@ u-boot-tools          2016.11+dfsg1-4                     (won't fix)           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.184-1                      deb   CVE-2019-15219    [33mMedium[0m      [0m0.7% (51st)   0.4           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.185-1                      deb   CVE-2019-15221    [33mMedium[0m      [0m0.7% (51st)   0.4           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.258-1                      deb   CVE-2021-27363    [33mMedium[0m      [0m0.7% (51st)   0.4           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.258-1                      deb   CVE-2021-28038    [33mMedium[0m      [0m0.7% (50th)   0.4           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.258-1                      deb   CVE-2021-28038    [33mMedium[0m      [0m0.7% (51st)   0.4           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.272-1                      deb   CVE-2021-23133    [91mHigh[0m        [0m0.5% (38th)   0.4           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.228-1                      deb   CVE-2020-12826    [33mMedium[0m      [0m0.7% (50th)   0.4           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.110-1                      deb   CVE-2018-10853    [91mHigh[0m        [0m0.5% (38th)   0.4           
@@ -1536,7 +1536,6 @@ linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.303-1             
 libsnmp-base          5.7.3+dfsg-1.7                      5.7.3+dfsg-1.7+deb9u3          deb   CVE-2020-15861    [91mHigh[0m        [0m0.5% (38th)   0.3           
 libsnmp30             5.7.3+dfsg-1.7                      5.7.3+dfsg-1.7+deb9u3          deb   CVE-2020-15861    [91mHigh[0m        [0m0.5% (38th)   0.3           
 snmpd                 5.7.3+dfsg-1.7                      5.7.3+dfsg-1.7+deb9u3          deb   CVE-2020-15861    [91mHigh[0m        [0m0.5% (38th)   0.3           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.228-1                      deb   CVE-2020-0009     [33mMedium[0m      [0m0.7% (50th)   0.3           
 libsystemd0           232-25+deb9u4                       232-25+deb9u14                 deb   CVE-2020-1712     [91mHigh[0m        [0m0.5% (37th)   0.3           
 libudev1              232-25+deb9u4                       232-25+deb9u14                 deb   CVE-2020-1712     [91mHigh[0m        [0m0.5% (37th)   0.3           
 systemd               232-25+deb9u4                       232-25+deb9u14                 deb   CVE-2020-1712     [91mHigh[0m        [0m0.5% (37th)   0.3           
@@ -1548,6 +1547,7 @@ linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1             
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1                      deb   CVE-2019-19332    [33mMedium[0m      [0m0.7% (49th)   0.3           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.80-1                       deb   CVE-2018-5332     [91mHigh[0m        [0m0.5% (37th)   0.3           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.161-1                      deb   CVE-2019-7222     [33mMedium[0m      [0m0.7% (49th)   0.3           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.228-1                      deb   CVE-2020-0009     [33mMedium[0m      [0m0.7% (49th)   0.3           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.240-1                      deb   CVE-2020-25220    [91mHigh[0m        [0m0.4% (37th)   0.3           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2020-36516    [33mMedium[0m      [0m0.7% (49th)   0.3           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.290-1                      deb   CVE-2021-3653     [91mHigh[0m        [0m0.4% (37th)   0.3           
@@ -1565,7 +1565,7 @@ linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1+deb9u1      
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.228-1                      deb   CVE-2020-12769    [33mMedium[0m      [0m0.7% (48th)   0.3           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.320-2                      deb   CVE-2022-26490    [91mHigh[0m        [0m0.4% (36th)   0.3           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.272-2                      deb   CVE-2021-3609     [91mHigh[0m        [0m0.4% (36th)   0.3           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.80-1                       deb   CVE-2017-0861     [91mHigh[0m        [0m0.4% (35th)   0.3           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.80-1                       deb   CVE-2017-0861     [91mHigh[0m        [0m0.4% (36th)   0.3           
 gnupg                 2.1.18-8~deb9u2                     (won't fix)                    deb   CVE-2019-14855    [32mLow[0m         [0m1.1% (62nd)   0.3           
 gnupg-agent           2.1.18-8~deb9u2                     (won't fix)                    deb   CVE-2019-14855    [32mLow[0m         [0m1.1% (62nd)   0.3           
 gpgv                  2.1.18-8~deb9u2                     (won't fix)                    deb   CVE-2019-14855    [32mLow[0m         [0m1.1% (62nd)   0.3           
@@ -1581,7 +1581,7 @@ linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.168-1             
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2018-12931    [91mHigh[0m        [0m0.4% (35th)   0.3           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.144-1                      deb   CVE-2018-12896    [33mMedium[0m      [0m0.6% (48th)   0.3           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.290-1                      deb   CVE-2020-16119    [91mHigh[0m        [0m0.4% (35th)   0.3           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1                      deb   CVE-2019-19062    [33mMedium[0m      [0m0.6% (47th)   0.3           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1                      deb   CVE-2019-19062    [33mMedium[0m      [0m0.6% (48th)   0.3           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.184-1                      deb   CVE-2019-19966    [33mMedium[0m      [0m0.6% (47th)   0.3           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.65-1                       deb   CVE-2017-18270    [91mHigh[0m        [0m0.4% (35th)   0.3           
 libsystemd0           232-25+deb9u4                       232-25+deb9u7                  deb   CVE-2018-16866    [32mLow[0m         [0m1.1% (61st)   0.3           
@@ -1601,8 +1601,8 @@ linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.320-2             
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.161-1                      deb   CVE-2019-15927    [91mHigh[0m        [0m0.4% (34th)   0.3           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1+deb9u1               deb   CVE-2020-10732    [33mMedium[0m      [0m0.6% (47th)   0.3           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.110-3+deb9u5               deb   CVE-2018-14678    [91mHigh[0m        [0m0.4% (34th)   0.3           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.65-3+deb9u1                deb   CVE-2017-17863    [91mHigh[0m        [0m0.4% (33rd)   0.3           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.290-1                      deb   CVE-2021-41864    [91mHigh[0m        [0m0.4% (33rd)   0.3           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.65-3+deb9u1                deb   CVE-2017-17863    [91mHigh[0m        [0m0.4% (34th)   0.3           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.290-1                      deb   CVE-2021-41864    [91mHigh[0m        [0m0.4% (34th)   0.3           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.258-1                      deb   CVE-2020-35519    [91mHigh[0m        [0m0.4% (33rd)   0.3           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.168-1+deb9u2               deb   CVE-2019-11091    [33mMedium[0m      [0m0.6% (46th)   0.3           
 login                 1:4.4-4.1                           1:4.4-4.1+deb9u1               deb   CVE-2017-20002    [91mHigh[0m        [0m0.4% (33rd)   0.3           
@@ -1643,7 +1643,7 @@ libsnmp-base          5.7.3+dfsg-1.7                      5.7.3+dfsg-1.7+deb9u2 
 libsnmp30             5.7.3+dfsg-1.7                      5.7.3+dfsg-1.7+deb9u2          deb   CVE-2020-15862    [91mHigh[0m        [0m0.4% (31st)   0.3           
 snmpd                 5.7.3+dfsg-1.7                      5.7.3+dfsg-1.7+deb9u2          deb   CVE-2020-15862    [91mHigh[0m        [0m0.4% (31st)   0.3           
 libgnutls30           3.5.8-5+deb9u3                      (won't fix)                    deb   CVE-2018-16868    [33mMedium[0m      [0m0.6% (45th)   0.3           
-libsqlite3-0          3.16.2-5+deb9u1                     3.16.2-5+deb9u2                deb   CVE-2020-13632    [33mMedium[0m      [0m0.6% (44th)   0.3           
+libsqlite3-0          3.16.2-5+deb9u1                     3.16.2-5+deb9u2                deb   CVE-2020-13632    [33mMedium[0m      [0m0.6% (45th)   0.3           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.107-1                      deb   CVE-2018-5814     [91mHigh[0m        [0m0.4% (31st)   0.3           
 dbus                  1.10.26-0+deb9u1                    1.10.32-0+deb9u1               deb   CVE-2020-12049    [33mMedium[0m      [0m0.6% (44th)   0.3           
 libdbus-1-3           1.10.26-0+deb9u1                    1.10.32-0+deb9u1               deb   CVE-2020-12049    [33mMedium[0m      [0m0.6% (44th)   0.3           
@@ -1658,20 +1658,20 @@ cifs-utils            2:6.7-1                                                   
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.65-3+deb9u1                deb   CVE-2017-17448    [91mHigh[0m        [0m0.4% (30th)   0.3           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.272-1                      deb   CVE-2021-23134    [91mHigh[0m        [0m0.4% (30th)   0.3           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.107-1                      deb   CVE-2018-10124    [33mMedium[0m      [0m0.6% (44th)   0.3           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.303-1                      deb   CVE-2021-3640     [91mHigh[0m        [0m0.4% (29th)   0.3           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.303-1                      deb   CVE-2021-3640     [91mHigh[0m        [0m0.4% (30th)   0.3           
 libpython3.5          3.5.3-1                                                            deb   CVE-2019-9674     [90mNegligible[0m  [0m5.5% (92nd)   0.3           
 libpython3.5-minimal  3.5.3-1                                                            deb   CVE-2019-9674     [90mNegligible[0m  [0m5.5% (92nd)   0.3           
 libpython3.5-stdlib   3.5.3-1                                                            deb   CVE-2019-9674     [90mNegligible[0m  [0m5.5% (92nd)   0.3           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.184-1                      deb   CVE-2019-10142    [91mHigh[0m        [0m0.4% (29th)   0.3           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.110-3+deb9u5               deb   CVE-2018-16658    [33mMedium[0m      [0m0.6% (43rd)   0.3           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.110-3+deb9u5               deb   CVE-2018-15594    [33mMedium[0m      [0m0.6% (43rd)   0.3           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.110-3+deb9u5               deb   CVE-2018-16658    [33mMedium[0m      [0m0.6% (44th)   0.3           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.110-3+deb9u5               deb   CVE-2018-15594    [33mMedium[0m      [0m0.6% (44th)   0.3           
 cron                  3.0pl1-128+deb9u1                   3.0pl1-128+deb9u2              deb   CVE-2017-9525     [33mMedium[0m      [0m0.6% (43rd)   0.3           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.80-1                       deb   CVE-2018-5344     [91mHigh[0m        [0m0.4% (29th)   0.3           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  (won't fix)                    deb   CVE-2021-3506     [91mHigh[0m        [0m0.4% (29th)   0.3           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.168-1+deb9u3               deb   CVE-2019-11486    [91mHigh[0m        [0m0.4% (29th)   0.3           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.320-2                      deb   CVE-2022-23039    [91mHigh[0m        [0m0.4% (29th)   0.3           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.320-2                      deb   CVE-2022-23036    [91mHigh[0m        [0m0.4% (29th)   0.3           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.320-2                      deb   CVE-2022-23038    [91mHigh[0m        [0m0.4% (29th)   0.3           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.320-2                      deb   CVE-2022-23039    [91mHigh[0m        [0m0.4% (29th)   0.3           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.320-2                      deb   CVE-2022-23040    [91mHigh[0m        [0m0.4% (29th)   0.3           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.320-2                      deb   CVE-2022-23041    [91mHigh[0m        [0m0.4% (29th)   0.3           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.228-1                      deb   CVE-2020-29368    [91mHigh[0m        [0m0.4% (29th)   0.3           
@@ -1684,7 +1684,7 @@ linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.320-2             
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.82-1+deb9u2                deb   CVE-2017-13166    [91mHigh[0m        [0m0.4% (28th)   0.3           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.168-1+deb9u5               deb   CVE-2019-3882     [33mMedium[0m      [0m0.5% (43rd)   0.3           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.303-1                      deb   CVE-2021-4202     [91mHigh[0m        [0m0.4% (28th)   0.3           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1+deb9u1               deb   CVE-2020-11608    [33mMedium[0m      [0m0.5% (42nd)   0.3           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1+deb9u1               deb   CVE-2020-11608    [33mMedium[0m      [0m0.5% (43rd)   0.3           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.240-1                      deb   CVE-2019-19073    [33mMedium[0m      [0m0.5% (42nd)   0.3           
 openssh-client        1:7.4p1-10+deb9u3                                                  deb   CVE-2016-20012    [90mNegligible[0m  [0m5.3% (92nd)   0.3           
 openssh-server        1:7.4p1-10+deb9u3                                                  deb   CVE-2016-20012    [90mNegligible[0m  [0m5.3% (92nd)   0.3           
@@ -1708,8 +1708,8 @@ linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.320-2             
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.258-1                      deb   CVE-2021-26930    [91mHigh[0m        [0m0.3% (27th)   0.3           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.240-1                      deb   CVE-2020-28097    [33mMedium[0m      [0m0.5% (42nd)   0.3           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.240-1                      deb   CVE-2020-12771    [33mMedium[0m      [0m0.5% (42nd)   0.3           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1+deb9u1               deb   CVE-2020-11565    [33mMedium[0m      [0m0.5% (41st)   0.3           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.246-1                      deb   CVE-2020-28974    [33mMedium[0m      [0m0.5% (41st)   0.3           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1+deb9u1               deb   CVE-2020-11565    [33mMedium[0m      [0m0.5% (42nd)   0.3           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.246-1                      deb   CVE-2020-28974    [33mMedium[0m      [0m0.5% (42nd)   0.3           
 binutils              2.28-5                                                             deb   CVE-2018-12697    [90mNegligible[0m  [0m5.2% (91st)   0.3           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.303-1                      deb   CVE-2021-4002     [33mMedium[0m      [0m0.5% (41st)   0.3           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  (won't fix)                    deb   CVE-2019-20908    [33mMedium[0m      [0m0.5% (41st)   0.3           
@@ -1746,10 +1746,10 @@ vim-runtime           2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u4   
 vim-tiny              2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u4            deb   CVE-2019-20807    [33mMedium[0m      [0m0.5% (40th)   0.2           
 xxd                   2:8.0.0197-4+deb9u1                 2:8.0.0197-4+deb9u4            deb   CVE-2019-20807    [33mMedium[0m      [0m0.5% (40th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1+deb9u1               deb   CVE-2020-8649     [33mMedium[0m      [0m0.5% (40th)   0.2           
+patch                 2.7.5-1+deb9u1                                                     deb   CVE-2010-4651     [90mNegligible[0m  [0m4.9% (91st)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1                      deb   CVE-2019-18809    [33mMedium[0m      [0m0.5% (39th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.272-1                      deb   CVE-2021-3564     [33mMedium[0m      [0m0.5% (39th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.65-1                       deb   CVE-2017-16526    [91mHigh[0m        [0m0.3% (24th)   0.2           
-patch                 2.7.5-1+deb9u1                                                     deb   CVE-2010-4651     [90mNegligible[0m  [0m4.8% (91st)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.65-1                       deb   CVE-2017-16643    [33mMedium[0m      [0m0.5% (39th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.65-3+deb9u1                deb   CVE-2017-17558    [33mMedium[0m      [0m0.5% (39th)   0.2           
 libc-bin              2.24-11+deb9u3                      (won't fix)                    deb   CVE-2016-10739    [33mMedium[0m      [0m0.5% (39th)   0.2           
@@ -1762,17 +1762,17 @@ linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.65-3+deb9u1       
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.144-1                      deb   CVE-2018-19407    [33mMedium[0m      [0m0.5% (39th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.184-1                      deb   CVE-2019-20054    [33mMedium[0m      [0m0.5% (39th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  (won't fix)                    deb   CVE-2020-0067     [33mMedium[0m      [0m0.5% (39th)   0.2           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.258-1                      deb   CVE-2020-29660    [33mMedium[0m      [0m0.5% (39th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.290-1                      deb   CVE-2021-42739    [33mMedium[0m      [0m0.5% (39th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1                      deb   CVE-2019-19057    [32mLow[0m         [0m0.8% (53rd)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.246-1                      deb   CVE-2020-0427     [33mMedium[0m      [0m0.5% (39th)   0.2           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.272-2                      deb   CVE-2021-34693    [33mMedium[0m      [0m0.5% (38th)   0.2           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.272-2                      deb   CVE-2021-34693    [33mMedium[0m      [0m0.5% (39th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.82-1+deb9u1                deb   CVE-2017-13305    [91mHigh[0m        [0m0.3% (23rd)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  (won't fix)                    deb   CVE-2020-27777    [33mMedium[0m      [0m0.5% (38th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.88-1                       deb   CVE-2017-18216    [33mMedium[0m      [0m0.5% (38th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.290-1                      deb   CVE-2021-38198    [33mMedium[0m      [0m0.5% (38th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.144-1                      deb   CVE-2017-18249    [91mHigh[0m        [0m0.3% (23rd)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.272-1                      deb   CVE-2020-25673    [33mMedium[0m      [0m0.5% (38th)   0.2           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.258-1                      deb   CVE-2020-29660    [33mMedium[0m      [0m0.5% (38th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.228-1                      deb   CVE-2020-10766    [33mMedium[0m      [0m0.5% (38th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.80-1                       deb   CVE-2017-18208    [33mMedium[0m      [0m0.5% (38th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.303-1                      deb   CVE-2021-4083     [91mHigh[0m        [0m0.3% (23rd)   0.2           
@@ -1787,10 +1787,10 @@ linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.88-1              
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.107-1                      deb   CVE-2018-10021    [33mMedium[0m      [0m0.5% (38th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.246-1                      deb   CVE-2020-14351    [91mHigh[0m        [0m0.3% (22nd)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1                      deb   CVE-2019-19531    [33mMedium[0m      [0m0.5% (38th)   0.2           
-file                  1:5.30-1+deb9u2                     (won't fix)                    deb   CVE-2019-8905     [33mMedium[0m      [0m0.5% (37th)   0.2           
-libmagic-mgc          1:5.30-1+deb9u2                     (won't fix)                    deb   CVE-2019-8905     [33mMedium[0m      [0m0.5% (37th)   0.2           
-libmagic1             1:5.30-1+deb9u2                     (won't fix)                    deb   CVE-2019-8905     [33mMedium[0m      [0m0.5% (37th)   0.2           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.161-1                      deb   CVE-2019-3819     [33mMedium[0m      [0m0.5% (37th)   0.2           
+file                  1:5.30-1+deb9u2                     (won't fix)                    deb   CVE-2019-8905     [33mMedium[0m      [0m0.5% (38th)   0.2           
+libmagic-mgc          1:5.30-1+deb9u2                     (won't fix)                    deb   CVE-2019-8905     [33mMedium[0m      [0m0.5% (38th)   0.2           
+libmagic1             1:5.30-1+deb9u2                     (won't fix)                    deb   CVE-2019-8905     [33mMedium[0m      [0m0.5% (38th)   0.2           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.161-1                      deb   CVE-2019-3819     [33mMedium[0m      [0m0.5% (38th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.320-2                      deb   CVE-2022-1016     [33mMedium[0m      [0m0.4% (36th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.290-1                      deb   CVE-2021-40490    [91mHigh[0m        [0m0.3% (22nd)   0.2           
 binutils              2.28-5                                                             deb   CVE-2018-12699    [90mNegligible[0m  [0m4.5% (90th)   0.2           
@@ -1811,7 +1811,7 @@ linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.303-1             
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.161-1                      deb   CVE-2019-6133     [33mMedium[0m      [0m0.4% (37th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.228-1                      deb   CVE-2018-9517     [33mMedium[0m      [0m0.4% (37th)   0.2           
 u-boot-tools          2016.11+dfsg1-4                     (won't fix)                    deb   CVE-2022-30552    [33mMedium[0m      [0m0.4% (37th)   0.2           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1+deb9u1               deb   CVE-2019-20811    [33mMedium[0m      [0m0.4% (36th)   0.2           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1+deb9u1               deb   CVE-2019-20811    [33mMedium[0m      [0m0.4% (37th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2022-1419     [91mHigh[0m        [0m0.3% (21st)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1                      deb   CVE-2019-20812    [33mMedium[0m      [0m0.4% (36th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.246-1                      deb   CVE-2020-25656    [33mMedium[0m      [0m0.4% (36th)   0.2           
@@ -1826,13 +1826,14 @@ linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1             
 autopoint             0.19.8.1-2                                                         deb   CVE-2018-18751    [90mNegligible[0m  [0m4.3% (90th)   0.2           
 gettext               0.19.8.1-2                                                         deb   CVE-2018-18751    [90mNegligible[0m  [0m4.3% (90th)   0.2           
 gettext-base          0.19.8.1-2                                                         deb   CVE-2018-18751    [90mNegligible[0m  [0m4.3% (90th)   0.2           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.168-1                      deb   CVE-2019-2101     [33mMedium[0m      [0m0.4% (35th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.303-1                      deb   CVE-2022-0487     [33mMedium[0m      [0m0.4% (35th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.272-1                      deb   CVE-2021-0512     [91mHigh[0m        [0m0.3% (20th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1+deb9u1               deb   CVE-2020-12114    [33mMedium[0m      [0m0.4% (35th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.65-1                       deb   CVE-2017-16534    [33mMedium[0m      [0m0.4% (35th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2022-1204     [33mMedium[0m      [0m0.4% (33rd)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  (won't fix)                    deb   CVE-2018-20449    [33mMedium[0m      [0m0.4% (35th)   0.2           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  (won't fix)                    deb   CVE-2021-34556    [33mMedium[0m      [0m0.4% (34th)   0.2           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  (won't fix)                    deb   CVE-2021-34556    [33mMedium[0m      [0m0.4% (35th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2018-1121     [90mNegligible[0m  [0m4.2% (90th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.240-1                      deb   CVE-2020-29371    [32mLow[0m         [0m0.7% (50th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.168-1                      deb   CVE-2017-18551    [33mMedium[0m      [0m0.4% (34th)   0.2           
@@ -1861,11 +1862,10 @@ linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  (won't fix)           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.65-1                       deb   CVE-2017-16532    [33mMedium[0m      [0m0.4% (33rd)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.228-1                      deb   CVE-2020-10768    [33mMedium[0m      [0m0.4% (33rd)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.320-2                      deb   CVE-2021-4149     [33mMedium[0m      [0m0.4% (33rd)   0.2           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.168-1                      deb   CVE-2019-2101     [33mMedium[0m      [0m0.4% (33rd)   0.2           
 tar                   1.29b-1.1                                                          deb   CVE-2005-2541     [90mNegligible[0m  [0m4.0% (89th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.65-3+deb9u1                deb   CVE-2017-16644    [33mMedium[0m      [0m0.4% (33rd)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.240-1                      deb   CVE-2020-26088    [33mMedium[0m      [0m0.4% (33rd)   0.2           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.88-1                       deb   CVE-2017-17975    [33mMedium[0m      [0m0.4% (32nd)   0.2           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.88-1                       deb   CVE-2017-17975    [33mMedium[0m      [0m0.4% (33rd)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2019-19075    [90mNegligible[0m  [0m4.0% (89th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.65-1                       deb   CVE-2017-16531    [33mMedium[0m      [0m0.4% (32nd)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.65-1                       deb   CVE-2017-15537    [33mMedium[0m      [0m0.4% (32nd)   0.2           
@@ -1910,12 +1910,12 @@ linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  (won't fix)           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.107-1                      deb   CVE-2018-9385     [91mHigh[0m        [0m0.3% (16th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.65-1                       deb   CVE-2017-16536    [33mMedium[0m      [0m0.4% (31st)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.65-1                       deb   CVE-2017-1000255  [33mMedium[0m      [0m0.4% (31st)   0.2           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.320-2                      deb   CVE-2022-23042    [91mHigh[0m        [0m0.3% (16th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.107-1                      deb   CVE-2018-9415     [91mHigh[0m        [0m0.3% (16th)   0.2           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.320-2                      deb   CVE-2022-23042    [91mHigh[0m        [0m0.3% (16th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.168-1+deb9u5               deb   CVE-2015-8553     [33mMedium[0m      [0m0.4% (31st)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.65-1                       deb   CVE-2017-16535    [33mMedium[0m      [0m0.4% (31st)   0.2           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1                      deb   CVE-2019-17052    [32mLow[0m         [0m0.6% (47th)   0.2           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  (won't fix)                    deb   CVE-2018-7754     [33mMedium[0m      [0m0.4% (30th)   0.2           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1                      deb   CVE-2019-17052    [32mLow[0m         [0m0.6% (48th)   0.2           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  (won't fix)                    deb   CVE-2018-7754     [33mMedium[0m      [0m0.4% (31st)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.65-1                       deb   CVE-2017-16527    [33mMedium[0m      [0m0.4% (30th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.240-1                      deb   CVE-2020-28915    [33mMedium[0m      [0m0.4% (30th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.320-2                      deb   CVE-2021-39713    [1;95mCritical[0m    [0m0.2% (11th)   0.2           
@@ -1942,7 +1942,7 @@ libpython3.5          3.5.3-1                                                   
 libpython3.5-minimal  3.5.3-1                                                            deb   CVE-2017-17522    [90mNegligible[0m  [0m3.6% (88th)   0.2           
 libpython3.5-stdlib   3.5.3-1                                                            deb   CVE-2017-17522    [90mNegligible[0m  [0m3.6% (88th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.228-1                      deb   CVE-2020-10690    [33mMedium[0m      [0m0.4% (28th)   0.2           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2022-1205     [33mMedium[0m      [0m0.4% (29th)   0.2           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2022-1205     [33mMedium[0m      [0m0.4% (30th)   0.2           
 libsepol1             2.6-2                               (won't fix)                    deb   CVE-2021-36086    [32mLow[0m         [0m0.6% (46th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2020-14304    [33mMedium[0m      [0m0.4% (28th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2019-12615    [90mNegligible[0m  [0m3.6% (88th)   0.2           
@@ -1975,10 +1975,11 @@ linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1             
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2022-1462     [33mMedium[0m      [0m0.3% (26th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.303-1                      deb   CVE-2021-45095    [33mMedium[0m      [0m0.3% (26th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.228-1                      deb   CVE-2020-0432     [91mHigh[0m        [0m0.2% (13th)   0.2           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.320-2                      deb   CVE-2022-1516     [33mMedium[0m      [0m0.3% (26th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.228-1                      deb   CVE-2020-12656    [33mMedium[0m      [0m0.3% (26th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.290-1                      deb   CVE-2021-3732     [33mMedium[0m      [0m0.3% (26th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.320-2                      deb   CVE-2022-33981    [32mLow[0m         [0m0.6% (44th)   0.2           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.290-1                      deb   CVE-2021-38204    [33mMedium[0m      [0m0.3% (25th)   0.2           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.290-1                      deb   CVE-2021-38204    [33mMedium[0m      [0m0.3% (26th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.303-1                      deb   CVE-2021-28715    [33mMedium[0m      [0m0.3% (25th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.272-1                      deb   CVE-2021-28688    [33mMedium[0m      [0m0.3% (25th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.303-1                      deb   CVE-2021-28711    [33mMedium[0m      [0m0.3% (25th)   0.2           
@@ -1986,13 +1987,12 @@ linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.303-1             
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.303-1                      deb   CVE-2021-28713    [33mMedium[0m      [0m0.3% (25th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.144-1                      deb   CVE-2019-2024     [91mHigh[0m        [0m0.2% (12th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1+deb9u1               deb   CVE-2020-12652    [33mMedium[0m      [0m0.3% (25th)   0.2           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.320-2                      deb   CVE-2022-1516     [33mMedium[0m      [0m0.3% (25th)   0.2           
 binutils              2.28-5                                                             deb   CVE-2021-20294    [90mNegligible[0m  [0m3.3% (87th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2019-19061    [90mNegligible[0m  [0m3.3% (87th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1+deb9u1               deb   CVE-2019-2182     [91mHigh[0m        [0m0.2% (11th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1                      deb   CVE-2019-17055    [32mLow[0m         [0m0.5% (43rd)   0.2           
 binutils              2.28-5                                                             deb   CVE-2018-12934    [90mNegligible[0m  [0m3.3% (87th)   0.2           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.303-1                      deb   CVE-2021-28714    [33mMedium[0m      [0m0.3% (24th)   0.2           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.303-1                      deb   CVE-2021-28714    [33mMedium[0m      [0m0.3% (25th)   0.2           
 libncurses5           6.0+20161126-1+deb9u2               (won't fix)                    deb   CVE-2019-17594    [32mLow[0m         [0m0.5% (43rd)   0.2           
 libncursesw5          6.0+20161126-1+deb9u2               (won't fix)                    deb   CVE-2019-17594    [32mLow[0m         [0m0.5% (43rd)   0.2           
 libtinfo5             6.0+20161126-1+deb9u2               (won't fix)                    deb   CVE-2019-17594    [32mLow[0m         [0m0.5% (43rd)   0.2           
@@ -2044,8 +2044,8 @@ libc6                 2.24-11+deb9u3                                            
 libc6-dev             2.24-11+deb9u3                                                     deb   CVE-2019-1010023  [90mNegligible[0m  [0m3.0% (86th)   0.2           
 multiarch-support     2.24-11+deb9u3                                                     deb   CVE-2019-1010023  [90mNegligible[0m  [0m3.0% (86th)   0.2           
 libseccomp2           2.3.1-2.1                                                          deb   CVE-2019-9893     [90mNegligible[0m  [0m3.0% (86th)   0.2           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2022-1184     [33mMedium[0m      [0m0.3% (20th)   0.2           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  (won't fix)                    deb   CVE-2022-0480     [33mMedium[0m      [0m0.3% (20th)   0.2           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2022-1184     [33mMedium[0m      [0m0.3% (21st)   0.2           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  (won't fix)                    deb   CVE-2022-0480     [33mMedium[0m      [0m0.3% (21st)   0.2           
 tar                   1.29b-1.1                                                          deb   CVE-2019-9923     [90mNegligible[0m  [0m3.0% (86th)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.272-1                      deb   CVE-2021-3428     [33mMedium[0m      [0m0.3% (22nd)   0.2           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2010-4563     [90mNegligible[0m  [0m3.0% (86th)   0.2           
@@ -2060,9 +2060,9 @@ linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.272-2             
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.168-1+deb9u3               deb   CVE-2019-11884    [32mLow[0m         [0m0.5% (40th)   0.1           
 m4                    1.4.18-1                                                           deb   CVE-2008-1688     [90mNegligible[0m  [0m3.0% (86th)   0.1           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2021-4037     [33mMedium[0m      [0m0.3% (23rd)   0.1           
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2019-0148     [33mMedium[0m      [0m0.3% (21st)   0.1           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2019-0146     [33mMedium[0m      [0m0.3% (21st)   0.1           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2019-0147     [33mMedium[0m      [0m0.3% (21st)   0.1           
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2019-0148     [33mMedium[0m      [0m0.3% (21st)   0.1           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2019-0149     [33mMedium[0m      [0m0.3% (21st)   0.1           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.303-1                      deb   CVE-2021-26401    [33mMedium[0m      [0m0.3% (21st)   0.1           
 libsepol1             2.6-2                               (won't fix)                    deb   CVE-2021-36084    [32mLow[0m         [0m0.5% (39th)   0.1           
@@ -2083,8 +2083,8 @@ linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.258-1             
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1                      deb   CVE-2019-19533    [32mLow[0m         [0m0.5% (38th)   0.1           
 binutils              2.28-5                                                             deb   CVE-2019-17450    [90mNegligible[0m  [0m2.8% (85th)   0.1           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2019-19046    [90mNegligible[0m  [0m2.7% (85th)   0.1           
-libsepol1             2.6-2                               (won't fix)                    deb   CVE-2021-36087    [32mLow[0m         [0m0.5% (37th)   0.1           
-libsepol1             2.6-2                               (won't fix)                    deb   CVE-2021-36085    [32mLow[0m         [0m0.5% (37th)   0.1           
+libsepol1             2.6-2                               (won't fix)                    deb   CVE-2021-36085    [32mLow[0m         [0m0.5% (38th)   0.1           
+libsepol1             2.6-2                               (won't fix)                    deb   CVE-2021-36087    [32mLow[0m         [0m0.5% (38th)   0.1           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.240-1                      deb   CVE-2020-25285    [33mMedium[0m      [0m0.3% (19th)   0.1           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.303-1                      deb   CVE-2021-29264    [33mMedium[0m      [0m0.3% (19th)   0.1           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.240-1                      deb   CVE-2019-9445     [33mMedium[0m      [0m0.3% (18th)   0.1           
@@ -2141,12 +2141,12 @@ linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.303-1             
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.272-1                      deb   CVE-2021-34981    [33mMedium[0m      [0m0.2% (9th)    0.1           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.228-1                      deb   CVE-2020-0404     [33mMedium[0m      [0m0.2% (13th)   0.1           
 binutils              2.28-5                                                             deb   CVE-2018-18605    [90mNegligible[0m  [0m2.3% (82nd)   0.1           
-binutils              2.28-5                                                             deb   CVE-2018-18607    [90mNegligible[0m  [0m2.3% (82nd)   0.1           
 binutils              2.28-5                                                             deb   CVE-2018-18606    [90mNegligible[0m  [0m2.3% (82nd)   0.1           
+binutils              2.28-5                                                             deb   CVE-2018-18607    [90mNegligible[0m  [0m2.3% (82nd)   0.1           
 binutils              2.28-5                                                             deb   CVE-2019-14250    [90mNegligible[0m  [0m2.3% (82nd)   0.1           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  (won't fix)                    deb   CVE-2021-4159     [33mMedium[0m      [0m0.2% (15th)   0.1           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.303-1                      deb   CVE-2021-39686    [91mHigh[0m        [0m0.2% (4th)    0.1           
-libpcre3              2:8.39-3                                                           deb   CVE-2017-7245     [90mNegligible[0m  [0m2.3% (81st)   0.1           
+libpcre3              2:8.39-3                                                           deb   CVE-2017-7245     [90mNegligible[0m  [0m2.3% (82nd)   0.1           
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2020-0030     [91mHigh[0m        [0m0.2% (4th)    0.1           
 libc-bin              2.24-11+deb9u3                                                     deb   CVE-2019-1010025  [90mNegligible[0m  [0m2.3% (81st)   0.1           
 libc-dev-bin          2.24-11+deb9u3                                                     deb   CVE-2019-1010025  [90mNegligible[0m  [0m2.3% (81st)   0.1           
@@ -2217,9 +2217,9 @@ libip4tc0             1.6.0+snapshot20161117-6                                  
 libip6tc0             1.6.0+snapshot20161117-6                                           deb   CVE-2019-11360    [90mNegligible[0m  [0m1.8% (77th)   < 0.1         
 libiptc0              1.6.0+snapshot20161117-6                                           deb   CVE-2019-11360    [90mNegligible[0m  [0m1.8% (77th)   < 0.1         
 libxtables12          1.6.0+snapshot20161117-6                                           deb   CVE-2019-11360    [90mNegligible[0m  [0m1.8% (77th)   < 0.1         
-binutils              2.28-5                                                             deb   CVE-2018-17794    [90mNegligible[0m  [0m1.8% (76th)   < 0.1         
-binutils              2.28-5                                                             deb   CVE-2019-12972    [90mNegligible[0m  [0m1.8% (76th)   < 0.1         
-binutils              2.28-5                                                             deb   CVE-2019-9070     [90mNegligible[0m  [0m1.8% (76th)   < 0.1         
+binutils              2.28-5                                                             deb   CVE-2018-17794    [90mNegligible[0m  [0m1.8% (77th)   < 0.1         
+binutils              2.28-5                                                             deb   CVE-2019-12972    [90mNegligible[0m  [0m1.8% (77th)   < 0.1         
+binutils              2.28-5                                                             deb   CVE-2019-9070     [90mNegligible[0m  [0m1.8% (77th)   < 0.1         
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.290-1                      deb   CVE-2021-39633    [33mMedium[0m      [0m0.2% (7th)    < 0.1         
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  (won't fix)                    deb   CVE-2019-9453     [33mMedium[0m      [0m0.2% (7th)    < 0.1         
 libsystemd0           232-25+deb9u4                       (won't fix)                    deb   CVE-2018-16888    [32mLow[0m         [0m0.3% (21st)   < 0.1         
@@ -2232,8 +2232,8 @@ linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.228-1             
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.210-1                      deb   CVE-2020-0305     [33mMedium[0m      [0m0.2% (6th)    < 0.1         
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.272-1                      deb   CVE-2021-38209    [32mLow[0m         [0m0.3% (20th)   < 0.1         
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.272-1                      deb   CVE-2021-0941     [33mMedium[0m      [0m0.2% (6th)    < 0.1         
-binutils              2.28-5                                                             deb   CVE-2018-18701    [90mNegligible[0m  [0m1.7% (75th)   < 0.1         
 binutils              2.28-5                                                             deb   CVE-2018-18700    [90mNegligible[0m  [0m1.7% (75th)   < 0.1         
+binutils              2.28-5                                                             deb   CVE-2018-18701    [90mNegligible[0m  [0m1.7% (75th)   < 0.1         
 binutils              2.28-5                                                             deb   CVE-2019-9075     [90mNegligible[0m  [0m1.7% (75th)   < 0.1         
 openssh-client        1:7.4p1-10+deb9u3                                                  deb   CVE-2021-36368    [90mNegligible[0m  [0m1.7% (75th)   < 0.1         
 openssh-server        1:7.4p1-10+deb9u3                                                  deb   CVE-2021-36368    [90mNegligible[0m  [0m1.7% (75th)   < 0.1         
@@ -2248,12 +2248,12 @@ binutils              2.28-5                                                    
 libssl1.1             1.1.0f-3+deb9u2                                                    deb   CVE-2007-6755     [90mNegligible[0m  [0m1.6% (74th)   < 0.1         
 openssl               1.1.0f-3+deb9u2                                                    deb   CVE-2007-6755     [90mNegligible[0m  [0m1.6% (74th)   < 0.1         
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.258-1                      deb   CVE-2021-39648    [33mMedium[0m      [0m0.2% (5th)    < 0.1         
+binutils              2.28-5                                                             deb   CVE-2018-19931    [90mNegligible[0m  [0m1.6% (74th)   < 0.1         
 vim-common            2:8.0.0197-4+deb9u1                                                deb   CVE-2022-1620     [90mNegligible[0m  [0m1.6% (74th)   < 0.1         
 vim-nox               2:8.0.0197-4+deb9u1                                                deb   CVE-2022-1620     [90mNegligible[0m  [0m1.6% (74th)   < 0.1         
 vim-runtime           2:8.0.0197-4+deb9u1                                                deb   CVE-2022-1620     [90mNegligible[0m  [0m1.6% (74th)   < 0.1         
 vim-tiny              2:8.0.0197-4+deb9u1                                                deb   CVE-2022-1620     [90mNegligible[0m  [0m1.6% (74th)   < 0.1         
 xxd                   2:8.0.0197-4+deb9u1                                                deb   CVE-2022-1620     [90mNegligible[0m  [0m1.6% (74th)   < 0.1         
-binutils              2.28-5                                                             deb   CVE-2018-19931    [90mNegligible[0m  [0m1.6% (74th)   < 0.1         
 libdw1                0.168-1                                                            deb   CVE-2019-7148     [90mNegligible[0m  [0m1.6% (73rd)   < 0.1         
 libelf1               0.168-1                                                            deb   CVE-2019-7148     [90mNegligible[0m  [0m1.6% (73rd)   < 0.1         
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.228-1                      deb   CVE-2020-27066    [33mMedium[0m      [0m0.2% (5th)    < 0.1         
@@ -2327,11 +2327,11 @@ vim-runtime           2:8.0.0197-4+deb9u1                                       
 vim-tiny              2:8.0.0197-4+deb9u1                                                deb   CVE-2022-2208     [90mNegligible[0m  [0m1.3% (69th)   < 0.1         
 xxd                   2:8.0.0197-4+deb9u1                                                deb   CVE-2022-2208     [90mNegligible[0m  [0m1.3% (69th)   < 0.1         
 binutils              2.28-5                                                             deb   CVE-2018-17358    [90mNegligible[0m  [0m1.3% (69th)   < 0.1         
-vim-common            2:8.0.0197-4+deb9u1                                                deb   CVE-2022-2206     [90mNegligible[0m  [0m1.3% (68th)   < 0.1         
-vim-nox               2:8.0.0197-4+deb9u1                                                deb   CVE-2022-2206     [90mNegligible[0m  [0m1.3% (68th)   < 0.1         
-vim-runtime           2:8.0.0197-4+deb9u1                                                deb   CVE-2022-2206     [90mNegligible[0m  [0m1.3% (68th)   < 0.1         
-vim-tiny              2:8.0.0197-4+deb9u1                                                deb   CVE-2022-2206     [90mNegligible[0m  [0m1.3% (68th)   < 0.1         
-xxd                   2:8.0.0197-4+deb9u1                                                deb   CVE-2022-2206     [90mNegligible[0m  [0m1.3% (68th)   < 0.1         
+vim-common            2:8.0.0197-4+deb9u1                                                deb   CVE-2022-2206     [90mNegligible[0m  [0m1.3% (69th)   < 0.1         
+vim-nox               2:8.0.0197-4+deb9u1                                                deb   CVE-2022-2206     [90mNegligible[0m  [0m1.3% (69th)   < 0.1         
+vim-runtime           2:8.0.0197-4+deb9u1                                                deb   CVE-2022-2206     [90mNegligible[0m  [0m1.3% (69th)   < 0.1         
+vim-tiny              2:8.0.0197-4+deb9u1                                                deb   CVE-2022-2206     [90mNegligible[0m  [0m1.3% (69th)   < 0.1         
+xxd                   2:8.0.0197-4+deb9u1                                                deb   CVE-2022-2206     [90mNegligible[0m  [0m1.3% (69th)   < 0.1         
 binutils              2.28-5                                                             deb   CVE-2021-45078    [90mNegligible[0m  [0m1.3% (68th)   < 0.1         
 vim-common            2:8.0.0197-4+deb9u1                                                deb   CVE-2022-1735     [90mNegligible[0m  [0m1.3% (68th)   < 0.1         
 vim-nox               2:8.0.0197-4+deb9u1                                                deb   CVE-2022-1735     [90mNegligible[0m  [0m1.3% (68th)   < 0.1         
@@ -2365,11 +2365,11 @@ vim-runtime           2:8.0.0197-4+deb9u1                                       
 vim-tiny              2:8.0.0197-4+deb9u1                                                deb   CVE-2022-1771     [90mNegligible[0m  [0m1.2% (66th)   < 0.1         
 xxd                   2:8.0.0197-4+deb9u1                                                deb   CVE-2022-1771     [90mNegligible[0m  [0m1.2% (66th)   < 0.1         
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  4.9.272-1                      deb   CVE-2021-39656    [33mMedium[0m      [0m0.1% (2nd)    < 0.1         
+binutils              2.28-5                                                             deb   CVE-2020-16593    [90mNegligible[0m  [0m1.2% (65th)   < 0.1         
 apt                   1.4.8                                                              deb   CVE-2011-3374     [90mNegligible[0m  [0m1.2% (65th)   < 0.1         
 apt-utils             1.4.8                                                              deb   CVE-2011-3374     [90mNegligible[0m  [0m1.2% (65th)   < 0.1         
 libapt-inst2.0        1.4.8                                                              deb   CVE-2011-3374     [90mNegligible[0m  [0m1.2% (65th)   < 0.1         
 libapt-pkg5.0         1.4.8                                                              deb   CVE-2011-3374     [90mNegligible[0m  [0m1.2% (65th)   < 0.1         
-binutils              2.28-5                                                             deb   CVE-2020-16593    [90mNegligible[0m  [0m1.2% (65th)   < 0.1         
 binutils              2.28-5                                                             deb   CVE-2020-35495    [90mNegligible[0m  [0m1.2% (64th)   < 0.1         
 binutils              2.28-5                                                             deb   CVE-2020-35496    [90mNegligible[0m  [0m1.1% (64th)   < 0.1         
 binutils              2.28-5                                                             deb   CVE-2019-1010204  [90mNegligible[0m  [0m1.1% (63rd)   < 0.1         
@@ -2390,37 +2390,37 @@ libudev1              232-25+deb9u4                                             
 systemd               232-25+deb9u4                                                      deb   CVE-2017-18078    [90mNegligible[0m  [0m1.1% (62nd)   < 0.1         
 systemd-sysv          232-25+deb9u4                                                      deb   CVE-2017-18078    [90mNegligible[0m  [0m1.1% (62nd)   < 0.1         
 udev                  232-25+deb9u4                                                      deb   CVE-2017-18078    [90mNegligible[0m  [0m1.1% (62nd)   < 0.1         
+binutils              2.28-5                                                             deb   CVE-2020-16592    [90mNegligible[0m  [0m1.1% (62nd)   < 0.1         
 binutils              2.28-5                                                             deb   CVE-2018-9138     [90mNegligible[0m  [0m1.1% (62nd)   < 0.1         
+binutils              2.28-5                                                             deb   CVE-2020-16599    [90mNegligible[0m  [0m1.1% (62nd)   < 0.1         
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2022-25265    [90mNegligible[0m  [0m1.1% (62nd)   < 0.1         
-binutils              2.28-5                                                             deb   CVE-2020-16592    [90mNegligible[0m  [0m1.0% (61st)   < 0.1         
-binutils              2.28-5                                                             deb   CVE-2020-16599    [90mNegligible[0m  [0m1.0% (61st)   < 0.1         
 binutils              2.28-5                                                             deb   CVE-2021-3549     [90mNegligible[0m  [0m1.0% (59th)   < 0.1         
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6  (won't fix)                    deb   CVE-2022-32981    [90mNegligible[0m  [0m1.0% (59th)   < 0.1         
-binutils              2.28-5                                                             deb   CVE-2020-16590    [90mNegligible[0m  [0m0.9% (58th)   < 0.1         
+binutils              2.28-5                                                             deb   CVE-2020-16590    [90mNegligible[0m  [0m1.0% (58th)   < 0.1         
 login                 1:4.4-4.1                                                          deb   CVE-2007-5686     [90mNegligible[0m  [0m0.9% (58th)   < 0.1         
 passwd                1:4.4-4.1                                                          deb   CVE-2007-5686     [90mNegligible[0m  [0m0.9% (58th)   < 0.1         
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2015-2877     [90mNegligible[0m  [0m0.9% (58th)   < 0.1         
-binutils              2.28-5                                                             deb   CVE-2020-16591    [90mNegligible[0m  [0m0.9% (56th)   < 0.1         
+binutils              2.28-5                                                             deb   CVE-2020-16591    [90mNegligible[0m  [0m0.9% (57th)   < 0.1         
 binutils              2.28-5                                                             deb   CVE-2021-46195    [90mNegligible[0m  [0m0.8% (53rd)   < 0.1         
 u-boot-tools          2016.11+dfsg1-4                                                    deb   CVE-2018-1000205  [90mNegligible[0m  [0m0.7% (51st)   < 0.1         
 patch                 2.7.5-1+deb9u1                                                     deb   CVE-2021-45261    [90mNegligible[0m  [0m0.7% (50th)   < 0.1         
-binutils              2.28-5                                                             deb   CVE-2018-1000876  [90mNegligible[0m  [0m0.7% (48th)   < 0.1         
+binutils              2.28-5                                                             deb   CVE-2018-1000876  [90mNegligible[0m  [0m0.7% (49th)   < 0.1         
 unzip                 6.0-21                                                             deb   CVE-2021-4217     [90mNegligible[0m  [0m0.6% (47th)   < 0.1         
 libc-bin              2.24-11+deb9u3                                                     deb   CVE-2019-7309     [90mNegligible[0m  [0m0.6% (46th)   < 0.1         
 libc-dev-bin          2.24-11+deb9u3                                                     deb   CVE-2019-7309     [90mNegligible[0m  [0m0.6% (46th)   < 0.1         
 libc6                 2.24-11+deb9u3                                                     deb   CVE-2019-7309     [90mNegligible[0m  [0m0.6% (46th)   < 0.1         
 libc6-dev             2.24-11+deb9u3                                                     deb   CVE-2019-7309     [90mNegligible[0m  [0m0.6% (46th)   < 0.1         
 multiarch-support     2.24-11+deb9u3                                                     deb   CVE-2019-7309     [90mNegligible[0m  [0m0.6% (46th)   < 0.1         
-vim-common            2:8.0.0197-4+deb9u1                                                deb   CVE-2022-1733     [90mNegligible[0m  [0m0.6% (45th)   < 0.1         
-vim-nox               2:8.0.0197-4+deb9u1                                                deb   CVE-2022-1733     [90mNegligible[0m  [0m0.6% (45th)   < 0.1         
-vim-runtime           2:8.0.0197-4+deb9u1                                                deb   CVE-2022-1733     [90mNegligible[0m  [0m0.6% (45th)   < 0.1         
-vim-tiny              2:8.0.0197-4+deb9u1                                                deb   CVE-2022-1733     [90mNegligible[0m  [0m0.6% (45th)   < 0.1         
-xxd                   2:8.0.0197-4+deb9u1                                                deb   CVE-2022-1733     [90mNegligible[0m  [0m0.6% (45th)   < 0.1         
+vim-common            2:8.0.0197-4+deb9u1                                                deb   CVE-2022-1733     [90mNegligible[0m  [0m0.6% (46th)   < 0.1         
+vim-nox               2:8.0.0197-4+deb9u1                                                deb   CVE-2022-1733     [90mNegligible[0m  [0m0.6% (46th)   < 0.1         
+vim-runtime           2:8.0.0197-4+deb9u1                                                deb   CVE-2022-1733     [90mNegligible[0m  [0m0.6% (46th)   < 0.1         
+vim-tiny              2:8.0.0197-4+deb9u1                                                deb   CVE-2022-1733     [90mNegligible[0m  [0m0.6% (46th)   < 0.1         
+xxd                   2:8.0.0197-4+deb9u1                                                deb   CVE-2022-1733     [90mNegligible[0m  [0m0.6% (46th)   < 0.1         
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2019-16232    [90mNegligible[0m  [0m0.6% (45th)   < 0.1         
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2018-20669    [90mNegligible[0m  [0m0.6% (45th)   < 0.1         
 u-boot-tools          2016.11+dfsg1-4                                                    deb   CVE-2018-18440    [90mNegligible[0m  [0m0.6% (45th)   < 0.1         
 libglib2.0-0          2.50.3-2                                                           deb   CVE-2020-35457    [90mNegligible[0m  [0m0.6% (44th)   < 0.1         
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2021-32078    [90mNegligible[0m  [0m0.6% (43rd)   < 0.1         
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2021-32078    [90mNegligible[0m  [0m0.6% (44th)   < 0.1         
 libpcre3              2:8.39-3                                                           deb   CVE-2017-16231    [90mNegligible[0m  [0m0.5% (43rd)   < 0.1         
 libssl1.1             1.1.0f-3+deb9u2                                                    deb   CVE-2010-0928     [90mNegligible[0m  [0m0.5% (43rd)   < 0.1         
 openssl               1.1.0f-3+deb9u2                                                    deb   CVE-2010-0928     [90mNegligible[0m  [0m0.5% (43rd)   < 0.1         
@@ -2438,7 +2438,7 @@ linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                        
 login                 1:4.4-4.1                                                          deb   CVE-2019-19882    [90mNegligible[0m  [0m0.5% (41st)   < 0.1         
 passwd                1:4.4-4.1                                                          deb   CVE-2019-19882    [90mNegligible[0m  [0m0.5% (41st)   < 0.1         
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2011-4915     [90mNegligible[0m  [0m0.5% (41st)   < 0.1         
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2020-27820    [90mNegligible[0m  [0m0.5% (40th)   < 0.1         
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2020-27820    [90mNegligible[0m  [0m0.5% (41st)   < 0.1         
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2019-11191    [90mNegligible[0m  [0m0.5% (40th)   < 0.1         
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2014-9892     [90mNegligible[0m  [0m0.5% (40th)   < 0.1         
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2011-4917     [90mNegligible[0m  [0m0.5% (39th)   < 0.1         
@@ -2460,7 +2460,7 @@ linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                        
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2019-12378    [90mNegligible[0m  [0m0.4% (37th)   < 0.1         
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2019-12379    [90mNegligible[0m  [0m0.4% (37th)   < 0.1         
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2019-12381    [90mNegligible[0m  [0m0.4% (37th)   < 0.1         
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2017-13693    [90mNegligible[0m  [0m0.4% (36th)   < 0.1         
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2017-13693    [90mNegligible[0m  [0m0.4% (37th)   < 0.1         
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2017-13695    [90mNegligible[0m  [0m0.4% (36th)   < 0.1         
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2019-16234    [90mNegligible[0m  [0m0.4% (36th)   < 0.1         
 libc-bin              2.24-11+deb9u3                                                     deb   CVE-2019-6488     [90mNegligible[0m  [0m0.4% (36th)   < 0.1         
@@ -2489,7 +2489,7 @@ linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                        
 net-tools             1.60+git20161116.90da8a0-1                                         deb   CVE-2002-1976     [90mNegligible[0m  [0m0.4% (33rd)   < 0.1         
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2005-3660     [90mNegligible[0m  [0m0.4% (33rd)   < 0.1         
 linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2010-5321     [90mNegligible[0m  [0m0.4% (33rd)   < 0.1         
-linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2018-8043     [90mNegligible[0m  [0m0.4% (31st)   < 0.1         
+linux                 4.9.59-rt23-visioncam-xm-1.0.0.0-6                                 deb   CVE-2018-8043     [90mNegligible[0m  [0m0.4% (32nd)   < 0.1         
 vim-common            2:8.0.0197-4+deb9u1                                                deb   CVE-2017-1000382  [90mNegligible[0m  [0m0.4% (31st)   < 0.1         
 vim-nox               2:8.0.0197-4+deb9u1                                                deb   CVE-2017-1000382  [90mNegligible[0m  [0m0.4% (31st)   < 0.1         
 vim-runtime           2:8.0.0197-4+deb9u1                                                deb   CVE-2017-1000382  [90mNegligible[0m  [0m0.4% (31st)   < 0.1         
